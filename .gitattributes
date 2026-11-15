@@ -5,3 +5,8 @@ open_instruct/test_data/rlvr_sample.jsonl filter=lfs diff=lfs merge=lfs -text
 
 # Generated MILES parser snapshot; review its source.
 open_instruct/miles/configuration/options.json linguist-generated=true
+
+# Keep downloaded dataset cards and raw diagnostic output byte-for-byte.
+experiments/tulu3_real/**/*-dataset-card.md -whitespace
+experiments/tulu3_real/diagnostics/*.txt -whitespace
+experiments/tulu3_real/*-console.txt -whitespace
