@@ -1,0 +1,64 @@
+{
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "branches": {
+    "control": {},
+    "kl-zero": {
+      "kl_beta": 0.0
+    },
+    "kl-001": {
+      "kl_beta": 0.01
+    },
+    "kl-010": {
+      "kl_beta": 0.1
+    },
+    "no-dpo": {
+      "skip_dpo": true
+    },
+    "dpo-sum": {
+      "normalize_dpo": false,
+      "dpo_beta": 0.1
+    },
+    "policy-critic": {
+      "value_from_rm": false
+    },
+    "gsm-only": {
+      "task": "gsm8k"
+    },
+    "math-only": {
+      "task": "math"
+    },
+    "if-only": {
+      "task": "ifeval"
+    }
+  },
+  "full_benchmark": {
+    "stage": "rlvr",
+    "max_new_tokens": 128,
+    "tasks": [
+      "gsm8k",
+      "math",
+      "ifeval"
+    ]
+  },
+  "data_manifest_sha256": "15ccb2754f82abaf608a3fb7924d4325d8493bfd3f767ea77efe09f4e8b09822",
+  "sources": {
+    "open_instruct/IFEvalG/instructions.py": "ad89968ab6fab66ea5b3a52f8e9864a5a91cea54fbcb45834d51896698e50359",
+    "open_instruct/IFEvalG/instructions_registry.py": "269ad2a86aaf5ce4c347ee41e3ef55a03b32cad74497b80aa0f76389c28a2a5d",
+    "open_instruct/IFEvalG/instructions_util.py": "b0b21dd189474071c027cc377e7132dcbf7a6c921def4440b3d1df8eccffdcd9",
+    "open_instruct/if_functions.py": "9a0912f3475ce3b48b82b017bebb6f31bad443a2699e4277d7739bffe1f16f19",
+    "open_instruct/math_utils.py": "4a4c5bee26ed681cd5f911ce3a00a4fc153791ecab8eb8a6ae756d954bbf715d",
+    "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+    "open_instruct/portable/__main__.py": "0cbdf11e3211126128eb3b20ebda8443d0f967eb46bd5fcd71b5b077ad6aec5c",
+    "open_instruct/portable/data.py": "8030a3ac96178e521d1a58f3af1764d143c640dc321e5e68b0ae08942d554993",
+    "open_instruct/portable/model.py": "a265e22e9be51c01e021045864bef5d32e8cef018431e9cb8ce184c60b86ca1a",
+    "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+    "open_instruct/portable/train.py": "759cb6a3ddc1950ae8529dacc0e7a1c45b3d22d033834fcec01cd30f48303c92",
+    "open_instruct/portable/verifiers.py": "1d0709b6b2b3756623b58c4a0509d71293f2ecc206ab2ed183b28743dda18302",
+    "scripts/portable/prepare_real_data.py": "189ee053bda4c3800a8c375c0a4fe4da53712213361eba7e5bc5212cc1def661",
+    "scripts/portable/real_experiments.py": "de2cce32aec37aa1b156c4abcf993b870fb685cf0b51a8171936595832e8ce3b"
+  }
+}

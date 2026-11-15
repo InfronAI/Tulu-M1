@@ -1,0 +1,72 @@
+2026-11-15 15:38:05 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 4/72
+2026-11-15 15:38:19 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 8/72
+2026-11-15 15:38:33 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 12/72
+2026-11-15 15:38:48 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 16/72
+2026-11-15 15:39:02 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 20/72
+2026-11-15 15:39:17 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 24/72
+2026-11-15 15:39:31 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 28/72
+2026-11-15 15:39:45 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 32/72
+2026-11-15 15:40:01 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 36/72
+2026-11-15 15:40:16 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 40/72
+2026-11-15 15:40:31 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 44/72
+2026-11-15 15:40:46 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 48/72
+2026-11-15 15:41:00 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 52/72
+2026-11-15 15:41:14 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 56/72
+2026-11-15 15:41:28 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 60/72
+2026-11-15 15:41:43 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 64/72
+2026-11-15 15:41:57 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 68/72
+2026-11-15 15:42:11 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity base/512: 72/72
+2026-11-15 15:42:30 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 4/72
+2026-11-15 15:42:44 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 8/72
+2026-11-15 15:42:58 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 12/72
+2026-11-15 15:43:12 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 16/72
+2026-11-15 15:43:27 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 20/72
+2026-11-15 15:43:41 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 24/72
+2026-11-15 15:43:56 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 28/72
+2026-11-15 15:44:10 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 32/72
+2026-11-15 15:44:25 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 36/72
+2026-11-15 15:44:39 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 40/72
+2026-11-15 15:44:54 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 44/72
+2026-11-15 15:45:09 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 48/72
+2026-11-15 15:45:23 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 52/72
+2026-11-15 15:45:37 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 56/72
+2026-11-15 15:45:51 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 60/72
+2026-11-15 15:46:05 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 64/72
+2026-11-15 15:46:20 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 68/72
+2026-11-15 15:46:34 - INFO - train.py:354 - Evaluation progress: 4/4
+Sensitivity rlvr/512: 72/72

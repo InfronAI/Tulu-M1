@@ -1,0 +1,38 @@
+WARNING -  Material emoji logic has been officially moved into mkdocs-material
+version 9.4. Please use Material's 'material.extensions.emoji.twemoji'
+instead of 'materialx.emoji.twemoji' in your 'mkdocs.yml' file.
+
+```
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+```
+
+'mkdocs_material_extensions' is deprecated and will no longer be
+supported moving forward. This is the last release.
+
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /Users/apple/Projects/open-instruct/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - DGX_SPARK.md
+  - ai2_internal.md
+  - safety.md
+  - algorithms/online_dpo.md
+  - algorithms/rejection_sampling.md
+  - data/preference-data.md
+  - miles/abstention.md
+  - miles/long-context-data.md
+  - miles/policy-prefix-cache.md
+  - safety-eval/safety.md
+WARNING -  Doc file 'index.md' contains a link './scripts/data/prepare_train_data.sh', but the target 'scripts/data/prepare_train_data.sh' is not found among documentation files.
+WARNING -  Doc file 'tulu1_tulu2.md' contains a link './human_eval/README.md', but the target 'human_eval/README.md' is not found among documentation files.
+WARNING -  Doc file 'algorithms/finetune.md' contains a link 'finetune/olmo2_13b_sft_eval.png', but the target 'algorithms/finetune/olmo2_13b_sft_eval.png' is not found among documentation files.
+WARNING -  Doc file 'algorithms/trained_model_location.md' contains a link 'trained_model_location/gcs.png', but the target 'algorithms/trained_model_location/gcs.png' is not found among documentation files.
+INFO    -  Doc file 'get_started/installation.md' contains an unrecognized relative link './Dockerfile', it was left as is.
+INFO    -  Doc file 'index.md' contains a link '#parameter-efficient-finetuning', but there is no such anchor on this page.
+INFO    -  Doc file 'index.md' contains a link '#licensing', but there is no such anchor on this page.
+INFO    -  Doc file 'index.md' contains a link '#released-checkpoints', but there is no such anchor on this page.
+INFO    -  Doc file 'algorithms/online_dpo.md' contains a link '#dataset-processing', but there is no such anchor on this page.
+INFO    -  Doc file 'miles/data-and-evaluation.md' contains a link 'dataset-verifiers.md#optional-verifier-dependencies', but the doc 'miles/dataset-verifiers.md' does not contain an anchor '#optional-verifier-dependencies'.
+INFO    -  Documentation built in 1.62 seconds

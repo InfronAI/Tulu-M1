@@ -1,0 +1,290 @@
+{
+  "device": "mps",
+  "parameters": 134515008,
+  "resolved_revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+  "elapsed_seconds": 705.8122031246312,
+  "dataset_sha256": "e7c57bcd6f5cc495e3f3e5ac9fdc190a9267a5150ffa4d9f3c13eee608f2d210",
+  "evaluations": {
+    "base": {
+      "validation": {
+        "exact_match": 0.08333333333333333,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 24,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.0,
+            "count": 8,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.25,
+            "count": 8,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.2727272727272727,
+            "instruction_loose": 0.2727272727272727,
+            "prompt_loose": 0.25
+          },
+          "math": {
+            "accuracy": 0.0,
+            "count": 8,
+            "eos_rate": 0.0
+          }
+        }
+      },
+      "test": {
+        "exact_match": 0.06944444444444445,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 72,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.0,
+            "count": 24,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.16666666666666666,
+            "count": 24,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.3055555555555556,
+            "instruction_loose": 0.3055555555555556,
+            "prompt_loose": 0.16666666666666666
+          },
+          "math": {
+            "accuracy": 0.041666666666666664,
+            "count": 24,
+            "eos_rate": 0.0
+          }
+        }
+      }
+    },
+    "sft": {
+      "validation": {
+        "exact_match": 0.125,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 24,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.25,
+            "count": 8,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.125,
+            "count": 8,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.18181818181818182,
+            "instruction_loose": 0.18181818181818182,
+            "prompt_loose": 0.125
+          },
+          "math": {
+            "accuracy": 0.0,
+            "count": 8,
+            "eos_rate": 0.0
+          }
+        }
+      },
+      "test": {
+        "exact_match": 0.027777777777777776,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 72,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.0,
+            "count": 24,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.041666666666666664,
+            "count": 24,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.16666666666666666,
+            "instruction_loose": 0.16666666666666666,
+            "prompt_loose": 0.041666666666666664
+          },
+          "math": {
+            "accuracy": 0.041666666666666664,
+            "count": 24,
+            "eos_rate": 0.0
+          }
+        }
+      }
+    },
+    "dpo": {
+      "validation": {
+        "exact_match": 0.125,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 24,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.25,
+            "count": 8,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.125,
+            "count": 8,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.18181818181818182,
+            "instruction_loose": 0.18181818181818182,
+            "prompt_loose": 0.125
+          },
+          "math": {
+            "accuracy": 0.0,
+            "count": 8,
+            "eos_rate": 0.0
+          }
+        }
+      },
+      "test": {
+        "exact_match": 0.027777777777777776,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 72,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.0,
+            "count": 24,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.041666666666666664,
+            "count": 24,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.1388888888888889,
+            "instruction_loose": 0.1388888888888889,
+            "prompt_loose": 0.041666666666666664
+          },
+          "math": {
+            "accuracy": 0.041666666666666664,
+            "count": 24,
+            "eos_rate": 0.0
+          }
+        }
+      }
+    },
+    "rlvr": {
+      "validation": {
+        "exact_match": 0.125,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 24,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.25,
+            "count": 8,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.125,
+            "count": 8,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.18181818181818182,
+            "instruction_loose": 0.18181818181818182,
+            "prompt_loose": 0.125
+          },
+          "math": {
+            "accuracy": 0.0,
+            "count": 8,
+            "eos_rate": 0.0
+          }
+        }
+      },
+      "test": {
+        "exact_match": 0.013888888888888888,
+        "preference_accuracy": null,
+        "response_nll": null,
+        "paired_count": 0,
+        "count": 72,
+        "per_task": {
+          "gsm8k": {
+            "accuracy": 0.0,
+            "count": 24,
+            "eos_rate": 0.0
+          },
+          "ifeval": {
+            "accuracy": 0.0,
+            "count": 24,
+            "eos_rate": 0.0,
+            "instruction_strict": 0.1111111111111111,
+            "instruction_loose": 0.1111111111111111,
+            "prompt_loose": 0.0
+          },
+          "math": {
+            "accuracy": 0.041666666666666664,
+            "count": 24,
+            "eos_rate": 0.0
+          }
+        }
+      }
+    }
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "chip": "Apple M1 Pro",
+    "mps_available": true,
+    "packages": {
+      "torch": "2.15.0",
+      "transformers": "4.55.4",
+      "numpy": "2.2.6"
+    },
+    "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+    "git_dirty": true,
+    "utc": "2026-11-15T06:25:41.887619+00:00",
+    "source_sha256": {
+      "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+      "open_instruct/portable/__main__.py": "0cbdf11e3211126128eb3b20ebda8443d0f967eb46bd5fcd71b5b077ad6aec5c",
+      "open_instruct/portable/data.py": "8030a3ac96178e521d1a58f3af1764d143c640dc321e5e68b0ae08942d554993",
+      "open_instruct/portable/model.py": "288f163062f68f7eb705e98107a81547874b4ca41470bbc7aa119d7f6635a0c8",
+      "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+      "open_instruct/portable/train.py": "0f4e71fd650ebba9679c8655419b7186969c75ad8578a8b3df1454f328365616",
+      "open_instruct/portable/verifiers.py": "1d0709b6b2b3756623b58c4a0509d71293f2ecc206ab2ed183b28743dda18302"
+    }
+  },
+  "config": {
+    "model": "HuggingFaceTB/SmolLM2-135M",
+    "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "device": "mps",
+    "seed": 3,
+    "sft_steps": 96,
+    "rm_steps": 48,
+    "dpo_steps": 24,
+    "rlvr_steps": 12,
+    "batch_size": 2,
+    "micro_batch_size": 1,
+    "max_length": 768,
+    "max_new_tokens": 128,
+    "learning_rate": 5e-06,
+    "preference_lr": 5e-07,
+    "rlvr_lr": 3e-07,
+    "dpo_beta": 5.0,
+    "kl_beta": 0.05,
+    "reward_scale": 10.0,
+    "missing_eos_penalty": -10.0,
+    "ppo_epochs": 4,
+    "normalize_dpo": true,
+    "skip_dpo": false,
+    "value_from_rm": true,
+    "cpu_threads": 4,
+    "eval_batch_size": 4,
+    "sampling": "epochs",
+    "lr_schedule": "linear",
+    "warmup_ratio": 0.1
+  },
+  "peak_process_rss_bytes": 1527906304,
+  "scope": "Local post-training on supplied data; not paper-scale reproduction",
+  "status": "completed"
+}

@@ -1,0 +1,643 @@
+2026-11-15 15:16:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 8/1319
+2026-11-15 15:16:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 16/1319
+2026-11-15 15:16:11 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 24/1319
+2026-11-15 15:16:15 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 32/1319
+2026-11-15 15:16:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 40/1319
+2026-11-15 15:16:23 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 48/1319
+2026-11-15 15:16:27 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 56/1319
+2026-11-15 15:16:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 64/1319
+2026-11-15 15:16:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 72/1319
+2026-11-15 15:16:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 80/1319
+2026-11-15 15:16:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 88/1319
+2026-11-15 15:16:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 96/1319
+2026-11-15 15:16:51 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 104/1319
+2026-11-15 15:16:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 112/1319
+2026-11-15 15:17:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 120/1319
+2026-11-15 15:17:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 128/1319
+2026-11-15 15:17:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 136/1319
+2026-11-15 15:17:12 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 144/1319
+2026-11-15 15:17:16 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 152/1319
+2026-11-15 15:17:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 160/1319
+2026-11-15 15:17:23 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 168/1319
+2026-11-15 15:17:27 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 176/1319
+2026-11-15 15:17:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 184/1319
+2026-11-15 15:17:36 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 192/1319
+2026-11-15 15:17:41 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 200/1319
+2026-11-15 15:17:46 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 208/1319
+2026-11-15 15:17:50 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 216/1319
+2026-11-15 15:17:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 224/1319
+2026-11-15 15:17:59 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 232/1319
+2026-11-15 15:18:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 240/1319
+2026-11-15 15:18:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 248/1319
+2026-11-15 15:18:12 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 256/1319
+2026-11-15 15:18:17 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 264/1319
+2026-11-15 15:18:21 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 272/1319
+2026-11-15 15:18:25 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 280/1319
+2026-11-15 15:18:29 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 288/1319
+2026-11-15 15:18:33 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 296/1319
+2026-11-15 15:18:37 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 304/1319
+2026-11-15 15:18:42 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 312/1319
+2026-11-15 15:18:46 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 320/1319
+2026-11-15 15:18:51 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 328/1319
+2026-11-15 15:18:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 336/1319
+2026-11-15 15:19:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 344/1319
+2026-11-15 15:19:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 352/1319
+2026-11-15 15:19:09 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 360/1319
+2026-11-15 15:19:13 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 368/1319
+2026-11-15 15:19:17 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 376/1319
+2026-11-15 15:19:22 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 384/1319
+2026-11-15 15:19:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 392/1319
+2026-11-15 15:19:33 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 400/1319
+2026-11-15 15:19:37 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 408/1319
+2026-11-15 15:19:41 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 416/1319
+2026-11-15 15:19:45 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 424/1319
+2026-11-15 15:19:49 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 432/1319
+2026-11-15 15:19:53 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 440/1319
+2026-11-15 15:19:57 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 448/1319
+2026-11-15 15:20:01 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 456/1319
+2026-11-15 15:20:05 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 464/1319
+2026-11-15 15:20:09 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 472/1319
+2026-11-15 15:20:13 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 480/1319
+2026-11-15 15:20:17 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 488/1319
+2026-11-15 15:20:21 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 496/1319
+2026-11-15 15:20:25 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 504/1319
+2026-11-15 15:20:29 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 512/1319
+2026-11-15 15:20:33 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 520/1319
+2026-11-15 15:20:37 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 528/1319
+2026-11-15 15:20:41 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 536/1319
+2026-11-15 15:20:45 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 544/1319
+2026-11-15 15:20:49 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 552/1319
+2026-11-15 15:20:53 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 560/1319
+2026-11-15 15:20:57 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 568/1319
+2026-11-15 15:21:02 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 576/1319
+2026-11-15 15:21:06 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 584/1319
+2026-11-15 15:21:10 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 592/1319
+2026-11-15 15:21:13 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 600/1319
+2026-11-15 15:21:18 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 608/1319
+2026-11-15 15:21:22 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 616/1319
+2026-11-15 15:21:26 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 624/1319
+2026-11-15 15:21:30 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 632/1319
+2026-11-15 15:21:34 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 640/1319
+2026-11-15 15:21:38 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 648/1319
+2026-11-15 15:21:42 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 656/1319
+2026-11-15 15:21:46 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 664/1319
+2026-11-15 15:21:50 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 672/1319
+2026-11-15 15:21:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 680/1319
+2026-11-15 15:21:59 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 688/1319
+2026-11-15 15:22:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 696/1319
+2026-11-15 15:22:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 704/1319
+2026-11-15 15:22:11 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 712/1319
+2026-11-15 15:22:14 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 720/1319
+2026-11-15 15:22:18 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 728/1319
+2026-11-15 15:22:22 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 736/1319
+2026-11-15 15:22:27 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 744/1319
+2026-11-15 15:22:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 752/1319
+2026-11-15 15:22:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 760/1319
+2026-11-15 15:22:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 768/1319
+2026-11-15 15:22:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 776/1319
+2026-11-15 15:22:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 784/1319
+2026-11-15 15:22:51 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 792/1319
+2026-11-15 15:22:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 800/1319
+2026-11-15 15:22:59 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 808/1319
+2026-11-15 15:23:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 816/1319
+2026-11-15 15:23:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 824/1319
+2026-11-15 15:23:11 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 832/1319
+2026-11-15 15:23:15 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 840/1319
+2026-11-15 15:23:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 848/1319
+2026-11-15 15:23:23 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 856/1319
+2026-11-15 15:23:27 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 864/1319
+2026-11-15 15:23:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 872/1319
+2026-11-15 15:23:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 880/1319
+2026-11-15 15:23:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 888/1319
+2026-11-15 15:23:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 896/1319
+2026-11-15 15:23:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 904/1319
+2026-11-15 15:23:51 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 912/1319
+2026-11-15 15:23:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 920/1319
+2026-11-15 15:23:59 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 928/1319
+2026-11-15 15:24:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 936/1319
+2026-11-15 15:24:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 944/1319
+2026-11-15 15:24:11 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 952/1319
+2026-11-15 15:24:16 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 960/1319
+2026-11-15 15:24:20 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 968/1319
+2026-11-15 15:24:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 976/1319
+2026-11-15 15:24:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 984/1319
+2026-11-15 15:24:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 992/1319
+2026-11-15 15:24:36 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1000/1319
+2026-11-15 15:24:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1008/1319
+2026-11-15 15:24:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1016/1319
+2026-11-15 15:24:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1024/1319
+2026-11-15 15:24:52 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1032/1319
+2026-11-15 15:24:56 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1040/1319
+2026-11-15 15:25:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1048/1319
+2026-11-15 15:25:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1056/1319
+2026-11-15 15:25:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1064/1319
+2026-11-15 15:25:12 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1072/1319
+2026-11-15 15:25:16 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1080/1319
+2026-11-15 15:25:20 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1088/1319
+2026-11-15 15:25:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1096/1319
+2026-11-15 15:25:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1104/1319
+2026-11-15 15:25:32 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1112/1319
+2026-11-15 15:25:36 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1120/1319
+2026-11-15 15:25:40 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1128/1319
+2026-11-15 15:25:44 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1136/1319
+2026-11-15 15:25:48 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1144/1319
+2026-11-15 15:25:52 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1152/1319
+2026-11-15 15:25:56 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1160/1319
+2026-11-15 15:26:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1168/1319
+2026-11-15 15:26:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1176/1319
+2026-11-15 15:26:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1184/1319
+2026-11-15 15:26:12 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1192/1319
+2026-11-15 15:26:16 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1200/1319
+2026-11-15 15:26:20 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1208/1319
+2026-11-15 15:26:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1216/1319
+2026-11-15 15:26:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1224/1319
+2026-11-15 15:26:32 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1232/1319
+2026-11-15 15:26:36 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1240/1319
+2026-11-15 15:26:40 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1248/1319
+2026-11-15 15:26:44 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1256/1319
+2026-11-15 15:26:48 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1264/1319
+2026-11-15 15:26:52 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1272/1319
+2026-11-15 15:26:56 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1280/1319
+2026-11-15 15:27:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1288/1319
+2026-11-15 15:27:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1296/1319
+2026-11-15 15:27:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1304/1319
+2026-11-15 15:27:14 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/gsm8k: 1312/1319
+2026-11-15 15:27:19 - INFO - train.py:354 - Evaluation progress: 7/7
+rlvr/gsm8k: 1319/1319
+2026-11-15 15:27:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 8/500
+2026-11-15 15:27:30 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 16/500
+2026-11-15 15:27:34 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 24/500
+2026-11-15 15:27:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 32/500
+2026-11-15 15:27:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 40/500
+2026-11-15 15:27:49 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 48/500
+2026-11-15 15:27:53 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 56/500
+2026-11-15 15:27:57 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 64/500
+2026-11-15 15:28:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 72/500
+2026-11-15 15:28:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 80/500
+2026-11-15 15:28:14 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 88/500
+2026-11-15 15:28:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 96/500
+2026-11-15 15:28:23 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 104/500
+2026-11-15 15:28:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 112/500
+2026-11-15 15:28:33 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 120/500
+2026-11-15 15:28:40 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 128/500
+2026-11-15 15:28:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 136/500
+2026-11-15 15:28:52 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 144/500
+2026-11-15 15:28:58 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 152/500
+2026-11-15 15:29:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 160/500
+2026-11-15 15:29:09 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 168/500
+2026-11-15 15:29:14 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 176/500
+2026-11-15 15:29:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 184/500
+2026-11-15 15:29:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 192/500
+2026-11-15 15:29:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 200/500
+2026-11-15 15:29:34 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 208/500
+2026-11-15 15:29:40 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 216/500
+2026-11-15 15:29:44 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 224/500
+2026-11-15 15:29:48 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 232/500
+2026-11-15 15:30:00 - WARNING - math_utils.py:205 - Symbolic math comparison exceeded 5 seconds
+2026-11-15 15:30:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 240/500
+2026-11-15 15:30:05 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 248/500
+2026-11-15 15:30:10 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 256/500
+2026-11-15 15:30:14 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 264/500
+2026-11-15 15:30:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 272/500
+2026-11-15 15:30:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 280/500
+2026-11-15 15:30:28 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 288/500
+2026-11-15 15:30:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 296/500
+2026-11-15 15:30:40 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 304/500
+2026-11-15 15:30:44 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 312/500
+2026-11-15 15:30:49 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 320/500
+2026-11-15 15:30:53 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 328/500
+2026-11-15 15:30:58 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 336/500
+2026-11-15 15:31:02 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 344/500
+2026-11-15 15:31:06 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 352/500
+2026-11-15 15:31:13 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 360/500
+2026-11-15 15:31:17 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 368/500
+2026-11-15 15:31:21 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 376/500
+2026-11-15 15:31:26 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 384/500
+2026-11-15 15:31:30 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 392/500
+2026-11-15 15:31:36 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 400/500
+2026-11-15 15:31:40 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 408/500
+2026-11-15 15:31:46 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 416/500
+2026-11-15 15:31:50 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 424/500
+2026-11-15 15:31:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 432/500
+2026-11-15 15:31:59 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 440/500
+2026-11-15 15:32:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 448/500
+2026-11-15 15:32:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 456/500
+2026-11-15 15:32:12 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 464/500
+2026-11-15 15:32:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 472/500
+2026-11-15 15:32:24 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 480/500
+2026-11-15 15:32:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 488/500
+2026-11-15 15:32:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/math: 496/500
+2026-11-15 15:32:39 - INFO - train.py:354 - Evaluation progress: 4/4
+rlvr/math: 500/500
+2026-11-15 15:32:44 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 8/541
+2026-11-15 15:32:48 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 16/541
+2026-11-15 15:32:52 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 24/541
+2026-11-15 15:32:56 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 32/541
+2026-11-15 15:33:01 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 40/541
+2026-11-15 15:33:05 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 48/541
+2026-11-15 15:33:09 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 56/541
+2026-11-15 15:33:13 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 64/541
+2026-11-15 15:33:17 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 72/541
+2026-11-15 15:33:21 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 80/541
+2026-11-15 15:33:25 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 88/541
+2026-11-15 15:33:29 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 96/541
+2026-11-15 15:33:33 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 104/541
+2026-11-15 15:33:37 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 112/541
+2026-11-15 15:33:41 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 120/541
+2026-11-15 15:33:45 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 128/541
+2026-11-15 15:33:49 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 136/541
+2026-11-15 15:33:53 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 144/541
+2026-11-15 15:33:57 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 152/541
+2026-11-15 15:34:01 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 160/541
+2026-11-15 15:34:06 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 168/541
+2026-11-15 15:34:10 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 176/541
+2026-11-15 15:34:14 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 184/541
+2026-11-15 15:34:18 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 192/541
+2026-11-15 15:34:22 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 200/541
+2026-11-15 15:34:26 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 208/541
+2026-11-15 15:34:30 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 216/541
+2026-11-15 15:34:34 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 224/541
+2026-11-15 15:34:38 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 232/541
+2026-11-15 15:34:42 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 240/541
+2026-11-15 15:34:46 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 248/541
+2026-11-15 15:34:50 - ERROR - instructions.py:194 - Unable to detect language for text 
+## 1.1.1.1
+
+### 1.1.1.1.1
+
+### 1.1.1.1.2
+
+### 1.1.1.1.3
+
+### 1.1.1.1.4
+
+### 1.1.1.1.5
+
+### 1.1.1.1.6
+
+### 1.1.1.1.7
+
+### 1.1.1.1.8
+
+### 1.1.1.1.9
+ due to No features in text.
+2026-11-15 15:34:50 - ERROR - instructions.py:194 - Unable to detect language for text 
+## 1.1.1.1
+
+### 1.1.1.1.1
+
+### 1.1.1.1.2
+
+### 1.1.1.1.3
+
+### 1.1.1.1.4
+
+### 1.1.1.1.5
+
+### 1.1.1.1.6
+
+### 1.1.1.1.7
+
+### 1.1.1.1.8
+
+### 1.1.1.1.9
+ due to No features in text.
+2026-11-15 15:34:50 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 256/541
+2026-11-15 15:34:54 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 264/541
+2026-11-15 15:34:58 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 272/541
+2026-11-15 15:35:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 280/541
+2026-11-15 15:35:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 288/541
+2026-11-15 15:35:11 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 296/541
+2026-11-15 15:35:15 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 304/541
+2026-11-15 15:35:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 312/541
+2026-11-15 15:35:23 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 320/541
+2026-11-15 15:35:27 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 328/541
+2026-11-15 15:35:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 336/541
+2026-11-15 15:35:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 344/541
+2026-11-15 15:35:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 352/541
+2026-11-15 15:35:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 360/541
+2026-11-15 15:35:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 368/541
+2026-11-15 15:35:51 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 376/541
+2026-11-15 15:35:55 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 384/541
+2026-11-15 15:35:59 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 392/541
+2026-11-15 15:36:03 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 400/541
+2026-11-15 15:36:07 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 408/541
+2026-11-15 15:36:11 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 416/541
+2026-11-15 15:36:15 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 424/541
+2026-11-15 15:36:19 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 432/541
+2026-11-15 15:36:23 - ERROR - instructions.py:194 - Unable to detect language for text 
+## 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1 due to No features in text.
+2026-11-15 15:36:23 - ERROR - instructions.py:194 - Unable to detect language for text 
+## 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1 due to No features in text.
+2026-11-15 15:36:23 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 440/541
+2026-11-15 15:36:27 - ERROR - instructions.py:194 - Unable to detect language for text 
+## 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1 due to No features in text.
+2026-11-15 15:36:27 - ERROR - instructions.py:194 - Unable to detect language for text 
+## 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1 due to No features in text.
+2026-11-15 15:36:27 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 448/541
+2026-11-15 15:36:31 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 456/541
+2026-11-15 15:36:35 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 464/541
+2026-11-15 15:36:39 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 472/541
+2026-11-15 15:36:43 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 480/541
+2026-11-15 15:36:47 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 488/541
+2026-11-15 15:36:51 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 496/541
+2026-11-15 15:36:56 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 504/541
+2026-11-15 15:37:00 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 512/541
+2026-11-15 15:37:04 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 520/541
+2026-11-15 15:37:08 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 528/541
+2026-11-15 15:37:12 - INFO - train.py:354 - Evaluation progress: 8/8
+rlvr/ifeval: 536/541
+2026-11-15 15:37:16 - INFO - train.py:354 - Evaluation progress: 5/5
+rlvr/ifeval: 541/541

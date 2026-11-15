@@ -1,10 +1,16 @@
-[![Tests](https://github.com/allenai/open-instruct/actions/workflows/tests.yml/badge.svg)](https://github.com/allenai/open-instruct/actions/workflows/tests.yml)
+[![Upstream tests](https://github.com/allenai/open-instruct/actions/workflows/tests.yml/badge.svg)](https://github.com/allenai/open-instruct/actions/workflows/tests.yml)
 [![Papers with Code: Olmo 3 Think 32B on BBH](https://paperswithcode.co/api/v1/papers/2512.13961/leaderboard-badge.svg?eval=8028&live=1)](https://paperswithcode.co/api/v1/papers/2512.13961/leaderboard-badge-link?eval=8028)
 [![Papers with Code: Olmo 3.1 Think 32B on MATH](https://paperswithcode.co/api/v1/papers/2512.13961/leaderboard-badge.svg?eval=8025&live=1)](https://paperswithcode.co/api/v1/papers/2512.13961/leaderboard-badge-link?eval=8025)
 
-# Training Open Instruction-Following Language Models
+# Tulu-M1
 
-This repo serves as an open effort on instruction-tuning and post-training popular pretrained language models on publicly available datasets. We release this repo and will keep updating it with:
+**English** | [简体中文](README.zh-CN.md)
+
+An Apple Silicon adaptation of [Open Instruct](https://github.com/allenai/open-instruct) for reproducible, reduced-scale Tülu 3 experiments, covering SFT, reward modeling, DPO, PPO-RLVR, and evaluation with efficient memory use, transparent results, and bilingual documentation.
+
+This repository preserves the upstream training workflows and history. The badges above report upstream results. Upstream code retains its [Apache 2.0 license](LICENSE); the destination repository's initial MIT license is preserved in [LICENSE.InfronAI](LICENSE.InfronAI). Model and dataset licenses remain separate.
+
+Open Instruct serves as an open effort on instruction-tuning and post-training popular pretrained language models on publicly available datasets. The upstream project provides:
 
 1. Code for finetuning language models with latest techniques and instruction datasets in a unified format.
 2. Code for DPO, preference finetuning and reinforcement learning with verifiable rewards (RLVR).
@@ -18,7 +24,128 @@ We also support some evaluations natively in the codebase, but these are now unm
       <img src="assets/images/tulu_logo.png" alt="Tülu (a hybrid camel) represents a suite of LLaMa models that we built by fully-finetuning them on a strong mix of datasets." style="width: 20%; min-width: 200px; display: block; margin: auto;">
 </p>
 
-## Setup
+## Apple Silicon: a complete local post-training workflow
+
+Run **data preparation → SFT → reward model → DPO-norm → PPO-RLVR → evaluation → saved-model inference** on an M1 Mac, using PyTorch MPS or CPU. The new `open_instruct.portable` backend is independent of CUDA, vLLM, DeepSpeed, Ray, Beaker, API keys and paid services. Existing distributed trainers and model workflows remain available below.
+
+This is a **small-scale implementation of the Tülu 3 stage sequence**, not a reproduction of its published benchmark scores. The offline demo trains a 124K-parameter causal Transformer from random initialization on synthetic addition/copy tasks. A separate pinned SmolLM2-135M preset exercises pretrained-model finetuning. Neither replaces the paper's Llama models, datasets or OLMES evaluation. See the [paper coverage and remaining gaps](docs/apple_silicon.md#paper-coverage) and [measured experiment report](experiments/apple_silicon/REPORT.md).
+
+### Quick start (Mac)
+
+Use native arm64 Python 3.11 or 3.12 and macOS 14+. An M1 Pro with 16 GB unified memory was used for validation; an 8 GB base M1 has not been measured. The tiny workflow is the starting point for limited memory.
+
+```bash
+git clone https://github.com/InfronAI/Tulu-M1.git
+cd Tulu-M1
+
+# If needed: brew install python@3.11
+PYTHON_BIN=python3.11 bash scripts/portable/setup.sh
+.venv-mac/bin/python -m open_instruct.portable doctor
+
+# Optional: inspect the generated data. The default run uses the same fixture.
+.venv-mac/bin/python -m open_instruct.portable prepare --output output/mac-data.json
+.venv-mac/bin/python -m open_instruct.portable run \
+  --config configs/portable/tiny.json --device mps --output output/mac-demo
+
+# Load the actual saved model; no model download is needed.
+.venv-mac/bin/python -m open_instruct.portable generate \
+  --checkpoint output/mac-demo/checkpoints/rlvr \
+  --prompt "Copy 42. Answer with only the number." --max-new-tokens 5
+make mac-check
+```
+
+Choose `--device cpu` for CPU execution. `auto` selects MPS when available. Output directories must be new to prevent overwriting previous experiments. Initial installation needs internet access; the tiny training and inference workflow then runs offline. Use the isolated environment above; root `uv sync` installs the distributed training stack and is **not the Mac setup command**.
+
+For pretrained models, custom data, reproducible experiments, memory limits and troubleshooting, see the [Mac guide](docs/apple_silicon.md).
+
+### Tülu 3 real-data experiments
+
+The follow-up study uses **published Tülu 3 SFT/preference/RLVR data**, not the synthetic fixture. It adds GSM8K numeric grading, symbolic MATH grading, original RLVR instruction constraints, strict/loose IFEval metrics, epoch sampling, linear schedules, KV-cached generation, batched evaluation and checkpoint-anchored ablations. The data scan covers every pinned SFT/preference shard, with explicit source/length sampling and overlap checks.
+
+On the **16 GB M1 Pro**, the recorded study completed **3 full training seeds, 10 anchored RL branches, and all 2,360 benchmark questions**, plus a 16-pair preference holdout scored at four stages for every seed. See the [experiment report](experiments/tulu3_real/REPORT.md), [subgroup analysis](experiments/tulu3_real/BENCHMARK_ANALYSIS.md), and [protocol](docs/tulu3_mac_experiments.md).
+
+| Final seed-1 benchmark | Recorded verifier result |
+|---|---:|
+| GSM8K, 1,319 questions | 23 / 1,319 — **1.74%** |
+| MATH-500, 500 questions | 7 / 500 — **1.40%** micro; **0.98%** subject macro |
+| IFEval, 541 prompts | **14.60%** strict; **17.01%** loose |
+
+These are zero-shot, 128-token results from SmolLM2-135M. The 72-question stage panel declined from 6.94% to 1.39% across three seeds, and 5 of the 7 full-bank MATH passes contain a copied question expression. The report retains negative results, EOS failures and scoring limitations. These measurements do not reproduce paper-scale gains or the full OLMES suite.
+
+A paired 512-token check on the seed-1 base and final checkpoints is also complete: GSM8K/MATH panel scores did not improve, and all 144 responses reached the cap. The [audit](experiments/tulu3_real/audit.json) has no pending experiments; the portable suite passed **30 tests**.
+
+```bash
+# Create a fresh workspace: recorded metrics are versioned, model weights are not.
+PYTHON_BIN=python3.11 MAC_ENV=.venv-mac-real bash scripts/portable/setup.sh
+.venv-mac-real/bin/python -m scripts.portable.reproduce_real \
+  --workspace output/tulu3-reproduction
+```
+
+The reproduction entrypoint copies pinned inputs into a new directory, then runs training, benchmarks, holdout and decoding-budget checks, analysis, audit and demo generation. It refuses to overwrite an existing workspace. The measured checkpoints remain local and git-ignored.
+
+[![Recorded real-data experiments and fixed first-row predictions, automatically looping](assets/demo/tulu3-real.gif)](assets/demo/tulu3-real.mp4)
+
+[30-second MP4](assets/demo/tulu3-real.mp4) · [Autoplay video page](assets/demo/tulu3-real.html). This is a replay of saved metrics and predictions, including incorrect responses, not a live screen recording. The GIF loops in the README; GitHub does not guarantee embedded MP4 autoplay. Serve the repository with `python3 -m http.server 8000 --bind 127.0.0.1` and open <http://127.0.0.1:8000/assets/demo/tulu3-real.html> for muted video autoplay, subject to browser settings.
+
+### Measured local results (initial synthetic study)
+
+On the 16 GB M1 Pro, the three tiny-model MPS runs completed in 46–51 seconds each (training, evaluation and checkpoint writes). Their final held-out exact match was **55.21% ± 1.80 percentage points** (sample standard deviation, 32 synthetic test prompts). The CPU control took 18.6 seconds. The 135M pretrained-model run completed all stages in 105.7 seconds, excluding initialization/download; its SFT, DPO and RLVR checkpoints each scored 56.25%, so this short run shows no additional correctness gain after SFT. These measurements are workload-specific. [Raw results and limitations](experiments/apple_silicon/REPORT.md).
+
+### Demo
+
+[![Recorded M1 Pro run: training stages and actual predictions, automatically looping](assets/demo/portable-demo.gif)](assets/demo/portable-demo.mp4)
+
+[Download MP4](assets/demo/portable-demo.mp4) · [Autoplay video page](assets/demo/index.html) · [Recording source](experiments/apple_silicon/full-mps-seed1-terminal.jsonl)
+
+The GIF loops inline in the README. The MP4 is a time-compressed replay of recorded training output and saved predictions, generated by `scripts/portable/report.py`. GitHub sanitizes README HTML and does not guarantee video autoplay. For actual muted MP4 autoplay, run `python3 -m http.server 8000 --bind 127.0.0.1` and open <http://127.0.0.1:8000/assets/demo/>. Browser settings can still block autoplay; playback controls remain available.
+
+### Data flow
+
+```mermaid
+flowchart LR
+    A[Published snapshots / fixture / local JSON] --> B[Schema + verifier + overlap checks]
+    B --> C[SFT training split]
+    B --> D[Preference split]
+    B --> E[RLVR prompt split]
+    B --> V[Validation and test splits]
+    C --> S[SFT policy]
+    S --> N[DPO-norm policy]
+    D --> N
+    S --> R[Reward model]
+    D --> R
+    N --> P[PPO-RLVR policy]
+    R --> K[Initial value model]
+    K --> P
+    E --> G[Sample + deterministic verifier]
+    P --> G
+    G --> P
+    V --> Q[Evaluate each policy stage]
+    S --> Q
+    N --> Q
+    P --> Q
+    Q --> O[JSON metrics + predictions + report + demo]
+```
+
+### Execution architecture
+
+```mermaid
+flowchart TD
+    EXP[real_experiments.py: frozen experiment plan] --> CLI
+    CLI[portable CLI + JSON configuration] --> DATA[data.py: validation and tokenization]
+    CLI --> TRAIN[train.py: stage orchestration]
+    TRAIN --> VERIFY[verifiers.py: GSM8K / MATH / IFEval]
+    TRAIN --> OBJ[objectives.py: masked CE / DPO / GAE / PPO]
+    TRAIN --> MODEL[model.py: HF causal LM + value head]
+    MODEL --> MPS[Apple MPS: trainable models]
+    MODEL --> CPU[CPU: portable fallback and frozen RL reference]
+    TRAIN --> SAVE[Checkpoints + config + dataset + raw metrics]
+    SAVE --> INFER[generate: reload and infer]
+    SAVE --> REPORT[Analysis scripts: reports, plots and recorded demo]
+```
+
+The portable path uses FP32, explicit response/EOS masks, gradient accumulation, cached DPO reference probabilities, dropout-free PPO and an RM-initialized value model. It rejects oversized sequences rather than silently truncating answers. The CPU reference reduces accelerator allocation pressure but still consumes unified memory. It does not implement CUDA/MoE kernels or distributed serving; supported Olmo MoE training continues to use [MILES](docs/miles/grpo.md).
+
+## Setup (distributed NVIDIA training)
 
 Our setup follows our [Dockerfile](./Dockerfile). *Note that Open Instruct is a research codebase and does not guarantee backward compatibility.*
 

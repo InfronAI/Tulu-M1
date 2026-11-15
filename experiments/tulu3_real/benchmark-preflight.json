@@ -1,0 +1,32 @@
+{
+  "gsm8k": {
+    "count": 1319,
+    "max_prompt_tokens": 203,
+    "fits_8192_with_512_tokens": true
+  },
+  "math": {
+    "count": 500,
+    "max_prompt_tokens": 928,
+    "fits_8192_with_512_tokens": true
+  },
+  "ifeval": {
+    "count": 541,
+    "max_prompt_tokens": 371,
+    "fits_8192_with_512_tokens": true
+  },
+  "ifeval_checker_checks": 1623,
+  "legacy_if_types": {
+    "validate_highlighted_sections": 1,
+    "verify_keyword_frequency": 5,
+    "validate_quotation": 3,
+    "validate_word_constraint": 2,
+    "validate_choice": 2,
+    "validate_placeholders": 1,
+    "validate_sections": 4,
+    "verify_keywords": 1,
+    "validate_forbidden_words": 1,
+    "verify_letter_frequency": 2,
+    "validate_paragraphs": 1,
+    "validate_uppercase": 1
+  }
+}

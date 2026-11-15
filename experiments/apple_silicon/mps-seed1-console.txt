@@ -1,0 +1,147 @@
+2026-11-15 11:58:10 - INFO - train.py:351 - base test exact match 0.000
+2026-11-15 11:58:11 - INFO - train.py:86 - sft step 1: {'loss': 5.55661153793335}
+2026-11-15 11:58:11 - INFO - train.py:86 - sft step 10: {'loss': 4.41099739074707}
+2026-11-15 11:58:11 - INFO - train.py:86 - sft step 20: {'loss': 3.463007092475891}
+2026-11-15 11:58:12 - INFO - train.py:86 - sft step 30: {'loss': 2.834354877471924}
+2026-11-15 11:58:12 - INFO - train.py:86 - sft step 40: {'loss': 2.1000548601150513}
+2026-11-15 11:58:12 - INFO - train.py:86 - sft step 50: {'loss': 1.9690807461738586}
+2026-11-15 11:58:12 - INFO - train.py:86 - sft step 60: {'loss': 1.7419430613517761}
+2026-11-15 11:58:13 - INFO - train.py:86 - sft step 70: {'loss': 1.558733582496643}
+2026-11-15 11:58:13 - INFO - train.py:86 - sft step 80: {'loss': 1.5096331238746643}
+2026-11-15 11:58:13 - INFO - train.py:86 - sft step 90: {'loss': 1.5568925142288208}
+2026-11-15 11:58:13 - INFO - train.py:86 - sft step 100: {'loss': 1.4520793557167053}
+2026-11-15 11:58:14 - INFO - train.py:86 - sft step 110: {'loss': 1.417830467224121}
+2026-11-15 11:58:14 - INFO - train.py:86 - sft step 120: {'loss': 1.4567291140556335}
+2026-11-15 11:58:15 - INFO - train.py:351 - sft test exact match 0.094
+2026-11-15 11:58:16 - INFO - train.py:86 - reward_model step 1: {'loss': 0.6778756380081177}
+2026-11-15 11:58:17 - INFO - train.py:86 - reward_model step 10: {'loss': 0.6927243173122406}
+2026-11-15 11:58:17 - INFO - train.py:86 - reward_model step 20: {'loss': 0.706020176410675}
+2026-11-15 11:58:18 - INFO - train.py:86 - reward_model step 30: {'loss': 0.7075010240077972}
+2026-11-15 11:58:18 - INFO - train.py:86 - dpo step 1: {'loss': 0.6931471824645996}
+2026-11-15 11:58:18 - INFO - train.py:86 - dpo step 10: {'loss': 0.6040763258934021}
+2026-11-15 11:58:19 - INFO - train.py:86 - dpo step 20: {'loss': 0.6354669332504272}
+2026-11-15 11:58:19 - INFO - train.py:86 - dpo step 30: {'loss': 0.7750992178916931}
+2026-11-15 11:58:20 - INFO - train.py:86 - dpo step 40: {'loss': 0.3967025503516197}
+2026-11-15 11:58:22 - INFO - train.py:351 - dpo test exact match 0.031
+2026-11-15 11:58:22 - INFO - train.py:86 - rlvr step 1: {'epoch': 0, 'loss': 1.395286649465561, 'policy_loss': 2.9802322387695312e-08, 'value_loss': 13.95286551117897, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': -1.5060815883316536e-07, 'response_tokens': 3.5}
+2026-11-15 11:58:22 - INFO - train.py:86 - rlvr step 1: {'epoch': 1, 'loss': 1.3666086792945862, 'policy_loss': -0.014798074960708618, 'value_loss': 13.81406718492508, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': -1.5060815883316536e-07, 'response_tokens': 3.5}
+2026-11-15 11:58:22 - INFO - train.py:86 - rlvr step 1: {'epoch': 2, 'loss': 1.3510609865188599, 'policy_loss': -0.018580645322799683, 'value_loss': 13.696414738893509, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': -1.5060815883316536e-07, 'response_tokens': 3.5}
+2026-11-15 11:58:22 - INFO - train.py:86 - rlvr step 1: {'epoch': 3, 'loss': 1.3337043225765228, 'policy_loss': -0.023350685834884644, 'value_loss': 13.570549190044403, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': -1.5060815883316536e-07, 'response_tokens': 3.5}
+2026-11-15 11:58:25 - INFO - train.py:86 - rlvr step 10: {'epoch': 0, 'loss': 1.6103530526161194, 'policy_loss': 0.0, 'value_loss': 16.103531450033188, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.10037529468536377, 'response_tokens': 3.0}
+2026-11-15 11:58:25 - INFO - train.py:86 - rlvr step 10: {'epoch': 1, 'loss': 1.601952075958252, 'policy_loss': -0.00755077600479126, 'value_loss': 16.095027893781662, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.10037529468536377, 'response_tokens': 3.0}
+2026-11-15 11:58:25 - INFO - train.py:86 - rlvr step 10: {'epoch': 2, 'loss': 1.5868398547172546, 'policy_loss': -0.02014291286468506, 'value_loss': 16.069828063249588, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.10037529468536377, 'response_tokens': 3.0}
+2026-11-15 11:58:25 - INFO - train.py:86 - rlvr step 10: {'epoch': 3, 'loss': 1.5766853392124176, 'policy_loss': -0.02612525224685669, 'value_loss': 16.02810487151146, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.10037529468536377, 'response_tokens': 3.0}
+2026-11-15 11:58:29 - INFO - train.py:86 - rlvr step 20: {'epoch': 0, 'loss': 0.023515745997428894, 'policy_loss': 1.4901161193847656e-08, 'value_loss': 0.23515737056732178, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.1026528999209404, 'response_tokens': 4.0}
+2026-11-15 11:58:29 - INFO - train.py:86 - rlvr step 20: {'epoch': 1, 'loss': 0.02042996883392334, 'policy_loss': -0.00317324697971344, 'value_loss': 0.2360321581363678, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.1026528999209404, 'response_tokens': 4.0}
+2026-11-15 11:58:29 - INFO - train.py:86 - rlvr step 20: {'epoch': 2, 'loss': 0.013667210936546326, 'policy_loss': -0.009935244917869568, 'value_loss': 0.23602453619241714, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.1026528999209404, 'response_tokens': 4.0}
+2026-11-15 11:58:29 - INFO - train.py:86 - rlvr step 20: {'epoch': 3, 'loss': 0.00777098536491394, 'policy_loss': -0.015756353735923767, 'value_loss': 0.23527340590953827, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.1026528999209404, 'response_tokens': 4.0}
+2026-11-15 11:58:31 - INFO - train.py:351 - rlvr test exact match 0.031
+{
+  "device": "mps",
+  "parameters": 124864,
+  "resolved_revision": null,
+  "elapsed_seconds": 24.515937125310302,
+  "dataset_sha256": "9c0bc26d12a4e83e1dbda986e0bf2f7967f6c53a0be94e12b38815326992b965",
+  "evaluations": {
+    "base": {
+      "validation": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.3125,
+        "response_nll": 5.541769027709961,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.53125,
+        "response_nll": 5.530548095703125,
+        "count": 32
+      }
+    },
+    "sft": {
+      "validation": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.34375,
+        "response_nll": 1.4902015924453735,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.09375,
+        "preference_accuracy": 0.375,
+        "response_nll": 1.451878309249878,
+        "count": 32
+      }
+    },
+    "dpo": {
+      "validation": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.40625,
+        "response_nll": 1.6131110191345215,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.03125,
+        "preference_accuracy": 0.5,
+        "response_nll": 1.508467197418213,
+        "count": 32
+      }
+    },
+    "rlvr": {
+      "validation": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.34375,
+        "response_nll": 1.6448699235916138,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.03125,
+        "preference_accuracy": 0.5,
+        "response_nll": 1.5155837535858154,
+        "count": 32
+      }
+    }
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "chip": "Apple M1 Pro",
+    "mps_available": true,
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.55.4",
+      "numpy": "2.2.6"
+    },
+    "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+    "git_dirty": true,
+    "utc": "2026-11-15T03:58:07.160110+00:00"
+  },
+  "config": {
+    "model": "tiny",
+    "revision": "main",
+    "device": "mps",
+    "seed": 1,
+    "sft_steps": 120,
+    "rm_steps": 30,
+    "dpo_steps": 40,
+    "rlvr_steps": 20,
+    "batch_size": 4,
+    "micro_batch_size": 2,
+    "max_length": 128,
+    "max_new_tokens": 5,
+    "learning_rate": 0.001,
+    "preference_lr": 0.0001,
+    "rlvr_lr": 3e-05,
+    "dpo_beta": 5.0,
+    "kl_beta": 0.05,
+    "reward_scale": 10.0,
+    "missing_eos_penalty": -10.0,
+    "ppo_epochs": 4,
+    "normalize_dpo": true,
+    "skip_dpo": false,
+    "value_from_rm": true,
+    "cpu_threads": 4
+  },
+  "peak_process_rss_bytes": 678592512,
+  "scope": "Synthetic workflow validation; not a paper benchmark reproduction",
+  "status": "completed"
+}

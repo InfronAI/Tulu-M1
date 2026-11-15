@@ -1,0 +1,66 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (17622 > 8192). Running this sequence through the model will result in indexing errors
+{
+  "dataset_sha256": "e7c57bcd6f5cc495e3f3e5ac9fdc190a9267a5150ffa4d9f3c13eee608f2d210",
+  "split_sizes": {
+    "sft": 96,
+    "preference": 48,
+    "rlvr": 72,
+    "validation": 24,
+    "test": 72
+  },
+  "benchmark_sizes": {
+    "gsm8k": 1319,
+    "math": 500,
+    "ifeval": 541
+  },
+  "preference_holdout": 16,
+  "rejected": {
+    "sft:sequence_length": 28,
+    "sft:prompt_length": 8,
+    "preference:prompt_length": 8,
+    "preference:sequence_length": 44,
+    "preference:identical_preference_pair": 2,
+    "preference:13gram_overlap": 2,
+    "rlvr:prompt_length": 3,
+    "rlvr:13gram_overlap": 5
+  },
+  "sft_sources": {
+    "ai2-adapt-dev/coconot_converted": 9,
+    "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": 6,
+    "ai2-adapt-dev/flan_v2_converted": 8,
+    "ai2-adapt-dev/numinamath_tir_math_decontaminated": 5,
+    "ai2-adapt-dev/oasst1_converted": 7,
+    "ai2-adapt-dev/personahub_code_v2_34999": 7,
+    "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": 6,
+    "ai2-adapt-dev/tulu_v3.9_aya_100k": 8,
+    "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": 8,
+    "ai2-adapt-dev/tulu_v3.9_sciriff_10k": 4,
+    "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": 8,
+    "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": 8,
+    "allenai/tulu-3-sft-personas-math-grade": 8,
+    "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": 1,
+    "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 3
+  },
+  "preference_sources": {
+    "allenai/tulu-3-persona-if": 11,
+    "allenai/tulu-3-ultrafeedback-cleaned-on-policy-8b": 8,
+    "allenai/tulu-3-wildchat-if": 8,
+    "allenai/tulu-3-wildchat-reused-on-policy-8b": 7,
+    "allenai/tulu-3-sft-reused-on-policy-8b": 5,
+    "allenai/tulu-3-sft-reused-if": 5,
+    "allenai/tulu-3-sft-reused-off-policy-8b": 4
+  },
+  "rlvr_tasks": {
+    "ifeval": 24,
+    "math": 24,
+    "gsm8k": 24
+  },
+  "adaptations": [
+    "all pinned shards for SFT/preferences; at most 8 row groups x 256 rows per shard; balanced source sampling",
+    "last assistant turn supervised; earlier conversation retained as context",
+    "normalized prompt and 13-word overlap screening against all 2360 benchmark prompts",
+    "length-filtered at 768 tokens; sampling seed 42; no correctness-based filtering",
+    "RL math/GSM demonstrations removed; original target and labels preserved",
+    "zero-shot task evaluation; 128 response-token cap; not OLMES protocol parity"
+  ]
+}

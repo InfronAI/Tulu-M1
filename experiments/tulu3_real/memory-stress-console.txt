@@ -1,0 +1,9 @@
+2026-11-15 14:00:14 - INFO - train.py:94 - reward_model step 1: {'loss': 0.6138523817062378, 'learning_rate': 5e-07}
+reward_model {'allocated': 539043328, 'driver': 1110048768, 'peak_rss_bytes': 1512095744}
+2026-11-15 14:00:20 - INFO - train.py:94 - dpo step 1: {'loss': 0.6931477785110474, 'learning_rate': 5e-07}
+dpo {'allocated': 539043328, 'driver': 1179254784, 'peak_rss_bytes': 1512095744}
+2026-11-15 14:00:34 - INFO - train.py:94 - rlvr step 1: {'epoch': 0, 'loss': 0.44551042979583144, 'policy_loss': -5.611218512058258e-07, 'value_loss': 4.455109806032851, 'verified_rate': 0.0, 'mean_reward': -5.0, 'sampled_kl': -3.508972076815553e-05, 'response_tokens': 64.5}
+2026-11-15 14:00:36 - INFO - train.py:94 - rlvr step 1: {'epoch': 1, 'loss': 0.43868436804041266, 'policy_loss': -0.00406651827506721, 'value_loss': 4.4275085686240345, 'verified_rate': 0.0, 'mean_reward': -5.0, 'sampled_kl': -3.508972076815553e-05, 'response_tokens': 64.5}
+2026-11-15 14:00:39 - INFO - train.py:94 - rlvr step 1: {'epoch': 2, 'loss': 0.43187465518713, 'policy_loss': -0.008125795691739768, 'value_loss': 4.4000046263681725, 'verified_rate': 0.0, 'mean_reward': -5.0, 'sampled_kl': -3.508972076815553e-05, 'response_tokens': 64.5}
+2026-11-15 14:00:41 - INFO - train.py:94 - rlvr step 1: {'epoch': 3, 'loss': 0.42507643019780517, 'policy_loss': -0.012183348648250103, 'value_loss': 4.372597946319729, 'verified_rate': 0.0, 'mean_reward': -5.0, 'sampled_kl': -3.508972076815553e-05, 'response_tokens': 64.5}
+rlvr {'allocated': 1086182912, 'driver': 1176109056, 'peak_rss_bytes': 1600520192}

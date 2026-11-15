@@ -1,0 +1,312 @@
+{
+  "ablation-dpo-sum": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "f92591d25fe421a00cfe29d1c75aab693bd5191bc1b117fcdb91e6f5e2e66923",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "65edb0824f0b9f596aef96ae32932ecea4e26845a80a8da4e3d30230c054b7b3",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "d576a6acfe55fbd610024f9846d92cc0afe3c9e0b465609b9c81415a0112ef14",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "4be0494bcba59bf795e38bd925a6fe29ff72b1b64c8d3a308ea567e7d9c59c83",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "58ab15822fb7c2f1dec646042463902801b9ece4e955ec82149a1b8180ee8428",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "55015c3d337be17a96c613995f61ce7716bb8116b2a9487271e8182f99b64662",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "ablation-no-dpo": {
+    "status": "verified",
+    "metric_records": 820,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "f92591d25fe421a00cfe29d1c75aab693bd5191bc1b117fcdb91e6f5e2e66923",
+        "bytes": 573190
+      },
+      "checkpoints/dpo_skipped/model.pt": {
+        "sha256": "e0011255cb669e86c4e3ce878784405f3f80ce2f7beba1cd8aa8024b3a59b510",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "e5b2815c8f863b80769126565f6b768f77b4a53809cd383cceea9f46d8d87ca1",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "3dff0c829e524999bc806d48cd7cf66f3ef353ebef122b0e24667991cf0c89f8",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "e0011255cb669e86c4e3ce878784405f3f80ce2f7beba1cd8aa8024b3a59b510",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "6a83ede857c24812bc10dd3316cb74347794d52c2f0080999f6394c4d34a776e",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "ablation-no-kl": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "f92591d25fe421a00cfe29d1c75aab693bd5191bc1b117fcdb91e6f5e2e66923",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "6b5fea97aad0e8a90eb4a8df3be66efde7fd74a0c0498e2ba683ceab47890eab",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "9391ccd5e07b527c0b7eff5ddf0c925fad79b0375034e6b7d79b0d12bbf9d320",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "9cce6c9d83e2f85dc1190b6d25814d3a1d8cbcbb5300278e13e5ae6901274a44",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "07be2c0a3e912a9c3cafeb653143c47f737ee3033958aa1b91fe56ffd3572a96",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "f5ae6ff29fa3cfe6cfc847d193d535aa7decfd5e9113d8fbb14277e473203926",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "ablation-random-value": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "f92591d25fe421a00cfe29d1c75aab693bd5191bc1b117fcdb91e6f5e2e66923",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "dafe37dffcdbdae2596751d1d1f9e5cdf7c7b97d65e9aa098fc15cee736592b2",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "e611173a0ca2cf31babab4fff959a849077c2ef761bfdaa6eb28cea95936f439",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "660dad8a18bbf659ae598880ee2c3db475d6ef3ba08d516a538035b195bcfeed",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "99b49ac286293803b11fcd7b74ba4e7daf3578eed249152e78740f9af8652024",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "97f776b887a277535c95bb66edd4fff00f0449264e135bfd6cd80c83505150bb",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "full-cpu-seed1": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "75c73e5cc5e06a200bc5142dddfeb3a4c877ec326c6b9928ac881328233297a0",
+        "bytes": 506763
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "d76a4609139438673a2b703f7dfe8fa1f0863f7826d38d22b41f6510f509d017",
+        "bytes": 506763
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "43a7dc35a02270503b509bc570dcea1588b79def89ce18c0a58976bb11b288cd",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "779b4dff012587a760d9b9514daad69180e68848d4e67cf0b8bb81ff71fcfef7",
+        "bytes": 506763
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "acc55efaf3228dc354915a13b73fb2f140f579b973527a4a4b74ffad984a6da4",
+        "bytes": 506763
+      },
+      "checkpoints/value.pt": {
+        "sha256": "4c52d8e791420e0405757033e63545bc7471a7d77fcee252229cdfbf215fb725",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "full-mps-seed1": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "f92591d25fe421a00cfe29d1c75aab693bd5191bc1b117fcdb91e6f5e2e66923",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "90d8e30b72db0695d0a175175b039351a12c3ffded190d11f16ccdc928a3b696",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "27b1b1b363d3de41c657eeef5eca3d9a4c74d9d70b0cee9a5e30dc96e9255471",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "64702e5482a9f3700b50c205a114691b67ad68e207defba33d3f3c5d2cc28a71",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "4ee15e85855e33cf0b3027df70fbad9a3553611eab962b6d748e2155ebb75496",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "549b5df67558e83a26bf1069a02bad3c9a8508525815abbf424d1297f31e73e3",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "full-mps-seed2": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "bb224914ec1b64349999c8fc0653c2ebb3b1f3f5010f0cd9bfb0d10d3a20464e",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "458ce2ae1ee95978b311d03784f1a6c48cbb9599174692231e18e1c512880997",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "4283f76b0c34275dcc18f7f01343a2d490a47ca7d3453faf12db8bd1b4816c06",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "e019db8a70f15fc52d64268f35d71cae15cb6cc81c2084271bd86d60d1f1450a",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "09a6250f6fbea4a5b7e0387a63acbccf6fb38dea03ccf8286e1c473a2e06e1ff",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "3461590aee04302596672387b9177db473b4db62111be4b82650bb34f8c32410",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "full-mps-seed3": {
+    "status": "verified",
+    "metric_records": 880,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "e8bcfba5d473258d0a14d1f146820a2622a9fa6d2238dce9afa6b9056d06b709",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "854e0bcab27153377f26c54631ec74343e3fccf572846133f51e223ab7c5b9c4",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "dbbc960b5928a7a27b7b9b04307b1986624078ac0dddc50e6ce2cef06430d452",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "14e6e742c54d10ccf80083e3fb41d9c1213cb445170a088d455fcae80ab578df",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "b96ca76212919086002bac1d514d05e01aac57f9849ba3d2e51978338c942216",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "a3d4b48f30d3b1ab3e8d6e41d899c38e4563e6d9c3b37d1a8d3c442a4acd04ec",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": true
+  },
+  "mps-seed1": {
+    "status": "verified",
+    "metric_records": 270,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "f92591d25fe421a00cfe29d1c75aab693bd5191bc1b117fcdb91e6f5e2e66923",
+        "bytes": 573190
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "9cc5657b362574f99fa20713a35e1e5c0cce2657b364403fc5511b0d3fed1436",
+        "bytes": 573190
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "fc43fe8234768bc96ec09f2c7b32d96749cba3344b8fe5684e140b6579c57d2f",
+        "bytes": 509437
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "f8d2e7c7eec15e526b7f2c542700a15045ecc7955626b9128e8afa1c540cbe5e",
+        "bytes": 573190
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "9a08229d6c607e5f87a6fb20751dca3928c941fd47db4a0e539af3e237d888bd",
+        "bytes": 573190
+      },
+      "checkpoints/value.pt": {
+        "sha256": "4d7ff607086ddf39185c2f5664da69cb426f4c530a6c2349ee1189dae62e5899",
+        "bytes": 507265
+      }
+    },
+    "source_hashes_match": false
+  },
+  "smollm2-mps": {
+    "status": "verified",
+    "metric_records": 52,
+    "checkpoints": {
+      "checkpoints/base/model.pt": {
+        "sha256": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206",
+        "bytes": 651375407
+      },
+      "checkpoints/dpo/model.pt": {
+        "sha256": "50497e41826b095a58851eb51412f2b28ac3558e6192005f614cb16393178cd5",
+        "bytes": 651375407
+      },
+      "checkpoints/reward_model.pt": {
+        "sha256": "51d40bcdc3b9252a9071b85815e2496ce9bc6a55f120004adf101a4488417141",
+        "bytes": 538152019
+      },
+      "checkpoints/rlvr/model.pt": {
+        "sha256": "2e7e0301516ccc6c8ef348615f7ed289515e4755c65ff8a42a90a9b253372e92",
+        "bytes": 651375407
+      },
+      "checkpoints/sft/model.pt": {
+        "sha256": "7129daf37f050101c699152d10241554b5b586fc0a38b3642cb4f2bb74685c9f",
+        "bytes": 651375407
+      },
+      "checkpoints/value.pt": {
+        "sha256": "f7aeebf92bc3d9e3f463d6eaf4d7d98f64b4d8a2cd7fb789209bb0234b7a0ac9",
+        "bytes": 538132587
+      }
+    },
+    "source_hashes_match": true
+  }
+}

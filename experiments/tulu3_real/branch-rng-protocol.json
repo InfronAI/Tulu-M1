@@ -1,0 +1,8 @@
+{
+  "initialization_seed": 101,
+  "summed_dpo_seed": 102,
+  "rlvr_seed": 103,
+  "inherited_config_seed": 1,
+  "source": "source-v4/scripts/portable/real_experiments.py",
+  "note": "Explicit runner resets determine branch RNG; inherited config seed is not the RL fork seed."
+}

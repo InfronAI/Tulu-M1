@@ -1,0 +1,46 @@
+2026-11-15 14:45:14 - INFO - train.py:94 - rlvr step 1: {'epoch': 0, 'loss': 0.4180860370397568, 'policy_loss': 4.470348358154297e-08, 'value_loss': 4.180859804153442, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': -4.266445466782898e-05, 'response_tokens': 128.0}
+2026-11-15 14:45:16 - INFO - train.py:94 - rlvr step 1: {'epoch': 1, 'loss': 0.4136805385351181, 'policy_loss': -0.00247250497341156, 'value_loss': 4.161530256271362, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': -4.266445466782898e-05, 'response_tokens': 128.0}
+2026-11-15 14:45:17 - INFO - train.py:94 - rlvr step 1: {'epoch': 2, 'loss': 0.40927673876285553, 'policy_loss': -0.004953637719154358, 'value_loss': 4.142303705215454, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': -4.266445466782898e-05, 'response_tokens': 128.0}
+2026-11-15 14:45:18 - INFO - train.py:94 - rlvr step 1: {'epoch': 3, 'loss': 0.40487493574619293, 'policy_loss': -0.007444143295288086, 'value_loss': 4.123190641403198, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': -4.266445466782898e-05, 'response_tokens': 128.0}
+2026-11-15 14:47:06 - INFO - train.py:94 - rlvr step 10: {'epoch': 0, 'loss': 0.4044245779514313, 'policy_loss': 7.897615432739258e-07, 'value_loss': 4.044237852096558, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': 0.0002567320188973099, 'response_tokens': 128.0}
+2026-11-15 14:47:08 - INFO - train.py:94 - rlvr step 10: {'epoch': 1, 'loss': 0.40409238636493683, 'policy_loss': -0.00015660375356674194, 'value_loss': 4.042489767074585, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': 0.0002567320188973099, 'response_tokens': 128.0}
+2026-11-15 14:47:11 - INFO - train.py:94 - rlvr step 10: {'epoch': 2, 'loss': 0.40360361337661743, 'policy_loss': -0.00042641907930374146, 'value_loss': 4.040300250053406, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': 0.0002567320188973099, 'response_tokens': 128.0}
+2026-11-15 14:47:14 - INFO - train.py:94 - rlvr step 10: {'epoch': 3, 'loss': 0.4029799848794937, 'policy_loss': -0.0007945671677589417, 'value_loss': 4.0377455949783325, 'verified_rate': 0.0, 'mean_reward': -10.0, 'sampled_kl': 0.0002567320188973099, 'response_tokens': 128.0}
+2026-11-15 14:47:50 - INFO - train.py:354 - Evaluation progress: 4/72
+2026-11-15 14:47:54 - INFO - train.py:354 - Evaluation progress: 8/72
+2026-11-15 14:47:58 - INFO - train.py:354 - Evaluation progress: 12/72
+2026-11-15 14:48:01 - INFO - train.py:354 - Evaluation progress: 16/72
+2026-11-15 14:48:05 - INFO - train.py:354 - Evaluation progress: 20/72
+2026-11-15 14:48:08 - INFO - train.py:354 - Evaluation progress: 24/72
+2026-11-15 14:48:12 - INFO - train.py:354 - Evaluation progress: 28/72
+2026-11-15 14:48:15 - INFO - train.py:354 - Evaluation progress: 32/72
+2026-11-15 14:48:19 - INFO - train.py:354 - Evaluation progress: 36/72
+2026-11-15 14:48:23 - INFO - train.py:354 - Evaluation progress: 40/72
+2026-11-15 14:48:27 - INFO - train.py:354 - Evaluation progress: 44/72
+2026-11-15 14:48:31 - INFO - train.py:354 - Evaluation progress: 48/72
+2026-11-15 14:48:34 - INFO - train.py:354 - Evaluation progress: 52/72
+2026-11-15 14:48:38 - INFO - train.py:354 - Evaluation progress: 56/72
+2026-11-15 14:48:42 - INFO - train.py:354 - Evaluation progress: 60/72
+2026-11-15 14:48:45 - INFO - train.py:354 - Evaluation progress: 64/72
+2026-11-15 14:48:49 - INFO - train.py:354 - Evaluation progress: 68/72
+2026-11-15 14:48:53 - INFO - train.py:354 - Evaluation progress: 72/72
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)

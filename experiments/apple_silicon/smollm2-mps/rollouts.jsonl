@@ -1,0 +1,8 @@
+{"step": 1, "prompt": "Copy 191. Answer with only the number.", "completion": "191", "tokens": [33, 41, 33, 0], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 1, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "17", "tokens": [33, 39, 0], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 2, "prompt": "Add 9 and 8. Answer with only the number.", "completion": "27", "tokens": [34, 39, 0], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 2, "prompt": "Copy 123. Answer with only the number.", "completion": "123", "tokens": [33, 34, 35, 0], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 3, "prompt": "Copy 5. Answer with only the number.", "completion": "5", "tokens": [37, 0], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 3, "prompt": "Add 12 and 6. Answer with only the number.", "completion": "18", "tokens": [33, 40, 0], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 4, "prompt": "Copy 168. Answer with only the number.", "completion": "168", "tokens": [33, 38, 40, 0], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 4, "prompt": "Add 3 and 5. Answer with only the number.", "completion": "35", "tokens": [35, 37, 0], "verified": 0.0, "eos": true, "reward": 0.0}

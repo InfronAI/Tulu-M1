@@ -1,0 +1,11 @@
+{
+  "recording": "experiments/apple_silicon/full-mps-seed1-terminal.jsonl",
+  "recording_sha256": "dd759765730d31b14037eebfc9a728a6b0f21e669eacec04311454dda08f7f91",
+  "frames": 21,
+  "frame_duration_seconds": 1,
+  "kind": "Time-compressed replay of recorded execution and predictions",
+  "files": {
+    "portable-demo.gif": "f8b78280a044b7a3c7a288461f6a1ea5a9c216636630ad6490de21dab45e23ce",
+    "portable-demo.mp4": "fbda514756528d95e0363a0f0c5d03006d2df848fe22da2bc0bbfaeecdd8f3e0"
+  }
+}

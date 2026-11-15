@@ -176,3 +176,11 @@ scratch/
 /docs/miles/native-options.md
 /docs/miles/native-training-options.md
 /docs/miles/native-serving-options.md
+
+# Isolated Apple Silicon runtime and reproducible local weights.
+.venv-mac/
+experiments/apple_silicon/**/checkpoints/
+!experiments/apple_silicon/**/*.jsonl
+.venv-mac-real/
+experiments/tulu3_real/**/checkpoints/
+!experiments/tulu3_real/**/*.jsonl

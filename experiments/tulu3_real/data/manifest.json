@@ -1,0 +1,131 @@
+{
+  "sources": {
+    "gsm8k": {
+      "repo": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "filename": "main/test-00000-of-00001.parquet",
+      "bytes": 419088,
+      "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "rows_scanned": 1319
+    },
+    "math": {
+      "repo": "HuggingFaceH4/MATH-500",
+      "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+      "filename": "test.jsonl",
+      "bytes": 446564,
+      "sha256": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132",
+      "rows_scanned": 500
+    },
+    "ifeval": {
+      "repo": "google/IFEval",
+      "revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+      "filename": "ifeval_input_data.jsonl",
+      "bytes": 207111,
+      "sha256": "6a85310ca8ce15eff755aa08a3a4ff931c7e273e7515ebb3c492ea85fd8288f2",
+      "rows_scanned": 541
+    },
+    "sft": {
+      "repo": "allenai/tulu-3-sft-mixture",
+      "revision": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+      "filename": "data/train-00000-of-00006.parquet",
+      "bytes": 361046463,
+      "sha256": "41d4524345443ccca4202df2f01d84d84371afcde36f637178e0e2bcd14f79c7",
+      "row_groups_scanned": [
+        0,
+        10,
+        20,
+        31,
+        41,
+        52,
+        62,
+        72,
+        83,
+        93,
+        104,
+        114,
+        124,
+        135,
+        145,
+        156
+      ],
+      "rows_scanned": 8192
+    },
+    "preference": {
+      "repo": "allenai/llama-3.1-tulu-3-8b-preference-mixture",
+      "revision": "78a6f00785946cd24276c5dd075f83a143a3b1e6",
+      "filename": "data/train-00000-of-00004.parquet",
+      "bytes": 245603294,
+      "sha256": "1e786b456497a193affb29ae8fd489a05654e5fd5c02f2ca47f75679132590bb",
+      "row_groups_scanned": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49,
+        54,
+        58,
+        63,
+        68
+      ],
+      "rows_scanned": 7905
+    },
+    "rlvr": {
+      "repo": "allenai/RLVR-GSM-MATH-IF-Mixed-Constraints",
+      "revision": "7dbd180f5440c0b90f2944e6efea934b85437a95",
+      "filename": "data/train-00000-of-00001.parquet",
+      "bytes": 16533143,
+      "sha256": "d4ff1f9c054129bfad71876be125c58c5eb18b4d57e8729c86fcfc126f2df300",
+      "rows_scanned": 29946
+    }
+  },
+  "dataset_sha256": "489e64dda20dda78bc077b70c5078ec6aa27f60cdeb91dffbcdd1d9974737010",
+  "split_sizes": {
+    "sft": 96,
+    "preference": 48,
+    "rlvr": 72,
+    "validation": 24,
+    "test": 72
+  },
+  "benchmark_sizes": {
+    "gsm8k": 1319,
+    "math": 500,
+    "ifeval": 541
+  },
+  "preference_holdout": 16,
+  "rejected": {
+    "sft:prompt_length": 30,
+    "sft:sequence_length": 14,
+    "preference:sequence_length": 30,
+    "preference:prompt_length": 12,
+    "rlvr:prompt_length": 3
+  },
+  "sft_sources": {
+    "ai2-adapt-dev/no_robots_converted": 10,
+    "ai2-adapt-dev/flan_v2_converted": 67,
+    "ai2-adapt-dev/oasst1_converted": 10,
+    "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 9
+  },
+  "preference_sources": {
+    "allenai/tulu-3-sft-reused-if": 47,
+    "allenai/tulu-3-sft-reused-on-policy-8b": 1
+  },
+  "rlvr_tasks": {
+    "ifeval": 24,
+    "math": 24,
+    "gsm8k": 24
+  },
+  "adaptations": [
+    "one pinned shard each for SFT/preferences; at most 16 row groups x 512 rows",
+    "last assistant turn supervised; earlier conversation retained as context",
+    "length-filtered at 768 tokens; sampling seed 42; no correctness-based filtering",
+    "RL math/GSM demonstrations removed; original target and labels preserved",
+    "zero-shot task evaluation; 128 response-token cap; not OLMES protocol parity"
+  ]
+}

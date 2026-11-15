@@ -1,0 +1,117 @@
+{
+  "device": "mps",
+  "parameters": 124864,
+  "resolved_revision": null,
+  "elapsed_seconds": 50.487271416932344,
+  "dataset_sha256": "9c0bc26d12a4e83e1dbda986e0bf2f7967f6c53a0be94e12b38815326992b965",
+  "evaluations": {
+    "base": {
+      "validation": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.375,
+        "response_nll": 5.621472358703613,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.53125,
+        "response_nll": 5.642327785491943,
+        "count": 32
+      }
+    },
+    "sft": {
+      "validation": {
+        "exact_match": 0.4375,
+        "preference_accuracy": 0.78125,
+        "response_nll": 0.7299875617027283,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.4375,
+        "preference_accuracy": 0.75,
+        "response_nll": 0.9410113096237183,
+        "count": 32
+      }
+    },
+    "dpo": {
+      "validation": {
+        "exact_match": 0.5,
+        "preference_accuracy": 0.75,
+        "response_nll": 0.7848641872406006,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.53125,
+        "preference_accuracy": 0.75,
+        "response_nll": 1.0512676239013672,
+        "count": 32
+      }
+    },
+    "rlvr": {
+      "validation": {
+        "exact_match": 0.5,
+        "preference_accuracy": 0.75,
+        "response_nll": 0.7168875336647034,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.5625,
+        "preference_accuracy": 0.71875,
+        "response_nll": 0.9728033542633057,
+        "count": 32
+      }
+    }
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "chip": "Apple M1 Pro",
+    "mps_available": true,
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.55.4",
+      "numpy": "2.2.6"
+    },
+    "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+    "git_dirty": true,
+    "utc": "2026-11-15T04:00:08.327264+00:00",
+    "source_sha256": {
+      "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+      "open_instruct/portable/__main__.py": "47137e87cec8fe7a4d2ff5912ade8c6e1e517ef1b54bb59b6a245fdcc2e9525e",
+      "open_instruct/portable/data.py": "8f26e79b19a924505fdd75aa9582f1f02b2798519447df50700da8c31b212b91",
+      "open_instruct/portable/model.py": "1ccd95548d7525a8c99f825ecc16850c9425fb0fcb9ea75757e16d705bd78808",
+      "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+      "open_instruct/portable/train.py": "6c8dc39fce43ea08d9d51aafa70b21200ad97b7ecdf807fde639f98fc8ea2f51"
+    }
+  },
+  "config": {
+    "model": "tiny",
+    "revision": "main",
+    "device": "mps",
+    "seed": 2,
+    "sft_steps": 600,
+    "rm_steps": 60,
+    "dpo_steps": 60,
+    "rlvr_steps": 40,
+    "batch_size": 4,
+    "micro_batch_size": 2,
+    "max_length": 128,
+    "max_new_tokens": 5,
+    "learning_rate": 0.001,
+    "preference_lr": 0.0001,
+    "rlvr_lr": 3e-05,
+    "dpo_beta": 5.0,
+    "kl_beta": 0.05,
+    "reward_scale": 10.0,
+    "missing_eos_penalty": -10.0,
+    "ppo_epochs": 4,
+    "normalize_dpo": true,
+    "skip_dpo": false,
+    "value_from_rm": true,
+    "cpu_threads": 4
+  },
+  "peak_process_rss_bytes": 591511552,
+  "scope": "Synthetic workflow validation; not a paper benchmark reproduction",
+  "status": "completed"
+}

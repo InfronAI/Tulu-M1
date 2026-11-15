@@ -30,7 +30,10 @@ def on_files(files, config):
 
 
 def on_page_markdown(markdown, *, page, config, files):
-    if not page.file.src_uri.startswith("miles/"):
+    if not page.file.src_uri.startswith("miles/") and page.file.src_uri not in (
+        "apple_silicon.md",
+        "tulu3_mac_experiments.md",
+    ):
         return markdown
     docs = Path(config["docs_dir"]).resolve()
     source = docs / page.file.src_uri

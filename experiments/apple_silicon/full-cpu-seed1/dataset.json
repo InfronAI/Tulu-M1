@@ -1,0 +1,2812 @@
+{
+  "sft": [
+    {
+      "prompt": "Copy 49. Answer with only the number.",
+      "chosen": "49",
+      "rejected": "50",
+      "answer": "49",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 4. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 8. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 4. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 46. Answer with only the number.",
+      "chosen": "46",
+      "rejected": "47",
+      "answer": "46",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 28. Answer with only the number.",
+      "chosen": "28",
+      "rejected": "29",
+      "answer": "28",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 0. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 2. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 57. Answer with only the number.",
+      "chosen": "57",
+      "rejected": "58",
+      "answer": "57",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 92. Answer with only the number.",
+      "chosen": "92",
+      "rejected": "93",
+      "answer": "92",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 2. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 105. Answer with only the number.",
+      "chosen": "105",
+      "rejected": "106",
+      "answer": "105",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 8. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 138. Answer with only the number.",
+      "chosen": "138",
+      "rejected": "139",
+      "answer": "138",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 147. Answer with only the number.",
+      "chosen": "147",
+      "rejected": "148",
+      "answer": "147",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 164. Answer with only the number.",
+      "chosen": "164",
+      "rejected": "165",
+      "answer": "164",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 3. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 17. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 9. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 3. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 71. Answer with only the number.",
+      "chosen": "71",
+      "rejected": "72",
+      "answer": "71",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 9. Answer with only the number.",
+      "chosen": "25",
+      "rejected": "26",
+      "answer": "25",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 51. Answer with only the number.",
+      "chosen": "51",
+      "rejected": "52",
+      "answer": "51",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 7. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 9. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 8. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 8. Answer with only the number.",
+      "chosen": "27",
+      "rejected": "28",
+      "answer": "27",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 2. Answer with only the number.",
+      "chosen": "2",
+      "rejected": "3",
+      "answer": "2",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 167. Answer with only the number.",
+      "chosen": "167",
+      "rejected": "168",
+      "answer": "167",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 172. Answer with only the number.",
+      "chosen": "172",
+      "rejected": "173",
+      "answer": "172",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 59. Answer with only the number.",
+      "chosen": "59",
+      "rejected": "60",
+      "answer": "59",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 53. Answer with only the number.",
+      "chosen": "53",
+      "rejected": "54",
+      "answer": "53",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 44. Answer with only the number.",
+      "chosen": "44",
+      "rejected": "45",
+      "answer": "44",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 9. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 5. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 4. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 154. Answer with only the number.",
+      "chosen": "154",
+      "rejected": "155",
+      "answer": "154",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 80. Answer with only the number.",
+      "chosen": "80",
+      "rejected": "81",
+      "answer": "80",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 9. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 43. Answer with only the number.",
+      "chosen": "43",
+      "rejected": "44",
+      "answer": "43",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 186. Answer with only the number.",
+      "chosen": "186",
+      "rejected": "187",
+      "answer": "186",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 89. Answer with only the number.",
+      "chosen": "89",
+      "rejected": "90",
+      "answer": "89",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 30. Answer with only the number.",
+      "chosen": "30",
+      "rejected": "31",
+      "answer": "30",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 180. Answer with only the number.",
+      "chosen": "180",
+      "rejected": "181",
+      "answer": "180",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 9. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 131. Answer with only the number.",
+      "chosen": "131",
+      "rejected": "132",
+      "answer": "131",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 40. Answer with only the number.",
+      "chosen": "40",
+      "rejected": "41",
+      "answer": "40",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 7. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 122. Answer with only the number.",
+      "chosen": "122",
+      "rejected": "123",
+      "answer": "122",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 3. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 5. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 6. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 151. Answer with only the number.",
+      "chosen": "151",
+      "rejected": "152",
+      "answer": "151",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 5. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 27. Answer with only the number.",
+      "chosen": "27",
+      "rejected": "28",
+      "answer": "27",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 4. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 13. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 5. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 174. Answer with only the number.",
+      "chosen": "174",
+      "rejected": "175",
+      "answer": "174",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 135. Answer with only the number.",
+      "chosen": "135",
+      "rejected": "136",
+      "answer": "135",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 8. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 185. Answer with only the number.",
+      "chosen": "185",
+      "rejected": "186",
+      "answer": "185",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 6. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 2. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 0. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 1. Answer with only the number.",
+      "chosen": "4",
+      "rejected": "5",
+      "answer": "4",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 126. Answer with only the number.",
+      "chosen": "126",
+      "rejected": "127",
+      "answer": "126",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 0. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 7. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 3. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 48. Answer with only the number.",
+      "chosen": "48",
+      "rejected": "49",
+      "answer": "48",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 133. Answer with only the number.",
+      "chosen": "133",
+      "rejected": "134",
+      "answer": "133",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 0. Answer with only the number.",
+      "chosen": "1",
+      "rejected": "2",
+      "answer": "1",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 5. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 145. Answer with only the number.",
+      "chosen": "145",
+      "rejected": "146",
+      "answer": "145",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 149. Answer with only the number.",
+      "chosen": "149",
+      "rejected": "150",
+      "answer": "149",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 84. Answer with only the number.",
+      "chosen": "84",
+      "rejected": "85",
+      "answer": "84",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 4. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 2. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 5. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 4. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 0. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 130. Answer with only the number.",
+      "chosen": "130",
+      "rejected": "131",
+      "answer": "130",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 25. Answer with only the number.",
+      "chosen": "25",
+      "rejected": "26",
+      "answer": "25",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 20. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 4. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 6. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 3. Answer with only the number.",
+      "chosen": "3",
+      "rejected": "4",
+      "answer": "3",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 7. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 11. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 68. Answer with only the number.",
+      "chosen": "68",
+      "rejected": "69",
+      "answer": "68",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 31. Answer with only the number.",
+      "chosen": "31",
+      "rejected": "32",
+      "answer": "31",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 136. Answer with only the number.",
+      "chosen": "136",
+      "rejected": "137",
+      "answer": "136",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 7. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 5. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 3. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 9. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 156. Answer with only the number.",
+      "chosen": "156",
+      "rejected": "157",
+      "answer": "156",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 118. Answer with only the number.",
+      "chosen": "118",
+      "rejected": "119",
+      "answer": "118",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 0. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 0. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 9. Answer with only the number.",
+      "chosen": "24",
+      "rejected": "25",
+      "answer": "24",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 173. Answer with only the number.",
+      "chosen": "173",
+      "rejected": "174",
+      "answer": "173",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 93. Answer with only the number.",
+      "chosen": "93",
+      "rejected": "94",
+      "answer": "93",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 26. Answer with only the number.",
+      "chosen": "26",
+      "rejected": "27",
+      "answer": "26",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 8. Answer with only the number.",
+      "chosen": "26",
+      "rejected": "27",
+      "answer": "26",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 7. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 41. Answer with only the number.",
+      "chosen": "41",
+      "rejected": "42",
+      "answer": "41",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 9. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 21. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 94. Answer with only the number.",
+      "chosen": "94",
+      "rejected": "95",
+      "answer": "94",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 155. Answer with only the number.",
+      "chosen": "155",
+      "rejected": "156",
+      "answer": "155",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 18. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 83. Answer with only the number.",
+      "chosen": "83",
+      "rejected": "84",
+      "answer": "83",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 3. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 6. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 1. Answer with only the number.",
+      "chosen": "2",
+      "rejected": "3",
+      "answer": "2",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 64. Answer with only the number.",
+      "chosen": "64",
+      "rejected": "65",
+      "answer": "64",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 120. Answer with only the number.",
+      "chosen": "120",
+      "rejected": "121",
+      "answer": "120",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 9. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 113. Answer with only the number.",
+      "chosen": "113",
+      "rejected": "114",
+      "answer": "113",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 6. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 197. Answer with only the number.",
+      "chosen": "197",
+      "rejected": "198",
+      "answer": "197",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 81. Answer with only the number.",
+      "chosen": "81",
+      "rejected": "82",
+      "answer": "81",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 9. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 9. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 8. Answer with only the number.",
+      "chosen": "25",
+      "rejected": "26",
+      "answer": "25",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 3. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 9. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 50. Answer with only the number.",
+      "chosen": "50",
+      "rejected": "51",
+      "answer": "50",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 8. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 47. Answer with only the number.",
+      "chosen": "47",
+      "rejected": "48",
+      "answer": "47",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 78. Answer with only the number.",
+      "chosen": "78",
+      "rejected": "79",
+      "answer": "78",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 7. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 134. Answer with only the number.",
+      "chosen": "134",
+      "rejected": "135",
+      "answer": "134",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 193. Answer with only the number.",
+      "chosen": "193",
+      "rejected": "194",
+      "answer": "193",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 2. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 152. Answer with only the number.",
+      "chosen": "152",
+      "rejected": "153",
+      "answer": "152",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 4. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 170. Answer with only the number.",
+      "chosen": "170",
+      "rejected": "171",
+      "answer": "170",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 139. Answer with only the number.",
+      "chosen": "139",
+      "rejected": "140",
+      "answer": "139",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 3. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 1. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 5. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 176. Answer with only the number.",
+      "chosen": "176",
+      "rejected": "177",
+      "answer": "176",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 129. Answer with only the number.",
+      "chosen": "129",
+      "rejected": "130",
+      "answer": "129",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 5. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 1. Answer with only the number.",
+      "chosen": "1",
+      "rejected": "2",
+      "answer": "1",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 0. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 162. Answer with only the number.",
+      "chosen": "162",
+      "rejected": "163",
+      "answer": "162",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 1. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 77. Answer with only the number.",
+      "chosen": "77",
+      "rejected": "78",
+      "answer": "77",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 8. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 4. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 6. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 2. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 7. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 7. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 6. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 100. Answer with only the number.",
+      "chosen": "100",
+      "rejected": "101",
+      "answer": "100",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 38. Answer with only the number.",
+      "chosen": "38",
+      "rejected": "39",
+      "answer": "38",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 0. Answer with only the number.",
+      "chosen": "0",
+      "rejected": "1",
+      "answer": "0",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 115. Answer with only the number.",
+      "chosen": "115",
+      "rejected": "116",
+      "answer": "115",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 98. Answer with only the number.",
+      "chosen": "98",
+      "rejected": "99",
+      "answer": "98",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 0. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 1. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 3. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 4. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 8. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 169. Answer with only the number.",
+      "chosen": "169",
+      "rejected": "170",
+      "answer": "169",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 7. Answer with only the number.",
+      "chosen": "24",
+      "rejected": "25",
+      "answer": "24",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 182. Answer with only the number.",
+      "chosen": "182",
+      "rejected": "183",
+      "answer": "182",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 97. Answer with only the number.",
+      "chosen": "97",
+      "rejected": "98",
+      "answer": "97",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 8. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 178. Answer with only the number.",
+      "chosen": "178",
+      "rejected": "179",
+      "answer": "178",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 76. Answer with only the number.",
+      "chosen": "76",
+      "rejected": "77",
+      "answer": "76",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 9. Answer with only the number.",
+      "chosen": "26",
+      "rejected": "27",
+      "answer": "26",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 66. Answer with only the number.",
+      "chosen": "66",
+      "rejected": "67",
+      "answer": "66",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 1. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 62. Answer with only the number.",
+      "chosen": "62",
+      "rejected": "63",
+      "answer": "62",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 67. Answer with only the number.",
+      "chosen": "67",
+      "rejected": "68",
+      "answer": "67",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 6. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 104. Answer with only the number.",
+      "chosen": "104",
+      "rejected": "105",
+      "answer": "104",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 63. Answer with only the number.",
+      "chosen": "63",
+      "rejected": "64",
+      "answer": "63",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 144. Answer with only the number.",
+      "chosen": "144",
+      "rejected": "145",
+      "answer": "144",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 0. Answer with only the number.",
+      "chosen": "3",
+      "rejected": "4",
+      "answer": "3",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 5. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 2. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 141. Answer with only the number.",
+      "chosen": "141",
+      "rejected": "142",
+      "answer": "141",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 42. Answer with only the number.",
+      "chosen": "42",
+      "rejected": "43",
+      "answer": "42",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 107. Answer with only the number.",
+      "chosen": "107",
+      "rejected": "108",
+      "answer": "107",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 1. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 2. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 158. Answer with only the number.",
+      "chosen": "158",
+      "rejected": "159",
+      "answer": "158",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 2. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 128. Answer with only the number.",
+      "chosen": "128",
+      "rejected": "129",
+      "answer": "128",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 150. Answer with only the number.",
+      "chosen": "150",
+      "rejected": "151",
+      "answer": "150",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 124. Answer with only the number.",
+      "chosen": "124",
+      "rejected": "125",
+      "answer": "124",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 143. Answer with only the number.",
+      "chosen": "143",
+      "rejected": "144",
+      "answer": "143",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 69. Answer with only the number.",
+      "chosen": "69",
+      "rejected": "70",
+      "answer": "69",
+      "task": "exact"
+    }
+  ],
+  "preference": [
+    {
+      "prompt": "Add 5 and 4. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 96. Answer with only the number.",
+      "chosen": "96",
+      "rejected": "97",
+      "answer": "96",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 45. Answer with only the number.",
+      "chosen": "45",
+      "rejected": "46",
+      "answer": "45",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 37. Answer with only the number.",
+      "chosen": "37",
+      "rejected": "38",
+      "answer": "37",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 7. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 2. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 195. Answer with only the number.",
+      "chosen": "195",
+      "rejected": "196",
+      "answer": "195",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 1. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 8. Answer with only the number.",
+      "chosen": "24",
+      "rejected": "25",
+      "answer": "24",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 10. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 72. Answer with only the number.",
+      "chosen": "72",
+      "rejected": "73",
+      "answer": "72",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 6. Answer with only the number.",
+      "chosen": "25",
+      "rejected": "26",
+      "answer": "25",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 65. Answer with only the number.",
+      "chosen": "65",
+      "rejected": "66",
+      "answer": "65",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 117. Answer with only the number.",
+      "chosen": "117",
+      "rejected": "118",
+      "answer": "117",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 7. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 8. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 4. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 7. Answer with only the number.",
+      "chosen": "25",
+      "rejected": "26",
+      "answer": "25",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 1. Answer with only the number.",
+      "chosen": "3",
+      "rejected": "4",
+      "answer": "3",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 0. Answer with only the number.",
+      "chosen": "2",
+      "rejected": "3",
+      "answer": "2",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 5. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 23. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 4. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 1. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 88. Answer with only the number.",
+      "chosen": "88",
+      "rejected": "89",
+      "answer": "88",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 6. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 12. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 24. Answer with only the number.",
+      "chosen": "24",
+      "rejected": "25",
+      "answer": "24",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 2. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 106. Answer with only the number.",
+      "chosen": "106",
+      "rejected": "107",
+      "answer": "106",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 4. Answer with only the number.",
+      "chosen": "4",
+      "rejected": "5",
+      "answer": "4",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 114. Answer with only the number.",
+      "chosen": "114",
+      "rejected": "115",
+      "answer": "114",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 2. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 3. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 0. Answer with only the number.",
+      "chosen": "0",
+      "rejected": "1",
+      "answer": "0",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 189. Answer with only the number.",
+      "chosen": "189",
+      "rejected": "190",
+      "answer": "189",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 91. Answer with only the number.",
+      "chosen": "91",
+      "rejected": "92",
+      "answer": "91",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 112. Answer with only the number.",
+      "chosen": "112",
+      "rejected": "113",
+      "answer": "112",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 9. Answer with only the number.",
+      "chosen": "28",
+      "rejected": "29",
+      "answer": "28",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 110. Answer with only the number.",
+      "chosen": "110",
+      "rejected": "111",
+      "answer": "110",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 1. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 70. Answer with only the number.",
+      "chosen": "70",
+      "rejected": "71",
+      "answer": "70",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 5. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 9. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 0. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 5. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 54. Answer with only the number.",
+      "chosen": "54",
+      "rejected": "55",
+      "answer": "54",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 3. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 15. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 6. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 0. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 61. Answer with only the number.",
+      "chosen": "61",
+      "rejected": "62",
+      "answer": "61",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 7. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 33. Answer with only the number.",
+      "chosen": "33",
+      "rejected": "34",
+      "answer": "33",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 9. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 1. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 56. Answer with only the number.",
+      "chosen": "56",
+      "rejected": "57",
+      "answer": "56",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 86. Answer with only the number.",
+      "chosen": "86",
+      "rejected": "87",
+      "answer": "86",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 1. Answer with only the number.",
+      "chosen": "1",
+      "rejected": "2",
+      "answer": "1",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 125. Answer with only the number.",
+      "chosen": "125",
+      "rejected": "126",
+      "answer": "125",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 0. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 22. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 140. Answer with only the number.",
+      "chosen": "140",
+      "rejected": "141",
+      "answer": "140",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 198. Answer with only the number.",
+      "chosen": "198",
+      "rejected": "199",
+      "answer": "198",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 160. Answer with only the number.",
+      "chosen": "160",
+      "rejected": "161",
+      "answer": "160",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 119. Answer with only the number.",
+      "chosen": "119",
+      "rejected": "120",
+      "answer": "119",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 8. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 5. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 8. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 39. Answer with only the number.",
+      "chosen": "39",
+      "rejected": "40",
+      "answer": "39",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 5. Answer with only the number.",
+      "chosen": "24",
+      "rejected": "25",
+      "answer": "24",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 7. Answer with only the number.",
+      "chosen": "26",
+      "rejected": "27",
+      "answer": "26",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 2. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 161. Answer with only the number.",
+      "chosen": "161",
+      "rejected": "162",
+      "answer": "161",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 163. Answer with only the number.",
+      "chosen": "163",
+      "rejected": "164",
+      "answer": "163",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 8. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 6. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 4. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 6. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 52. Answer with only the number.",
+      "chosen": "52",
+      "rejected": "53",
+      "answer": "52",
+      "task": "exact"
+    }
+  ],
+  "rlvr": [
+    {
+      "prompt": "Copy 60. Answer with only the number.",
+      "chosen": "60",
+      "rejected": "61",
+      "answer": "60",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 0. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 191. Answer with only the number.",
+      "chosen": "191",
+      "rejected": "192",
+      "answer": "191",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 137. Answer with only the number.",
+      "chosen": "137",
+      "rejected": "138",
+      "answer": "137",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 4. Answer with only the number.",
+      "chosen": "4",
+      "rejected": "5",
+      "answer": "4",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 19. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 4. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 75. Answer with only the number.",
+      "chosen": "75",
+      "rejected": "76",
+      "answer": "75",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 175. Answer with only the number.",
+      "chosen": "175",
+      "rejected": "176",
+      "answer": "175",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 6. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 192. Answer with only the number.",
+      "chosen": "192",
+      "rejected": "193",
+      "answer": "192",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 148. Answer with only the number.",
+      "chosen": "148",
+      "rejected": "149",
+      "answer": "148",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 3. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 34. Answer with only the number.",
+      "chosen": "34",
+      "rejected": "35",
+      "answer": "34",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 2. Answer with only the number.",
+      "chosen": "2",
+      "rejected": "3",
+      "answer": "2",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 55. Answer with only the number.",
+      "chosen": "55",
+      "rejected": "56",
+      "answer": "55",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 99. Answer with only the number.",
+      "chosen": "99",
+      "rejected": "100",
+      "answer": "99",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 103. Answer with only the number.",
+      "chosen": "103",
+      "rejected": "104",
+      "answer": "103",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 90. Answer with only the number.",
+      "chosen": "90",
+      "rejected": "91",
+      "answer": "90",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 8. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 3. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 7. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 5. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 1. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 183. Answer with only the number.",
+      "chosen": "183",
+      "rejected": "184",
+      "answer": "183",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 7. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 8. Answer with only the number.",
+      "chosen": "10",
+      "rejected": "11",
+      "answer": "10",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 16 and 6. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 168. Answer with only the number.",
+      "chosen": "168",
+      "rejected": "169",
+      "answer": "168",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 85. Answer with only the number.",
+      "chosen": "85",
+      "rejected": "86",
+      "answer": "85",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 8. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 199. Answer with only the number.",
+      "chosen": "199",
+      "rejected": "200",
+      "answer": "199",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 36. Answer with only the number.",
+      "chosen": "36",
+      "rejected": "37",
+      "answer": "36",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 123. Answer with only the number.",
+      "chosen": "123",
+      "rejected": "124",
+      "answer": "123",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 194. Answer with only the number.",
+      "chosen": "194",
+      "rejected": "195",
+      "answer": "194",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 73. Answer with only the number.",
+      "chosen": "73",
+      "rejected": "74",
+      "answer": "73",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 7. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 111. Answer with only the number.",
+      "chosen": "111",
+      "rejected": "112",
+      "answer": "111",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 6. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 6. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 7. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 1. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 9. Answer with only the number.",
+      "chosen": "27",
+      "rejected": "28",
+      "answer": "27",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 3. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 6. Answer with only the number.",
+      "chosen": "24",
+      "rejected": "25",
+      "answer": "24",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 32. Answer with only the number.",
+      "chosen": "32",
+      "rejected": "33",
+      "answer": "32",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 171. Answer with only the number.",
+      "chosen": "171",
+      "rejected": "172",
+      "answer": "171",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 153. Answer with only the number.",
+      "chosen": "153",
+      "rejected": "154",
+      "answer": "153",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 1. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 188. Answer with only the number.",
+      "chosen": "188",
+      "rejected": "189",
+      "answer": "188",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 142. Answer with only the number.",
+      "chosen": "142",
+      "rejected": "143",
+      "answer": "142",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 8. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 6. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 3. Answer with only the number.",
+      "chosen": "5",
+      "rejected": "6",
+      "answer": "5",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 3 and 5. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 9 and 8. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    }
+  ],
+  "validation": [
+    {
+      "prompt": "Copy 95. Answer with only the number.",
+      "chosen": "95",
+      "rejected": "96",
+      "answer": "95",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 5. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 116. Answer with only the number.",
+      "chosen": "116",
+      "rejected": "117",
+      "answer": "116",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 121. Answer with only the number.",
+      "chosen": "121",
+      "rejected": "122",
+      "answer": "121",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 15 and 0. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 82. Answer with only the number.",
+      "chosen": "82",
+      "rejected": "83",
+      "answer": "82",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 0. Answer with only the number.",
+      "chosen": "4",
+      "rejected": "5",
+      "answer": "4",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 3. Answer with only the number.",
+      "chosen": "22",
+      "rejected": "23",
+      "answer": "22",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 6 and 3. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 74. Answer with only the number.",
+      "chosen": "74",
+      "rejected": "75",
+      "answer": "74",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 35. Answer with only the number.",
+      "chosen": "35",
+      "rejected": "36",
+      "answer": "35",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 2 and 2. Answer with only the number.",
+      "chosen": "4",
+      "rejected": "5",
+      "answer": "4",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 13 and 5. Answer with only the number.",
+      "chosen": "18",
+      "rejected": "19",
+      "answer": "18",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 109. Answer with only the number.",
+      "chosen": "109",
+      "rejected": "110",
+      "answer": "109",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 6. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 18 and 3. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 9. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 19 and 4. Answer with only the number.",
+      "chosen": "23",
+      "rejected": "24",
+      "answer": "23",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 181. Answer with only the number.",
+      "chosen": "181",
+      "rejected": "182",
+      "answer": "181",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 190. Answer with only the number.",
+      "chosen": "190",
+      "rejected": "191",
+      "answer": "190",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 2. Answer with only the number.",
+      "chosen": "19",
+      "rejected": "20",
+      "answer": "19",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 0. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 9. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 165. Answer with only the number.",
+      "chosen": "165",
+      "rejected": "166",
+      "answer": "165",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 17 and 4. Answer with only the number.",
+      "chosen": "21",
+      "rejected": "22",
+      "answer": "21",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 184. Answer with only the number.",
+      "chosen": "184",
+      "rejected": "185",
+      "answer": "184",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 157. Answer with only the number.",
+      "chosen": "157",
+      "rejected": "158",
+      "answer": "157",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 8 and 1. Answer with only the number.",
+      "chosen": "9",
+      "rejected": "10",
+      "answer": "9",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 0 and 3. Answer with only the number.",
+      "chosen": "3",
+      "rejected": "4",
+      "answer": "3",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 2. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 101. Answer with only the number.",
+      "chosen": "101",
+      "rejected": "102",
+      "answer": "101",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 29. Answer with only the number.",
+      "chosen": "29",
+      "rejected": "30",
+      "answer": "29",
+      "task": "exact"
+    }
+  ],
+  "test": [
+    {
+      "prompt": "Add 11 and 2. Answer with only the number.",
+      "chosen": "13",
+      "rejected": "14",
+      "answer": "13",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 14. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 187. Answer with only the number.",
+      "chosen": "187",
+      "rejected": "188",
+      "answer": "187",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 159. Answer with only the number.",
+      "chosen": "159",
+      "rejected": "160",
+      "answer": "159",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 132. Answer with only the number.",
+      "chosen": "132",
+      "rejected": "133",
+      "answer": "132",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 166. Answer with only the number.",
+      "chosen": "166",
+      "rejected": "167",
+      "answer": "166",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 10 and 1. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 87. Answer with only the number.",
+      "chosen": "87",
+      "rejected": "88",
+      "answer": "87",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 3. Answer with only the number.",
+      "chosen": "4",
+      "rejected": "5",
+      "answer": "4",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 108. Answer with only the number.",
+      "chosen": "108",
+      "rejected": "109",
+      "answer": "108",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 58. Answer with only the number.",
+      "chosen": "58",
+      "rejected": "59",
+      "answer": "58",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 9. Answer with only the number.",
+      "chosen": "20",
+      "rejected": "21",
+      "answer": "20",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 1. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 7. Answer with only the number.",
+      "chosen": "11",
+      "rejected": "12",
+      "answer": "11",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 5. Answer with only the number.",
+      "chosen": "6",
+      "rejected": "7",
+      "answer": "6",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 6. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 16. Answer with only the number.",
+      "chosen": "16",
+      "rejected": "17",
+      "answer": "16",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 102. Answer with only the number.",
+      "chosen": "102",
+      "rejected": "103",
+      "answer": "102",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 4 and 4. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 79. Answer with only the number.",
+      "chosen": "79",
+      "rejected": "80",
+      "answer": "79",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 196. Answer with only the number.",
+      "chosen": "196",
+      "rejected": "197",
+      "answer": "196",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 146. Answer with only the number.",
+      "chosen": "146",
+      "rejected": "147",
+      "answer": "146",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 2. Answer with only the number.",
+      "chosen": "7",
+      "rejected": "8",
+      "answer": "7",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 177. Answer with only the number.",
+      "chosen": "177",
+      "rejected": "178",
+      "answer": "177",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 7 and 1. Answer with only the number.",
+      "chosen": "8",
+      "rejected": "9",
+      "answer": "8",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 11 and 4. Answer with only the number.",
+      "chosen": "15",
+      "rejected": "16",
+      "answer": "15",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 12 and 5. Answer with only the number.",
+      "chosen": "17",
+      "rejected": "18",
+      "answer": "17",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 14 and 0. Answer with only the number.",
+      "chosen": "14",
+      "rejected": "15",
+      "answer": "14",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 179. Answer with only the number.",
+      "chosen": "179",
+      "rejected": "180",
+      "answer": "179",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 1 and 2. Answer with only the number.",
+      "chosen": "3",
+      "rejected": "4",
+      "answer": "3",
+      "task": "exact"
+    },
+    {
+      "prompt": "Add 5 and 7. Answer with only the number.",
+      "chosen": "12",
+      "rejected": "13",
+      "answer": "12",
+      "task": "exact"
+    },
+    {
+      "prompt": "Copy 127. Answer with only the number.",
+      "chosen": "127",
+      "rejected": "128",
+      "answer": "127",
+      "task": "exact"
+    }
+  ]
+}

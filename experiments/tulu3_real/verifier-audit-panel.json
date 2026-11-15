@@ -1,0 +1,26 @@
+{
+  "note": "Automated last-LaTeX/prompt comparison; frozen scores retained.",
+  "cases": [
+    {
+      "run": "main-seed1",
+      "copied_prompt_expression": true,
+      "prompt": "Express $5^5\\div5^4-5^3+5^2\\cdot5^1$ as an integer.",
+      "completion": "\n## 1.1.1.1\n\nThe expression $5^5\\div5^4-5^3+5^2\\cdot5^1$ is a factor of $5^5\\div5^4-5^3+5^2\\cdot5^1$.\n\n## 1.1.1.2\n\nThe expression $5^5\\div5^4-5^3+5^2\\cdot5^1$ is a factor of $5^5\\div5^4-5^3+5^2\\cdot5^1",
+      "gold_answer": "5"
+    },
+    {
+      "run": "main-seed2",
+      "copied_prompt_expression": true,
+      "prompt": "Express $5^5\\div5^4-5^3+5^2\\cdot5^1$ as an integer.",
+      "completion": "\n## 1.1.1.1\n\nThe expression $5^5\\div5^4-5^3+5^2\\cdot5^1$ is a factor of $5^5\\div5^4-5^3+5^2\\cdot5^1$.\n\n## 1.1.1.2\n\nThe expression $5^5\\div5^4-5^3+5^2\\cdot5^1$ is a factor of $5^5\\div5^4-5^3+5^2\\cdot5^1",
+      "gold_answer": "5"
+    },
+    {
+      "run": "main-seed3",
+      "copied_prompt_expression": true,
+      "prompt": "Express $5^5\\div5^4-5^3+5^2\\cdot5^1$ as an integer.",
+      "completion": "\n## 1.1.1.1\n\nThe expression $5^5\\div5^4-5^3+5^2\\cdot5^1$ is a factor of $5^5\\div5^4-5^3+5^2\\cdot5^1$.\n\n## 1.1.1.2\n\nThe expression $5^5\\div5^4-5^3+5^2\\cdot5^1$ is a factor of $5^5\\div5^4-5^3+5^2\\cdot5^1",
+      "gold_answer": "5"
+    }
+  ]
+}

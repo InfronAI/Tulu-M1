@@ -1,0 +1,33 @@
+2026-11-15 13:28:23 - INFO - train.py:421 - base test exact match 0.069
+2026-11-15 13:28:24 - INFO - train.py:95 - sft step 1: {'loss': 3.50172883272171, 'learning_rate': 5.555555555555555e-07}
+2026-11-15 13:28:31 - INFO - train.py:95 - sft step 10: {'loss': 2.047591209411621, 'learning_rate': 5e-06}
+2026-11-15 13:28:44 - INFO - train.py:95 - sft step 20: {'loss': 4.053967595100403, 'learning_rate': 4.42528735632184e-06}
+2026-11-15 13:28:55 - INFO - train.py:95 - sft step 30: {'loss': 2.594747304916382, 'learning_rate': 3.850574712643678e-06}
+2026-11-15 13:29:07 - INFO - train.py:95 - sft step 40: {'loss': 2.4040541499853134, 'learning_rate': 3.2758620689655175e-06}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/__main__.py", line 102, in <module>
+    main()
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/__main__.py", line 85, in main
+    result = train.run(cfg, data.load(args.data), args.output)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/train.py", line 424, in run
+    snapshot("base")
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/train.py", line 150, in supervised
+    step_optimizer(torch.tensor(total), optimizer, lm.parameters())
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/train.py", line 101, in step_optimizer
+    nn.utils.clip_grad_norm_(parameters, 1.0, error_if_nonfinite=True)
+  File "/Users/apple/Projects/open-instruct/.venv-mac/lib/python3.11/site-packages/torch/nn/utils/clip_grad.py", line 36, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac/lib/python3.11/site-packages/torch/nn/utils/clip_grad.py", line 221, in clip_grad_norm_
+    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac/lib/python3.11/site-packages/torch/nn/utils/clip_grad.py", line 36, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac/lib/python3.11/site-packages/torch/nn/utils/clip_grad.py", line 104, in _get_total_norm
+    raise RuntimeError(
+RuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`

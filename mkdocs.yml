@@ -75,6 +75,8 @@ plugins:
 nav:
   - Overview: index.md
   - Get Started:
+    - Apple Silicon: apple_silicon.md
+    - Tülu 3 on Mac: tulu3_mac_experiments.md
     - get_started/installation.md
     - get_started/ai2_internal_setup.md
   - Models:

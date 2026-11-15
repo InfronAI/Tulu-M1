@@ -1,0 +1,20 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M",
+  "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+  "device": "auto",
+  "seed": 1,
+  "sft_steps": 20,
+  "rm_steps": 8,
+  "dpo_steps": 8,
+  "rlvr_steps": 4,
+  "batch_size": 2,
+  "micro_batch_size": 1,
+  "max_length": 256,
+  "max_new_tokens": 8,
+  "learning_rate": 1e-05,
+  "preference_lr": 5e-06,
+  "rlvr_lr": 1e-06,
+  "dpo_beta": 5.0,
+  "kl_beta": 0.05,
+  "ppo_epochs": 4
+}

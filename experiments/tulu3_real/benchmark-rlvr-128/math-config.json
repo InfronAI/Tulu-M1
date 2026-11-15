@@ -1,0 +1,23 @@
+{
+  "stage": "rlvr",
+  "max_new_tokens": 128,
+  "checkpoint_sha256": "85ea984ed8b8095b89f0a9f0cf57e0283cb88d0e804d64da39aac671fb4412c8",
+  "dataset_sha256": "50d91f83601a66f8f0675906a6dea328b010001933ef099f228eb3b3d3b5c8aa",
+  "count": 500,
+  "source_sha256": {
+    "open_instruct/IFEvalG/instructions.py": "ad89968ab6fab66ea5b3a52f8e9864a5a91cea54fbcb45834d51896698e50359",
+    "open_instruct/IFEvalG/instructions_registry.py": "269ad2a86aaf5ce4c347ee41e3ef55a03b32cad74497b80aa0f76389c28a2a5d",
+    "open_instruct/IFEvalG/instructions_util.py": "b0b21dd189474071c027cc377e7132dcbf7a6c921def4440b3d1df8eccffdcd9",
+    "open_instruct/if_functions.py": "9a0912f3475ce3b48b82b017bebb6f31bad443a2699e4277d7739bffe1f16f19",
+    "open_instruct/math_utils.py": "4a4c5bee26ed681cd5f911ce3a00a4fc153791ecab8eb8a6ae756d954bbf715d",
+    "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+    "open_instruct/portable/__main__.py": "0cbdf11e3211126128eb3b20ebda8443d0f967eb46bd5fcd71b5b077ad6aec5c",
+    "open_instruct/portable/data.py": "8030a3ac96178e521d1a58f3af1764d143c640dc321e5e68b0ae08942d554993",
+    "open_instruct/portable/model.py": "288f163062f68f7eb705e98107a81547874b4ca41470bbc7aa119d7f6635a0c8",
+    "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+    "open_instruct/portable/train.py": "0f4e71fd650ebba9679c8655419b7186969c75ad8578a8b3df1454f328365616",
+    "open_instruct/portable/verifiers.py": "1d0709b6b2b3756623b58c4a0509d71293f2ecc206ab2ed183b28743dda18302",
+    "scripts/portable/prepare_real_data.py": "189ee053bda4c3800a8c375c0a4fe4da53712213361eba7e5bc5212cc1def661",
+    "scripts/portable/real_experiments.py": "cf5e268eb7c32099382c0d3c4de1835d064b283900734f0d49ee5288a674b245"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "repo": "allenai/llama-3.1-tulu-3-8b-preference-mixture",
+  "revision": "78a6f00785946cd24276c5dd075f83a143a3b1e6",
+  "file": "data/train-00000-of-00004.parquet",
+  "local_cache": "/Users/apple/.cache/huggingface/hub/datasets--allenai--llama-3.1-tulu-3-8b-preference-mixture/snapshots/78a6f00785946cd24276c5dd075f83a143a3b1e6/data/train-00000-of-00004.parquet"
+}

@@ -1,0 +1,11 @@
+.venv-mac/bin/python -m ruff check open_instruct/portable tests/portable scripts/portable
+warning: Selection `PLC0415` has no effect because preview is not enabled.
+All checks passed!
+.venv-mac/bin/python -m ruff format --check open_instruct/portable tests/portable scripts/portable
+warning: Selection `PLC0415` has no effect because preview is not enabled.
+10 files already formatted
+.venv-mac/bin/python -m compileall -q open_instruct/portable
+/Applications/Xcode.app/Contents/Developer/usr/bin/make mac-test
+PYTHONPATH=. .venv-mac/bin/python -m pytest tests/portable -q
+.................                                                        [100%]
+17 passed in 4.85s

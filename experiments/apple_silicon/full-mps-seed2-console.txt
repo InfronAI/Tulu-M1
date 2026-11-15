@@ -1,0 +1,216 @@
+2026-11-15 12:00:11 - INFO - train.py:351 - base test exact match 0.000
+2026-11-15 12:00:12 - INFO - train.py:86 - sft step 1: {'loss': 5.645752429962158}
+2026-11-15 12:00:12 - INFO - train.py:86 - sft step 10: {'loss': 4.435875177383423}
+2026-11-15 12:00:12 - INFO - train.py:86 - sft step 20: {'loss': 3.5100330114364624}
+2026-11-15 12:00:12 - INFO - train.py:86 - sft step 30: {'loss': 2.708328366279602}
+2026-11-15 12:00:13 - INFO - train.py:86 - sft step 40: {'loss': 2.281290054321289}
+2026-11-15 12:00:13 - INFO - train.py:86 - sft step 50: {'loss': 2.0229411721229553}
+2026-11-15 12:00:13 - INFO - train.py:86 - sft step 60: {'loss': 1.8605189323425293}
+2026-11-15 12:00:14 - INFO - train.py:86 - sft step 70: {'loss': 1.991483747959137}
+2026-11-15 12:00:14 - INFO - train.py:86 - sft step 80: {'loss': 1.7217304706573486}
+2026-11-15 12:00:14 - INFO - train.py:86 - sft step 90: {'loss': 1.1694461107254028}
+2026-11-15 12:00:14 - INFO - train.py:86 - sft step 100: {'loss': 1.5756095051765442}
+2026-11-15 12:00:15 - INFO - train.py:86 - sft step 110: {'loss': 1.3948608040809631}
+2026-11-15 12:00:15 - INFO - train.py:86 - sft step 120: {'loss': 1.5970858335494995}
+2026-11-15 12:00:15 - INFO - train.py:86 - sft step 130: {'loss': 1.2942734956741333}
+2026-11-15 12:00:16 - INFO - train.py:86 - sft step 140: {'loss': 1.7019298672676086}
+2026-11-15 12:00:16 - INFO - train.py:86 - sft step 150: {'loss': 1.1968010067939758}
+2026-11-15 12:00:16 - INFO - train.py:86 - sft step 160: {'loss': 1.5964217782020569}
+2026-11-15 12:00:16 - INFO - train.py:86 - sft step 170: {'loss': 1.3509588241577148}
+2026-11-15 12:00:17 - INFO - train.py:86 - sft step 180: {'loss': 1.172506421804428}
+2026-11-15 12:00:17 - INFO - train.py:86 - sft step 190: {'loss': 1.3900122046470642}
+2026-11-15 12:00:17 - INFO - train.py:86 - sft step 200: {'loss': 1.0557592511177063}
+2026-11-15 12:00:17 - INFO - train.py:86 - sft step 210: {'loss': 1.2245280742645264}
+2026-11-15 12:00:18 - INFO - train.py:86 - sft step 220: {'loss': 1.2785745859146118}
+2026-11-15 12:00:18 - INFO - train.py:86 - sft step 230: {'loss': 1.069015771150589}
+2026-11-15 12:00:18 - INFO - train.py:86 - sft step 240: {'loss': 1.0244002044200897}
+2026-11-15 12:00:19 - INFO - train.py:86 - sft step 250: {'loss': 1.1634446382522583}
+2026-11-15 12:00:19 - INFO - train.py:86 - sft step 260: {'loss': 1.112557590007782}
+2026-11-15 12:00:19 - INFO - train.py:86 - sft step 270: {'loss': 0.8751775026321411}
+2026-11-15 12:00:20 - INFO - train.py:86 - sft step 280: {'loss': 1.0240852534770966}
+2026-11-15 12:00:20 - INFO - train.py:86 - sft step 290: {'loss': 1.0826069116592407}
+2026-11-15 12:00:20 - INFO - train.py:86 - sft step 300: {'loss': 1.0118749141693115}
+2026-11-15 12:00:20 - INFO - train.py:86 - sft step 310: {'loss': 0.8806657791137695}
+2026-11-15 12:00:21 - INFO - train.py:86 - sft step 320: {'loss': 0.7993228435516357}
+2026-11-15 12:00:21 - INFO - train.py:86 - sft step 330: {'loss': 0.9479781985282898}
+2026-11-15 12:00:22 - INFO - train.py:86 - sft step 340: {'loss': 0.8090142011642456}
+2026-11-15 12:00:22 - INFO - train.py:86 - sft step 350: {'loss': 0.9698808789253235}
+2026-11-15 12:00:22 - INFO - train.py:86 - sft step 360: {'loss': 0.9908422231674194}
+2026-11-15 12:00:22 - INFO - train.py:86 - sft step 370: {'loss': 0.7583756744861603}
+2026-11-15 12:00:23 - INFO - train.py:86 - sft step 380: {'loss': 0.8204797804355621}
+2026-11-15 12:00:23 - INFO - train.py:86 - sft step 390: {'loss': 0.5429457426071167}
+2026-11-15 12:00:23 - INFO - train.py:86 - sft step 400: {'loss': 0.6055579483509064}
+2026-11-15 12:00:24 - INFO - train.py:86 - sft step 410: {'loss': 0.6478418111801147}
+2026-11-15 12:00:24 - INFO - train.py:86 - sft step 420: {'loss': 1.0132986307144165}
+2026-11-15 12:00:24 - INFO - train.py:86 - sft step 430: {'loss': 0.5336682796478271}
+2026-11-15 12:00:25 - INFO - train.py:86 - sft step 440: {'loss': 0.7472854554653168}
+2026-11-15 12:00:25 - INFO - train.py:86 - sft step 450: {'loss': 0.6108343005180359}
+2026-11-15 12:00:25 - INFO - train.py:86 - sft step 460: {'loss': 0.5663759112358093}
+2026-11-15 12:00:25 - INFO - train.py:86 - sft step 470: {'loss': 1.1240925788879395}
+2026-11-15 12:00:26 - INFO - train.py:86 - sft step 480: {'loss': 1.4293356537818909}
+2026-11-15 12:00:26 - INFO - train.py:86 - sft step 490: {'loss': 1.0212526619434357}
+2026-11-15 12:00:26 - INFO - train.py:86 - sft step 500: {'loss': 0.6622734665870667}
+2026-11-15 12:00:27 - INFO - train.py:86 - sft step 510: {'loss': 0.4423777461051941}
+2026-11-15 12:00:27 - INFO - train.py:86 - sft step 520: {'loss': 0.5969896465539932}
+2026-11-15 12:00:27 - INFO - train.py:86 - sft step 530: {'loss': 0.8856858015060425}
+2026-11-15 12:00:28 - INFO - train.py:86 - sft step 540: {'loss': 0.4522029459476471}
+2026-11-15 12:00:28 - INFO - train.py:86 - sft step 550: {'loss': 0.460764080286026}
+2026-11-15 12:00:28 - INFO - train.py:86 - sft step 560: {'loss': 0.42158880829811096}
+2026-11-15 12:00:29 - INFO - train.py:86 - sft step 570: {'loss': 0.7625614106655121}
+2026-11-15 12:00:29 - INFO - train.py:86 - sft step 580: {'loss': 0.4150971621274948}
+2026-11-15 12:00:29 - INFO - train.py:86 - sft step 590: {'loss': 0.37030039727687836}
+2026-11-15 12:00:30 - INFO - train.py:86 - sft step 600: {'loss': 0.2709098905324936}
+2026-11-15 12:00:32 - INFO - train.py:351 - sft test exact match 0.438
+2026-11-15 12:00:32 - INFO - train.py:86 - reward_model step 1: {'loss': 0.6830561757087708}
+2026-11-15 12:00:33 - INFO - train.py:86 - reward_model step 10: {'loss': 0.706136018037796}
+2026-11-15 12:00:33 - INFO - train.py:86 - reward_model step 20: {'loss': 0.6789940297603607}
+2026-11-15 12:00:34 - INFO - train.py:86 - reward_model step 30: {'loss': 0.7600250244140625}
+2026-11-15 12:00:34 - INFO - train.py:86 - reward_model step 40: {'loss': 0.6630468368530273}
+2026-11-15 12:00:35 - INFO - train.py:86 - reward_model step 50: {'loss': 0.6759336292743683}
+2026-11-15 12:00:35 - INFO - train.py:86 - reward_model step 60: {'loss': 0.6543310284614563}
+2026-11-15 12:00:36 - INFO - train.py:86 - dpo step 1: {'loss': 0.6931471824645996}
+2026-11-15 12:00:36 - INFO - train.py:86 - dpo step 10: {'loss': 0.44193777441978455}
+2026-11-15 12:00:37 - INFO - train.py:86 - dpo step 20: {'loss': 0.4034585952758789}
+2026-11-15 12:00:37 - INFO - train.py:86 - dpo step 30: {'loss': 0.47990310192108154}
+2026-11-15 12:00:38 - INFO - train.py:86 - dpo step 40: {'loss': 0.2938796728849411}
+2026-11-15 12:00:39 - INFO - train.py:86 - dpo step 50: {'loss': 0.5340035408735275}
+2026-11-15 12:00:39 - INFO - train.py:86 - dpo step 60: {'loss': 0.5590271353721619}
+2026-11-15 12:00:41 - INFO - train.py:351 - dpo test exact match 0.531
+2026-11-15 12:00:42 - INFO - train.py:86 - rlvr step 1: {'epoch': 0, 'loss': 2.5540148448199034, 'policy_loss': -2.60770320892334e-08, 'value_loss': 25.540147244930267, 'verified_rate': 0.25, 'mean_reward': 0.0, 'sampled_kl': -2.3841858265427618e-08, 'response_tokens': 3.75}
+2026-11-15 12:00:42 - INFO - train.py:86 - rlvr step 1: {'epoch': 1, 'loss': 2.515296394005418, 'policy_loss': -0.020267510786652565, 'value_loss': 25.35563999414444, 'verified_rate': 0.25, 'mean_reward': 0.0, 'sampled_kl': -2.3841858265427618e-08, 'response_tokens': 3.75}
+2026-11-15 12:00:42 - INFO - train.py:86 - rlvr step 1: {'epoch': 2, 'loss': 2.4768158979713917, 'policy_loss': -0.04016985930502415, 'value_loss': 25.169858396053314, 'verified_rate': 0.25, 'mean_reward': 0.0, 'sampled_kl': -2.3841858265427618e-08, 'response_tokens': 3.75}
+2026-11-15 12:00:42 - INFO - train.py:86 - rlvr step 1: {'epoch': 3, 'loss': 2.4563033310696483, 'policy_loss': -0.050128598348237574, 'value_loss': 25.064319789409637, 'verified_rate': 0.25, 'mean_reward': 0.0, 'sampled_kl': -2.3841858265427618e-08, 'response_tokens': 3.75}
+2026-11-15 12:00:46 - INFO - train.py:86 - rlvr step 10: {'epoch': 0, 'loss': 2.2163606882095337, 'policy_loss': 7.636845111846924e-08, 'value_loss': 22.16360569000244, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.023348277434706688, 'response_tokens': 2.75}
+2026-11-15 12:00:46 - INFO - train.py:86 - rlvr step 10: {'epoch': 1, 'loss': 2.206109046936035, 'policy_loss': -0.0011377464979887009, 'value_loss': 22.07246685028076, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.023348277434706688, 'response_tokens': 2.75}
+2026-11-15 12:00:46 - INFO - train.py:86 - rlvr step 10: {'epoch': 2, 'loss': 2.194030284881592, 'policy_loss': -0.0024127494543790817, 'value_loss': 21.964428901672363, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.023348277434706688, 'response_tokens': 2.75}
+2026-11-15 12:00:46 - INFO - train.py:86 - rlvr step 10: {'epoch': 3, 'loss': 2.1804330348968506, 'policy_loss': -0.0038084015250205994, 'value_loss': 21.842413902282715, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.023348277434706688, 'response_tokens': 2.75}
+2026-11-15 12:00:49 - INFO - train.py:86 - rlvr step 20: {'epoch': 0, 'loss': 2.3998299837112427, 'policy_loss': -5.960464477539063e-08, 'value_loss': 23.99830150604248, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.03964470699429512, 'response_tokens': 2.75}
+2026-11-15 12:00:49 - INFO - train.py:86 - rlvr step 20: {'epoch': 1, 'loss': 2.390157103538513, 'policy_loss': -0.0014240071177482605, 'value_loss': 23.915809631347656, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.03964470699429512, 'response_tokens': 2.75}
+2026-11-15 12:00:49 - INFO - train.py:86 - rlvr step 20: {'epoch': 2, 'loss': 2.3785008788108826, 'policy_loss': -0.003427363932132721, 'value_loss': 23.81928253173828, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.03964470699429512, 'response_tokens': 2.75}
+2026-11-15 12:00:49 - INFO - train.py:86 - rlvr step 20: {'epoch': 3, 'loss': 2.365132212638855, 'policy_loss': -0.005937471985816956, 'value_loss': 23.710697174072266, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.03964470699429512, 'response_tokens': 2.75}
+2026-11-15 12:00:53 - INFO - train.py:86 - rlvr step 30: {'epoch': 0, 'loss': 1.0352493524551392, 'policy_loss': 5.960464477539063e-08, 'value_loss': 10.352493643760681, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 0.08175734430551529, 'response_tokens': 3.25}
+2026-11-15 12:00:53 - INFO - train.py:86 - rlvr step 30: {'epoch': 1, 'loss': 1.029469072818756, 'policy_loss': -0.0005087852478027344, 'value_loss': 10.299778133630753, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 0.08175734430551529, 'response_tokens': 3.25}
+2026-11-15 12:00:53 - INFO - train.py:86 - rlvr step 30: {'epoch': 2, 'loss': 1.0227893590927124, 'policy_loss': -0.0012603998184204102, 'value_loss': 10.24049761891365, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 0.08175734430551529, 'response_tokens': 3.25}
+2026-11-15 12:00:53 - INFO - train.py:86 - rlvr step 30: {'epoch': 3, 'loss': 1.015345185995102, 'policy_loss': -0.0022170543670654297, 'value_loss': 10.175621688365936, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 0.08175734430551529, 'response_tokens': 3.25}
+2026-11-15 12:00:56 - INFO - train.py:86 - rlvr step 40: {'epoch': 0, 'loss': 0.173044353723526, 'policy_loss': -4.470348358154297e-08, 'value_loss': 1.7304438054561615, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': 0.047960299998521805, 'response_tokens': 3.25}
+2026-11-15 12:00:56 - INFO - train.py:86 - rlvr step 40: {'epoch': 1, 'loss': 0.17073701322078705, 'policy_loss': -0.00414961576461792, 'value_loss': 1.7488661706447601, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': 0.047960299998521805, 'response_tokens': 3.25}
+2026-11-15 12:00:56 - INFO - train.py:86 - rlvr step 40: {'epoch': 2, 'loss': 0.1654304414987564, 'policy_loss': -0.01073215901851654, 'value_loss': 1.761625975370407, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': 0.047960299998521805, 'response_tokens': 3.25}
+2026-11-15 12:00:56 - INFO - train.py:86 - rlvr step 40: {'epoch': 3, 'loss': 0.15738968551158905, 'policy_loss': -0.019536525011062622, 'value_loss': 1.7692621648311615, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': 0.047960299998521805, 'response_tokens': 3.25}
+2026-11-15 12:00:58 - INFO - train.py:351 - rlvr test exact match 0.562
+{
+  "device": "mps",
+  "parameters": 124864,
+  "resolved_revision": null,
+  "elapsed_seconds": 50.487271416932344,
+  "dataset_sha256": "9c0bc26d12a4e83e1dbda986e0bf2f7967f6c53a0be94e12b38815326992b965",
+  "evaluations": {
+    "base": {
+      "validation": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.375,
+        "response_nll": 5.621472358703613,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.0,
+        "preference_accuracy": 0.53125,
+        "response_nll": 5.642327785491943,
+        "count": 32
+      }
+    },
+    "sft": {
+      "validation": {
+        "exact_match": 0.4375,
+        "preference_accuracy": 0.78125,
+        "response_nll": 0.7299875617027283,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.4375,
+        "preference_accuracy": 0.75,
+        "response_nll": 0.9410113096237183,
+        "count": 32
+      }
+    },
+    "dpo": {
+      "validation": {
+        "exact_match": 0.5,
+        "preference_accuracy": 0.75,
+        "response_nll": 0.7848641872406006,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.53125,
+        "preference_accuracy": 0.75,
+        "response_nll": 1.0512676239013672,
+        "count": 32
+      }
+    },
+    "rlvr": {
+      "validation": {
+        "exact_match": 0.5,
+        "preference_accuracy": 0.75,
+        "response_nll": 0.7168875336647034,
+        "count": 32
+      },
+      "test": {
+        "exact_match": 0.5625,
+        "preference_accuracy": 0.71875,
+        "response_nll": 0.9728033542633057,
+        "count": 32
+      }
+    }
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "chip": "Apple M1 Pro",
+    "mps_available": true,
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.55.4",
+      "numpy": "2.2.6"
+    },
+    "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+    "git_dirty": true,
+    "utc": "2026-11-15T04:00:08.327264+00:00",
+    "source_sha256": {
+      "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+      "open_instruct/portable/__main__.py": "47137e87cec8fe7a4d2ff5912ade8c6e1e517ef1b54bb59b6a245fdcc2e9525e",
+      "open_instruct/portable/data.py": "8f26e79b19a924505fdd75aa9582f1f02b2798519447df50700da8c31b212b91",
+      "open_instruct/portable/model.py": "1ccd95548d7525a8c99f825ecc16850c9425fb0fcb9ea75757e16d705bd78808",
+      "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+      "open_instruct/portable/train.py": "6c8dc39fce43ea08d9d51aafa70b21200ad97b7ecdf807fde639f98fc8ea2f51"
+    }
+  },
+  "config": {
+    "model": "tiny",
+    "revision": "main",
+    "device": "mps",
+    "seed": 2,
+    "sft_steps": 600,
+    "rm_steps": 60,
+    "dpo_steps": 60,
+    "rlvr_steps": 40,
+    "batch_size": 4,
+    "micro_batch_size": 2,
+    "max_length": 128,
+    "max_new_tokens": 5,
+    "learning_rate": 0.001,
+    "preference_lr": 0.0001,
+    "rlvr_lr": 3e-05,
+    "dpo_beta": 5.0,
+    "kl_beta": 0.05,
+    "reward_scale": 10.0,
+    "missing_eos_penalty": -10.0,
+    "ppo_epochs": 4,
+    "normalize_dpo": true,
+    "skip_dpo": false,
+    "value_from_rm": true,
+    "cpu_threads": 4
+  },
+  "peak_process_rss_bytes": 591511552,
+  "scope": "Synthetic workflow validation; not a paper benchmark reproduction",
+  "status": "completed"
+}

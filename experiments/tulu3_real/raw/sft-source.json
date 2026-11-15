@@ -1,0 +1,6 @@
+{
+  "repo": "allenai/tulu-3-sft-mixture",
+  "revision": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+  "file": "data/train-00000-of-00006.parquet",
+  "local_cache": "/Users/apple/.cache/huggingface/hub/datasets--allenai--tulu-3-sft-mixture/snapshots/b14afda60f1bbebe55d5d2fa1e4df5042f97f8be/data/train-00000-of-00006.parquet"
+}

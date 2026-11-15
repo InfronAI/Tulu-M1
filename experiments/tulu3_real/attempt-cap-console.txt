@@ -1,0 +1,122 @@
+2026-11-15 13:53:54 - INFO - train.py:348 - Evaluation progress: 4/24
+2026-11-15 13:53:58 - INFO - train.py:348 - Evaluation progress: 8/24
+2026-11-15 13:54:02 - INFO - train.py:348 - Evaluation progress: 12/24
+2026-11-15 13:54:05 - INFO - train.py:348 - Evaluation progress: 16/24
+2026-11-15 13:54:09 - INFO - train.py:348 - Evaluation progress: 20/24
+2026-11-15 13:54:12 - INFO - train.py:348 - Evaluation progress: 24/24
+2026-11-15 13:54:16 - INFO - train.py:348 - Evaluation progress: 4/72
+2026-11-15 13:54:19 - INFO - train.py:348 - Evaluation progress: 8/72
+2026-11-15 13:54:23 - INFO - train.py:348 - Evaluation progress: 12/72
+2026-11-15 13:54:26 - INFO - train.py:348 - Evaluation progress: 16/72
+2026-11-15 13:54:30 - INFO - train.py:348 - Evaluation progress: 20/72
+2026-11-15 13:54:34 - INFO - train.py:348 - Evaluation progress: 24/72
+2026-11-15 13:54:37 - INFO - train.py:348 - Evaluation progress: 28/72
+2026-11-15 13:54:41 - INFO - train.py:348 - Evaluation progress: 32/72
+2026-11-15 13:54:45 - INFO - train.py:348 - Evaluation progress: 36/72
+2026-11-15 13:54:49 - INFO - train.py:348 - Evaluation progress: 40/72
+2026-11-15 13:54:53 - INFO - train.py:348 - Evaluation progress: 44/72
+2026-11-15 13:54:58 - INFO - train.py:348 - Evaluation progress: 48/72
+2026-11-15 13:55:02 - INFO - train.py:348 - Evaluation progress: 52/72
+2026-11-15 13:55:06 - INFO - train.py:348 - Evaluation progress: 56/72
+2026-11-15 13:55:10 - INFO - train.py:348 - Evaluation progress: 60/72
+2026-11-15 13:55:14 - INFO - train.py:348 - Evaluation progress: 64/72
+2026-11-15 13:55:18 - INFO - train.py:348 - Evaluation progress: 68/72
+2026-11-15 13:55:21 - INFO - train.py:348 - Evaluation progress: 72/72
+2026-11-15 13:55:22 - INFO - train.py:425 - base test exact match 0.069
+2026-11-15 13:55:23 - INFO - train.py:94 - sft step 1: {'loss': 2.2689254879951477, 'learning_rate': 5.555555555555555e-07}
+2026-11-15 13:55:32 - INFO - train.py:94 - sft step 10: {'loss': 1.2604931890964508, 'learning_rate': 5e-06}
+2026-11-15 13:55:42 - INFO - train.py:94 - sft step 20: {'loss': 2.1862734258174896, 'learning_rate': 4.42528735632184e-06}
+2026-11-15 13:55:51 - INFO - train.py:94 - sft step 30: {'loss': 1.057107798755169, 'learning_rate': 3.850574712643678e-06}
+2026-11-15 13:56:00 - INFO - train.py:94 - sft step 40: {'loss': 1.7193787097930908, 'learning_rate': 3.2758620689655175e-06}
+2026-11-15 13:56:09 - INFO - train.py:94 - sft step 50: {'loss': 0.7076012343168259, 'learning_rate': 2.7011494252873567e-06}
+2026-11-15 13:56:18 - INFO - train.py:94 - sft step 60: {'loss': 1.3232369162142277, 'learning_rate': 2.1264367816091954e-06}
+2026-11-15 13:56:28 - INFO - train.py:94 - sft step 70: {'loss': 1.6127090528607368, 'learning_rate': 1.5517241379310346e-06}
+2026-11-15 13:56:37 - INFO - train.py:94 - sft step 80: {'loss': 3.1378502249717712, 'learning_rate': 9.770114942528738e-07}
+2026-11-15 13:56:44 - INFO - train.py:94 - sft step 90: {'loss': 1.1809337139129639, 'learning_rate': 4.0229885057471266e-07}
+2026-11-15 13:56:54 - INFO - train.py:348 - Evaluation progress: 4/24
+2026-11-15 13:56:58 - INFO - train.py:348 - Evaluation progress: 8/24
+2026-11-15 13:57:02 - INFO - train.py:348 - Evaluation progress: 12/24
+2026-11-15 13:57:06 - INFO - train.py:348 - Evaluation progress: 16/24
+2026-11-15 13:57:09 - INFO - train.py:348 - Evaluation progress: 20/24
+2026-11-15 13:57:13 - INFO - train.py:348 - Evaluation progress: 24/24
+2026-11-15 13:57:17 - INFO - train.py:348 - Evaluation progress: 4/72
+2026-11-15 13:57:20 - INFO - train.py:348 - Evaluation progress: 8/72
+2026-11-15 13:57:24 - INFO - train.py:348 - Evaluation progress: 12/72
+2026-11-15 13:57:29 - INFO - train.py:348 - Evaluation progress: 16/72
+2026-11-15 13:57:33 - INFO - train.py:348 - Evaluation progress: 20/72
+2026-11-15 13:57:37 - INFO - train.py:348 - Evaluation progress: 24/72
+2026-11-15 13:57:41 - INFO - train.py:348 - Evaluation progress: 28/72
+2026-11-15 13:57:45 - INFO - train.py:348 - Evaluation progress: 32/72
+2026-11-15 13:57:49 - INFO - train.py:348 - Evaluation progress: 36/72
+2026-11-15 13:57:53 - INFO - train.py:348 - Evaluation progress: 40/72
+2026-11-15 13:57:57 - INFO - train.py:348 - Evaluation progress: 44/72
+2026-11-15 13:58:01 - INFO - train.py:348 - Evaluation progress: 48/72
+2026-11-15 13:58:05 - INFO - train.py:348 - Evaluation progress: 52/72
+2026-11-15 13:58:08 - INFO - train.py:348 - Evaluation progress: 56/72
+2026-11-15 13:58:12 - INFO - train.py:348 - Evaluation progress: 60/72
+2026-11-15 13:58:16 - INFO - train.py:348 - Evaluation progress: 64/72
+2026-11-15 13:58:20 - INFO - train.py:348 - Evaluation progress: 68/72
+2026-11-15 13:58:23 - INFO - train.py:348 - Evaluation progress: 72/72
+2026-11-15 13:58:23 - INFO - train.py:425 - sft test exact match 0.014
+2026-11-15 13:58:29 - INFO - train.py:94 - reward_model step 1: {'loss': 0.6944608986377716, 'learning_rate': 1.25e-07}
+2026-11-15 13:58:40 - INFO - train.py:94 - reward_model step 10: {'loss': 0.672509640455246, 'learning_rate': 4.4318181818181817e-07}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/__main__.py", line 102, in <module>
+    main()
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/__main__.py", line 85, in main
+    result = train.run(cfg, data.load(args.data), args.output)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/train.py", line 430, in run
+    value = train_reward(lm, tokenizer, dataset["preference"], cfg, device, recorder)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/train.py", line 169, in train_reward
+    values = value(tokens, attention)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/open_instruct/portable/model.py", line 86, in forward
+    hidden = self.backbone(input_ids=tokens, attention_mask=attention, use_cache=False).last_hidden_state
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/transformers/utils/generic.py", line 1083, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 390, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 289, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 248, in forward
+    attn_output, attn_weights = attention_interface(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-instruct/.venv-mac-real/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py", line 89, in sdpa_attention_forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: MPS backend out of memory (MPS allocated: 6.82 GiB, other allocations: 3.62 MiB, max allowed: 6.51 GiB). Tried to allocate 2.81 MiB on shared pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

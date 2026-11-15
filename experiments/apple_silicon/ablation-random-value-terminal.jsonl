@@ -1,0 +1,217 @@
+{"seconds": 0, "text": "$ /Users/apple/Projects/open-instruct/.venv-mac/bin/python -m open_instruct.portable run --config /Users/apple/Projects/open-instruct/experiments/apple_silicon/configs/ablation-random-value.json --output /Users/apple/Projects/open-instruct/experiments/apple_silicon/ablation-random-value"}
+{"seconds": 5.8869505831971765, "text": "2026-11-15 12:04:40 - INFO - train.py:351 - base test exact match 0.000"}
+{"seconds": 6.222666333429515, "text": "2026-11-15 12:04:41 - INFO - train.py:86 - sft step 1: {'loss': 5.55661153793335}"}
+{"seconds": 6.657390125095844, "text": "2026-11-15 12:04:41 - INFO - train.py:86 - sft step 10: {'loss': 4.41099739074707}"}
+{"seconds": 6.988040124997497, "text": "2026-11-15 12:04:42 - INFO - train.py:86 - sft step 20: {'loss': 3.4630069732666016}"}
+{"seconds": 7.252451125066727, "text": "2026-11-15 12:04:42 - INFO - train.py:86 - sft step 30: {'loss': 2.8343546390533447}"}
+{"seconds": 7.520681125111878, "text": "2026-11-15 12:04:42 - INFO - train.py:86 - sft step 40: {'loss': 2.1000547409057617}"}
+{"seconds": 7.773652208037674, "text": "2026-11-15 12:04:42 - INFO - train.py:86 - sft step 50: {'loss': 1.9690808653831482}"}
+{"seconds": 8.058985250070691, "text": "2026-11-15 12:04:43 - INFO - train.py:86 - sft step 60: {'loss': 1.741943120956421}"}
+{"seconds": 8.317573416046798, "text": "2026-11-15 12:04:43 - INFO - train.py:86 - sft step 70: {'loss': 1.5587335228919983}"}
+{"seconds": 8.5779844163917, "text": "2026-11-15 12:04:43 - INFO - train.py:86 - sft step 80: {'loss': 1.5096330046653748}"}
+{"seconds": 8.849785375408828, "text": "2026-11-15 12:04:43 - INFO - train.py:86 - sft step 90: {'loss': 1.5568926334381104}"}
+{"seconds": 9.112549416255206, "text": "2026-11-15 12:04:44 - INFO - train.py:86 - sft step 100: {'loss': 1.4520793557167053}"}
+{"seconds": 9.367049458436668, "text": "2026-11-15 12:04:44 - INFO - train.py:86 - sft step 110: {'loss': 1.417830765247345}"}
+{"seconds": 9.618195958435535, "text": "2026-11-15 12:04:44 - INFO - train.py:86 - sft step 120: {'loss': 1.4567297101020813}"}
+{"seconds": 9.878060708288103, "text": "2026-11-15 12:04:44 - INFO - train.py:86 - sft step 130: {'loss': 1.233599841594696}"}
+{"seconds": 10.131199333351105, "text": "2026-11-15 12:04:45 - INFO - train.py:86 - sft step 140: {'loss': 1.3633286356925964}"}
+{"seconds": 10.384316791314632, "text": "2026-11-15 12:04:45 - INFO - train.py:86 - sft step 150: {'loss': 1.475504755973816}"}
+{"seconds": 10.651186041068286, "text": "2026-11-15 12:04:45 - INFO - train.py:86 - sft step 160: {'loss': 1.2045837044715881}"}
+{"seconds": 10.921379541046917, "text": "2026-11-15 12:04:46 - INFO - train.py:86 - sft step 170: {'loss': 1.1410285234451294}"}
+{"seconds": 11.182598291430622, "text": "2026-11-15 12:04:46 - INFO - train.py:86 - sft step 180: {'loss': 1.1701745390892029}"}
+{"seconds": 11.436319291125983, "text": "2026-11-15 12:04:46 - INFO - train.py:86 - sft step 190: {'loss': 2.0881527066230774}"}
+{"seconds": 11.701106625143439, "text": "2026-11-15 12:04:46 - INFO - train.py:86 - sft step 200: {'loss': 1.3589698672294617}"}
+{"seconds": 11.954137791413814, "text": "2026-11-15 12:04:47 - INFO - train.py:86 - sft step 210: {'loss': 1.5609888434410095}"}
+{"seconds": 12.206612458452582, "text": "2026-11-15 12:04:47 - INFO - train.py:86 - sft step 220: {'loss': 1.182868242263794}"}
+{"seconds": 12.473263000138104, "text": "2026-11-15 12:04:47 - INFO - train.py:86 - sft step 230: {'loss': 1.0371049642562866}"}
+{"seconds": 12.736109583172947, "text": "2026-11-15 12:04:47 - INFO - train.py:86 - sft step 240: {'loss': 1.225853443145752}"}
+{"seconds": 12.988631666172296, "text": "2026-11-15 12:04:48 - INFO - train.py:86 - sft step 250: {'loss': 1.1880740523338318}"}
+{"seconds": 13.241216708440334, "text": "2026-11-15 12:04:48 - INFO - train.py:86 - sft step 260: {'loss': 0.9378251433372498}"}
+{"seconds": 13.496227250434458, "text": "2026-11-15 12:04:48 - INFO - train.py:86 - sft step 270: {'loss': 1.1956292390823364}"}
+{"seconds": 13.752019250299782, "text": "2026-11-15 12:04:48 - INFO - train.py:86 - sft step 280: {'loss': 1.2017003893852234}"}
+{"seconds": 14.007486041169614, "text": "2026-11-15 12:04:49 - INFO - train.py:86 - sft step 290: {'loss': 1.2131780982017517}"}
+{"seconds": 14.261900291312486, "text": "2026-11-15 12:04:49 - INFO - train.py:86 - sft step 300: {'loss': 1.1630380153656006}"}
+{"seconds": 14.515259041450918, "text": "2026-11-15 12:04:49 - INFO - train.py:86 - sft step 310: {'loss': 1.1496165692806244}"}
+{"seconds": 14.771939333062619, "text": "2026-11-15 12:04:49 - INFO - train.py:86 - sft step 320: {'loss': 0.7985221445560455}"}
+{"seconds": 15.030689541250467, "text": "2026-11-15 12:04:50 - INFO - train.py:86 - sft step 330: {'loss': 1.196239948272705}"}
+{"seconds": 15.28672833321616, "text": "2026-11-15 12:04:50 - INFO - train.py:86 - sft step 340: {'loss': 1.0467187464237213}"}
+{"seconds": 15.54015054134652, "text": "2026-11-15 12:04:50 - INFO - train.py:86 - sft step 350: {'loss': 0.8292417526245117}"}
+{"seconds": 15.790480625350028, "text": "2026-11-15 12:04:50 - INFO - train.py:86 - sft step 360: {'loss': 1.005880206823349}"}
+{"seconds": 16.0461182910949, "text": "2026-11-15 12:04:51 - INFO - train.py:86 - sft step 370: {'loss': 0.9954076707363129}"}
+{"seconds": 16.325774000026286, "text": "2026-11-15 12:04:51 - INFO - train.py:86 - sft step 380: {'loss': 0.7639263570308685}"}
+{"seconds": 16.58127662539482, "text": "2026-11-15 12:04:51 - INFO - train.py:86 - sft step 390: {'loss': 0.9200170040130615}"}
+{"seconds": 16.839320583269, "text": "2026-11-15 12:04:51 - INFO - train.py:86 - sft step 400: {'loss': 0.5345975160598755}"}
+{"seconds": 17.095433375332505, "text": "2026-11-15 12:04:52 - INFO - train.py:86 - sft step 410: {'loss': 0.8322374820709229}"}
+{"seconds": 17.34774912521243, "text": "2026-11-15 12:04:52 - INFO - train.py:86 - sft step 420: {'loss': 0.5484615862369537}"}
+{"seconds": 17.605434250086546, "text": "2026-11-15 12:04:52 - INFO - train.py:86 - sft step 430: {'loss': 0.6496392786502838}"}
+{"seconds": 17.86765033332631, "text": "2026-11-15 12:04:52 - INFO - train.py:86 - sft step 440: {'loss': 0.5314671546220779}"}
+{"seconds": 18.258822416421026, "text": "2026-11-15 12:04:53 - INFO - train.py:86 - sft step 450: {'loss': 0.650500625371933}"}
+{"seconds": 18.58538558334112, "text": "2026-11-15 12:04:53 - INFO - train.py:86 - sft step 460: {'loss': 0.5881244242191315}"}
+{"seconds": 18.862107750028372, "text": "2026-11-15 12:04:53 - INFO - train.py:86 - sft step 470: {'loss': 0.8725948333740234}"}
+{"seconds": 19.131134583149105, "text": "2026-11-15 12:04:54 - INFO - train.py:86 - sft step 480: {'loss': 0.8590845465660095}"}
+{"seconds": 19.403190666344017, "text": "2026-11-15 12:04:54 - INFO - train.py:86 - sft step 490: {'loss': 0.6529413014650345}"}
+{"seconds": 19.66471187537536, "text": "2026-11-15 12:04:54 - INFO - train.py:86 - sft step 500: {'loss': 0.4950564280152321}"}
+{"seconds": 19.92095358343795, "text": "2026-11-15 12:04:55 - INFO - train.py:86 - sft step 510: {'loss': 0.4411503076553345}"}
+{"seconds": 20.2420575004071, "text": "2026-11-15 12:04:55 - INFO - train.py:86 - sft step 520: {'loss': 0.939109742641449}"}
+{"seconds": 20.51269366638735, "text": "2026-11-15 12:04:55 - INFO - train.py:86 - sft step 530: {'loss': 0.43027256429195404}"}
+{"seconds": 20.769433541223407, "text": "2026-11-15 12:04:55 - INFO - train.py:86 - sft step 540: {'loss': 0.35085025429725647}"}
+{"seconds": 21.073024541139603, "text": "2026-11-15 12:04:56 - INFO - train.py:86 - sft step 550: {'loss': 0.7695338726043701}"}
+{"seconds": 21.419048666022718, "text": "2026-11-15 12:04:56 - INFO - train.py:86 - sft step 560: {'loss': 0.7711464762687683}"}
+{"seconds": 21.74627308314666, "text": "2026-11-15 12:04:56 - INFO - train.py:86 - sft step 570: {'loss': 0.4118756800889969}"}
+{"seconds": 22.00792891625315, "text": "2026-11-15 12:04:57 - INFO - train.py:86 - sft step 580: {'loss': 0.4535520672798157}"}
+{"seconds": 22.40054495818913, "text": "2026-11-15 12:04:57 - INFO - train.py:86 - sft step 590: {'loss': 0.25502073019742966}"}
+{"seconds": 22.693769541103393, "text": "2026-11-15 12:04:57 - INFO - train.py:86 - sft step 600: {'loss': 0.5986489951610565}"}
+{"seconds": 24.39535175031051, "text": "2026-11-15 12:04:59 - INFO - train.py:351 - sft test exact match 0.562"}
+{"seconds": 24.555968958418816, "text": "2026-11-15 12:04:59 - INFO - train.py:86 - reward_model step 1: {'loss': 0.6967772245407104}"}
+{"seconds": 25.010642083361745, "text": "2026-11-15 12:05:00 - INFO - train.py:86 - reward_model step 10: {'loss': 0.6890217661857605}"}
+{"seconds": 25.474025666248053, "text": "2026-11-15 12:05:00 - INFO - train.py:86 - reward_model step 20: {'loss': 0.6948065161705017}"}
+{"seconds": 25.91246183309704, "text": "2026-11-15 12:05:01 - INFO - train.py:86 - reward_model step 30: {'loss': 0.6843251585960388}"}
+{"seconds": 26.35814645839855, "text": "2026-11-15 12:05:01 - INFO - train.py:86 - reward_model step 40: {'loss': 0.6922684013843536}"}
+{"seconds": 26.799305041320622, "text": "2026-11-15 12:05:01 - INFO - train.py:86 - reward_model step 50: {'loss': 0.7136159539222717}"}
+{"seconds": 27.23164162505418, "text": "2026-11-15 12:05:02 - INFO - train.py:86 - reward_model step 60: {'loss': 0.6984685957431793}"}
+{"seconds": 27.767054291442037, "text": "2026-11-15 12:05:02 - INFO - train.py:86 - dpo step 1: {'loss': 0.6931471824645996}"}
+{"seconds": 28.18258750019595, "text": "2026-11-15 12:05:03 - INFO - train.py:86 - dpo step 10: {'loss': 0.4007241427898407}"}
+{"seconds": 28.645662708207965, "text": "2026-11-15 12:05:03 - INFO - train.py:86 - dpo step 20: {'loss': 0.15962575748562813}"}
+{"seconds": 29.12757912511006, "text": "2026-11-15 12:05:04 - INFO - train.py:86 - dpo step 30: {'loss': 0.4890719950199127}"}
+{"seconds": 29.70862904144451, "text": "2026-11-15 12:05:04 - INFO - train.py:86 - dpo step 40: {'loss': 0.12839337438344955}"}
+{"seconds": 30.183751500211656, "text": "2026-11-15 12:05:05 - INFO - train.py:86 - dpo step 50: {'loss': 0.16590090841054916}"}
+{"seconds": 30.67658158345148, "text": "2026-11-15 12:05:05 - INFO - train.py:86 - dpo step 60: {'loss': 0.20220762491226196}"}
+{"seconds": 32.265997333452106, "text": "2026-11-15 12:05:07 - INFO - train.py:351 - dpo test exact match 0.500"}
+{"seconds": 32.60628875019029, "text": "2026-11-15 12:05:07 - INFO - train.py:86 - rlvr step 1: {'epoch': 0, 'loss': 0.9071658253669739, 'policy_loss': -2.9802322387695312e-08, 'value_loss': 9.071657657623291, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 6.793997897602821e-08, 'response_tokens': 2.5}"}
+{"seconds": 32.65465825004503, "text": "2026-11-15 12:05:07 - INFO - train.py:86 - rlvr step 1: {'epoch': 1, 'loss': 0.8765325546264648, 'policy_loss': -0.02234727144241333, 'value_loss': 8.988798007369041, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 6.793997897602821e-08, 'response_tokens': 2.5}"}
+{"seconds": 32.70230262540281, "text": "2026-11-15 12:05:07 - INFO - train.py:86 - rlvr step 1: {'epoch': 2, 'loss': 0.8518774509429932, 'policy_loss': -0.03867369890213013, 'value_loss': 8.905511677265167, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 6.793997897602821e-08, 'response_tokens': 2.5}"}
+{"seconds": 32.75518966605887, "text": "2026-11-15 12:05:07 - INFO - train.py:86 - rlvr step 1: {'epoch': 3, 'loss': 0.8287988305091858, 'policy_loss': -0.05341696739196777, 'value_loss': 8.822158247232437, 'verified_rate': 0.25, 'mean_reward': 2.5, 'sampled_kl': 6.793997897602821e-08, 'response_tokens': 2.5}"}
+{"seconds": 35.66516579128802, "text": "2026-11-15 12:05:10 - INFO - train.py:86 - rlvr step 10: {'epoch': 0, 'loss': 0.04753827303647995, 'policy_loss': -4.470348358154297e-08, 'value_loss': 0.47538310289382935, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.01984214596450329, 'response_tokens': 3.25}"}
+{"seconds": 35.71233016625047, "text": "2026-11-15 12:05:10 - INFO - train.py:86 - rlvr step 10: {'epoch': 1, 'loss': 0.047707006335258484, 'policy_loss': -0.0010482817888259888, 'value_loss': 0.48755283653736115, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.01984214596450329, 'response_tokens': 3.25}"}
+{"seconds": 35.76067154109478, "text": "2026-11-15 12:05:10 - INFO - train.py:86 - rlvr step 10: {'epoch': 2, 'loss': 0.04648639261722565, 'policy_loss': -0.0032412782311439514, 'value_loss': 0.497276708483696, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.01984214596450329, 'response_tokens': 3.25}"}
+{"seconds": 35.808831500355154, "text": "2026-11-15 12:05:10 - INFO - train.py:86 - rlvr step 10: {'epoch': 3, 'loss': 0.04413966089487076, 'policy_loss': -0.006328992545604706, 'value_loss': 0.5046865493059158, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.01984214596450329, 'response_tokens': 3.25}"}
+{"seconds": 39.100243125110865, "text": "2026-11-15 12:05:14 - INFO - train.py:86 - rlvr step 20: {'epoch': 0, 'loss': 2.2119009494781494, 'policy_loss': -2.9802322387695312e-08, 'value_loss': 22.11901092529297, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.01526480820029974, 'response_tokens': 3.25}"}
+{"seconds": 39.15453950036317, "text": "2026-11-15 12:05:14 - INFO - train.py:86 - rlvr step 20: {'epoch': 1, 'loss': 2.199145793914795, 'policy_loss': -0.0012548156082630157, 'value_loss': 22.00400733947754, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.01526480820029974, 'response_tokens': 3.25}"}
+{"seconds": 39.2075765831396, "text": "2026-11-15 12:05:14 - INFO - train.py:86 - rlvr step 20: {'epoch': 2, 'loss': 2.1820363998413086, 'policy_loss': -0.0033497363328933716, 'value_loss': 21.853862762451172, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.01526480820029974, 'response_tokens': 3.25}"}
+{"seconds": 39.25865420838818, "text": "2026-11-15 12:05:14 - INFO - train.py:86 - rlvr step 20: {'epoch': 3, 'loss': 2.161625623703003, 'policy_loss': -0.0061630979180336, 'value_loss': 21.677885055541992, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': 0.01526480820029974, 'response_tokens': 3.25}"}
+{"seconds": 42.414329250343144, "text": "2026-11-15 12:05:17 - INFO - train.py:86 - rlvr step 30: {'epoch': 0, 'loss': 2.2429755479097366, 'policy_loss': 8.940696716308594e-08, 'value_loss': 22.42975515127182, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.8283833265304565, 'response_tokens': 3.75}"}
+{"seconds": 42.46147020813078, "text": "2026-11-15 12:05:17 - INFO - train.py:86 - rlvr step 30: {'epoch': 1, 'loss': 2.230005145072937, 'policy_loss': -0.012556701898574829, 'value_loss': 22.42561823129654, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.8283833265304565, 'response_tokens': 3.75}"}
+{"seconds": 42.50860795844346, "text": "2026-11-15 12:05:17 - INFO - train.py:86 - rlvr step 30: {'epoch': 2, 'loss': 2.215653270483017, 'policy_loss': -0.02482268214225769, 'value_loss': 22.404760539531708, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.8283833265304565, 'response_tokens': 3.75}"}
+{"seconds": 42.555391166359186, "text": "2026-11-15 12:05:17 - INFO - train.py:86 - rlvr step 30: {'epoch': 3, 'loss': 2.2025735527276993, 'policy_loss': -0.03234604001045227, 'value_loss': 22.349194824695587, 'verified_rate': 0.0, 'mean_reward': -2.5, 'sampled_kl': 0.8283833265304565, 'response_tokens': 3.75}"}
+{"seconds": 45.882472708355635, "text": "2026-11-15 12:05:20 - INFO - train.py:86 - rlvr step 40: {'epoch': 0, 'loss': 0.22120380401611328, 'policy_loss': 8.940696716308594e-08, 'value_loss': 2.2120373249053955, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.13078346848487854, 'response_tokens': 2.5}"}
+{"seconds": 45.93348295800388, "text": "2026-11-15 12:05:21 - INFO - train.py:86 - rlvr step 40: {'epoch': 1, 'loss': 0.21629196405410767, 'policy_loss': -0.005942255258560181, 'value_loss': 2.222342312335968, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.13078346848487854, 'response_tokens': 2.5}"}
+{"seconds": 45.983866333030164, "text": "2026-11-15 12:05:21 - INFO - train.py:86 - rlvr step 40: {'epoch': 2, 'loss': 0.20649400353431702, 'policy_loss': -0.01633089780807495, 'value_loss': 2.228249430656433, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.13078346848487854, 'response_tokens': 2.5}"}
+{"seconds": 46.03390745818615, "text": "2026-11-15 12:05:21 - INFO - train.py:86 - rlvr step 40: {'epoch': 3, 'loss': 0.19213417172431946, 'policy_loss': -0.03089192509651184, 'value_loss': 2.2302610278129578, 'verified_rate': 0.0, 'mean_reward': 0.0, 'sampled_kl': -0.13078346848487854, 'response_tokens': 2.5}"}
+{"seconds": 47.63620858313516, "text": "2026-11-15 12:05:22 - INFO - train.py:351 - rlvr test exact match 0.562"}
+{"seconds": 47.64784404123202, "text": "{"}
+{"seconds": 47.647874041460454, "text": "  \"device\": \"mps\","}
+{"seconds": 47.647884000092745, "text": "  \"parameters\": 124864,"}
+{"seconds": 47.647891625296324, "text": "  \"resolved_revision\": null,"}
+{"seconds": 47.64790983311832, "text": "  \"elapsed_seconds\": 45.046595375053585,"}
+{"seconds": 47.6479172911495, "text": "  \"dataset_sha256\": \"9c0bc26d12a4e83e1dbda986e0bf2f7967f6c53a0be94e12b38815326992b965\","}
+{"seconds": 47.64792741602287, "text": "  \"evaluations\": {"}
+{"seconds": 47.64793395809829, "text": "    \"base\": {"}
+{"seconds": 47.64794050017372, "text": "      \"validation\": {"}
+{"seconds": 47.64794670837, "text": "        \"exact_match\": 0.0,"}
+{"seconds": 47.64795287512243, "text": "        \"preference_accuracy\": 0.3125,"}
+{"seconds": 47.6479588332586, "text": "        \"response_nll\": 5.541769027709961,"}
+{"seconds": 47.64796495810151, "text": "        \"count\": 32"}
+{"seconds": 47.6479707499966, "text": "      },"}
+{"seconds": 47.64797712536529, "text": "      \"test\": {"}
+{"seconds": 47.64798333309591, "text": "        \"exact_match\": 0.0,"}
+{"seconds": 47.64798991614953, "text": "        \"preference_accuracy\": 0.53125,"}
+{"seconds": 47.64799570804462, "text": "        \"response_nll\": 5.530548095703125,"}
+{"seconds": 47.64800216630101, "text": "        \"count\": 32"}
+{"seconds": 47.648007958196104, "text": "      }"}
+{"seconds": 47.64801379106939, "text": "    },"}
+{"seconds": 47.64801987539977, "text": "    \"sft\": {"}
+{"seconds": 47.64802566636354, "text": "      \"validation\": {"}
+{"seconds": 47.64803195837885, "text": "        \"exact_match\": 0.4375,"}
+{"seconds": 47.648038000334054, "text": "        \"preference_accuracy\": 0.84375,"}
+{"seconds": 47.64804462529719, "text": "        \"response_nll\": 0.7505733966827393,"}
+{"seconds": 47.6480507501401, "text": "        \"count\": 32"}
+{"seconds": 47.648056666366756, "text": "      },"}
+{"seconds": 47.64806250017136, "text": "      \"test\": {"}
+{"seconds": 47.64806816633791, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 47.648074250202626, "text": "        \"preference_accuracy\": 0.71875,"}
+{"seconds": 47.648080041166395, "text": "        \"response_nll\": 0.8647798895835876,"}
+{"seconds": 47.648085666354746, "text": "        \"count\": 32"}
+{"seconds": 47.64809116628021, "text": "      }"}
+{"seconds": 47.64809683337808, "text": "    },"}
+{"seconds": 47.64810275007039, "text": "    \"dpo\": {"}
+{"seconds": 47.648108875378966, "text": "      \"validation\": {"}
+{"seconds": 47.64811470825225, "text": "        \"exact_match\": 0.40625,"}
+{"seconds": 47.64812037535012, "text": "        \"preference_accuracy\": 0.9375,"}
+{"seconds": 47.64812600007281, "text": "        \"response_nll\": 0.9490667581558228,"}
+{"seconds": 47.64813158335164, "text": "        \"count\": 32"}
+{"seconds": 47.64813704136759, "text": "      },"}
+{"seconds": 47.648142707999796, "text": "      \"test\": {"}
+{"seconds": 47.64814858324826, "text": "        \"exact_match\": 0.5,"}
+{"seconds": 47.64815429132432, "text": "        \"preference_accuracy\": 0.75,"}
+{"seconds": 47.648160125128925, "text": "        \"response_nll\": 1.0675361156463623,"}
+{"seconds": 47.648165833204985, "text": "        \"count\": 32"}
+{"seconds": 47.648174041416496, "text": "      }"}
+{"seconds": 47.6481797080487, "text": "    },"}
+{"seconds": 47.64818545803428, "text": "    \"rlvr\": {"}
+{"seconds": 47.64819120801985, "text": "      \"validation\": {"}
+{"seconds": 47.64819691609591, "text": "        \"exact_match\": 0.5,"}
+{"seconds": 47.64820258319378, "text": "        \"preference_accuracy\": 0.90625,"}
+{"seconds": 47.64820845844224, "text": "        \"response_nll\": 0.8806594610214233,"}
+{"seconds": 47.648213958367705, "text": "        \"count\": 32"}
+{"seconds": 47.64822616614401, "text": "      },"}
+{"seconds": 47.64823237527162, "text": "      \"test\": {"}
+{"seconds": 47.64823816623539, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 47.648243833333254, "text": "        \"preference_accuracy\": 0.75,"}
+{"seconds": 47.64824941614643, "text": "        \"response_nll\": 1.0594446659088135,"}
+{"seconds": 47.64825545810163, "text": "        \"count\": 32"}
+{"seconds": 47.64826137525961, "text": "      }"}
+{"seconds": 47.64826695807278, "text": "    }"}
+{"seconds": 47.64827237511054, "text": "  },"}
+{"seconds": 47.648277833126485, "text": "  \"environment\": {"}
+{"seconds": 47.64828350022435, "text": "    \"python\": \"3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]\","}
+{"seconds": 47.64828983321786, "text": "    \"platform\": \"macOS-26.6.1-arm64-arm-64bit\","}
+{"seconds": 47.64829554129392, "text": "    \"machine\": \"arm64\","}
+{"seconds": 47.64830141607672, "text": "    \"chip\": \"Apple M1 Pro\","}
+{"seconds": 47.6483071250841, "text": "    \"mps_available\": true,"}
+{"seconds": 47.648313000332564, "text": "    \"packages\": {"}
+{"seconds": 47.648318875115365, "text": "      \"torch\": \"2.8.0\","}
+{"seconds": 47.64832475036383, "text": "      \"transformers\": \"4.55.4\","}
+{"seconds": 47.64833070803434, "text": "      \"numpy\": \"2.2.6\""}
+{"seconds": 47.648336625192314, "text": "    },"}
+{"seconds": 47.648342583328485, "text": "    \"git_commit\": \"28c1816664491493242d453c2c7280ee56e6c20a\","}
+{"seconds": 47.64834875008091, "text": "    \"git_dirty\": true,"}
+{"seconds": 47.648354625329375, "text": "    \"utc\": \"2026-11-15T04:04:37.623123+00:00\","}
+{"seconds": 47.64836045820266, "text": "    \"source_sha256\": {"}
+{"seconds": 47.64836637536064, "text": "      \"open_instruct/portable/__init__.py\": \"1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08\","}
+{"seconds": 47.64837320800871, "text": "      \"open_instruct/portable/__main__.py\": \"47137e87cec8fe7a4d2ff5912ade8c6e1e517ef1b54bb59b6a245fdcc2e9525e\","}
+{"seconds": 47.648379458114505, "text": "      \"open_instruct/portable/data.py\": \"8f26e79b19a924505fdd75aa9582f1f02b2798519447df50700da8c31b212b91\","}
+{"seconds": 47.64838558342308, "text": "      \"open_instruct/portable/model.py\": \"1ccd95548d7525a8c99f825ecc16850c9425fb0fcb9ea75757e16d705bd78808\","}
+{"seconds": 47.64839129103348, "text": "      \"open_instruct/portable/objectives.py\": \"63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5\","}
+{"seconds": 47.64841045811772, "text": "      \"open_instruct/portable/train.py\": \"6c8dc39fce43ea08d9d51aafa70b21200ad97b7ecdf807fde639f98fc8ea2f51\""}
+{"seconds": 47.64841679111123, "text": "    }"}
+{"seconds": 47.648422291036695, "text": "  },"}
+{"seconds": 47.64842787524685, "text": "  \"config\": {"}
+{"seconds": 47.64843366621062, "text": "    \"model\": \"tiny\","}
+{"seconds": 47.648439375218004, "text": "    \"revision\": \"main\","}
+{"seconds": 47.64844483323395, "text": "    \"device\": \"mps\","}
+{"seconds": 47.64845020836219, "text": "    \"seed\": 1,"}
+{"seconds": 47.64845604123548, "text": "    \"sft_steps\": 600,"}
+{"seconds": 47.64846191601828, "text": "    \"rm_steps\": 60,"}
+{"seconds": 47.64846737543121, "text": "    \"dpo_steps\": 60,"}
+{"seconds": 47.64847291633487, "text": "    \"rlvr_steps\": 40,"}
+{"seconds": 47.64847887540236, "text": "    \"batch_size\": 4,"}
+{"seconds": 47.648484791163355, "text": "    \"micro_batch_size\": 2,"}
+{"seconds": 47.64849037537351, "text": "    \"max_length\": 128,"}
+{"seconds": 47.64849591627717, "text": "    \"max_new_tokens\": 5,"}
+{"seconds": 47.648501666262746, "text": "    \"learning_rate\": 0.001,"}
+{"seconds": 47.64850754104555, "text": "    \"preference_lr\": 0.0001,"}
+{"seconds": 47.64851358300075, "text": "    \"rlvr_lr\": 3e-05,"}
+{"seconds": 47.648519333451986, "text": "    \"dpo_beta\": 5.0,"}
+{"seconds": 47.64852516632527, "text": "    \"kl_beta\": 0.05,"}
+{"seconds": 47.64853100012988, "text": "    \"reward_scale\": 10.0,"}
+{"seconds": 47.648540125228465, "text": "    \"missing_eos_penalty\": -10.0,"}
+{"seconds": 47.64854612527415, "text": "    \"ppo_epochs\": 4,"}
+{"seconds": 47.64855191623792, "text": "    \"normalize_dpo\": true,"}
+{"seconds": 47.6485574580729, "text": "    \"skip_dpo\": false,"}
+{"seconds": 47.64856316614896, "text": "    \"value_from_rm\": false,"}
+{"seconds": 47.64856845838949, "text": "    \"cpu_threads\": 4"}
+{"seconds": 47.648574041202664, "text": "  },"}
+{"seconds": 47.648579500149935, "text": "  \"peak_process_rss_bytes\": 630407168,"}
+{"seconds": 47.64858550019562, "text": "  \"scope\": \"Synthetic workflow validation; not a paper benchmark reproduction\","}
+{"seconds": 47.64859129115939, "text": "  \"status\": \"completed\""}
+{"seconds": 47.64859675010666, "text": "}"}

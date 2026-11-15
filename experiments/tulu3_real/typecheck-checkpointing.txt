@@ -1,0 +1,7 @@
+warning[renamed-rule]: Rule `unresolved-import` has been renamed to `import-not-found`
+   --> pyproject.toml:241:1
+    |
+241 | unresolved-import = "ignore"
+    | ^^^^^^^^^^^^^^^^^
+
+Found 1 diagnostic

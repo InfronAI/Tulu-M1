@@ -1,0 +1,17 @@
+{
+  "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "chip": "Apple M1 Pro",
+  "mps_available": true,
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "4.55.4",
+    "numpy": "2.2.6"
+  },
+  "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+  "git_dirty": true,
+  "utc": "2026-11-15T05:35:35.460937+00:00",
+  "cpu_backward_ok": true,
+  "mps_backward_ok": true
+}

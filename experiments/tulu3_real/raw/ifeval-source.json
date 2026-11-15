@@ -1,0 +1,6 @@
+{
+  "repo": "google/IFEval",
+  "revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+  "file": "ifeval_input_data.jsonl",
+  "local_cache": "/Users/apple/.cache/huggingface/hub/datasets--google--IFEval/snapshots/966cd89545d6b6acfd7638bc708b98261ca58e84/ifeval_input_data.jsonl"
+}

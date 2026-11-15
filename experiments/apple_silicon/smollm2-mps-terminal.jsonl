@@ -1,0 +1,131 @@
+{"seconds": 0, "text": "$ /Users/apple/Projects/open-instruct/.venv-mac/bin/python -m open_instruct.portable run --config /Users/apple/Projects/open-instruct/experiments/apple_silicon/configs/smollm2-mps.json --output /Users/apple/Projects/open-instruct/experiments/apple_silicon/smollm2-mps"}
+{"seconds": 53.844633124768734, "text": "2026-11-15 12:06:17 - INFO - train.py:351 - base test exact match 0.000"}
+{"seconds": 55.33778866706416, "text": "2026-11-15 12:06:18 - INFO - train.py:86 - sft step 1: {'loss': 3.9342087507247925}"}
+{"seconds": 58.29465000005439, "text": "2026-11-15 12:06:21 - INFO - train.py:86 - sft step 10: {'loss': 0.7813231945037842}"}
+{"seconds": 61.56847675004974, "text": "2026-11-15 12:06:24 - INFO - train.py:86 - sft step 20: {'loss': 0.4821917712688446}"}
+{"seconds": 73.30070654163137, "text": "2026-11-15 12:06:36 - INFO - train.py:351 - sft test exact match 0.562"}
+{"seconds": 75.25594312464818, "text": "2026-11-15 12:06:38 - INFO - train.py:86 - reward_model step 1: {'loss': 0.6794726848602295}"}
+{"seconds": 86.02997187478468, "text": "2026-11-15 12:06:49 - INFO - train.py:86 - dpo step 1: {'loss': 0.6931471824645996}"}
+{"seconds": 102.05843974975869, "text": "2026-11-15 12:07:05 - INFO - train.py:351 - dpo test exact match 0.562"}
+{"seconds": 105.52792491670698, "text": "2026-11-15 12:07:08 - INFO - train.py:86 - rlvr step 1: {'epoch': 0, 'loss': 1.4005641341209412, 'policy_loss': 0.0, 'value_loss': 14.00564181804657, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': -1.595282446942292e-05, 'response_tokens': 3.5}"}
+{"seconds": 106.54170708404854, "text": "2026-11-15 12:07:09 - INFO - train.py:86 - rlvr step 1: {'epoch': 1, 'loss': 1.341105580329895, 'policy_loss': -0.022194743156433105, 'value_loss': 13.63300335407257, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': -1.595282446942292e-05, 'response_tokens': 3.5}"}
+{"seconds": 108.30989987496287, "text": "2026-11-15 12:07:11 - INFO - train.py:86 - rlvr step 1: {'epoch': 2, 'loss': 1.3063509464263916, 'policy_loss': -0.025783240795135498, 'value_loss': 13.321340680122375, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': -1.595282446942292e-05, 'response_tokens': 3.5}"}
+{"seconds": 108.96117033390328, "text": "2026-11-15 12:07:12 - INFO - train.py:86 - rlvr step 1: {'epoch': 3, 'loss': 1.2976680994033813, 'policy_loss': -0.031198620796203613, 'value_loss': 13.288666427135468, 'verified_rate': 0.5, 'mean_reward': 5.0, 'sampled_kl': -1.595282446942292e-05, 'response_tokens': 3.5}"}
+{"seconds": 132.63361424999312, "text": "2026-11-15 12:07:35 - INFO - train.py:351 - rlvr test exact match 0.562"}
+{"seconds": 132.69430112466216, "text": "{"}
+{"seconds": 132.69432979170233, "text": "  \"device\": \"mps\","}
+{"seconds": 132.69436216680333, "text": "  \"parameters\": 134515008,"}
+{"seconds": 132.69437141669914, "text": "  \"resolved_revision\": \"93efa2f097d58c2a74874c7e644dbc9b0cee75a2\","}
+{"seconds": 132.69438062468544, "text": "  \"elapsed_seconds\": 105.7499111671932,"}
+{"seconds": 132.69439037470147, "text": "  \"dataset_sha256\": \"9c0bc26d12a4e83e1dbda986e0bf2f7967f6c53a0be94e12b38815326992b965\","}
+{"seconds": 132.69439883390442, "text": "  \"evaluations\": {"}
+{"seconds": 132.69440658390522, "text": "    \"base\": {"}
+{"seconds": 132.69441454205662, "text": "      \"validation\": {"}
+{"seconds": 132.69442199962214, "text": "        \"exact_match\": 0.0,"}
+{"seconds": 132.69442941667512, "text": "        \"preference_accuracy\": 0.71875,"}
+{"seconds": 132.6944367918186, "text": "        \"response_nll\": 4.688947677612305,"}
+{"seconds": 132.69444441702217, "text": "        \"count\": 32"}
+{"seconds": 132.69445154163986, "text": "      },"}
+{"seconds": 132.6944587919861, "text": "      \"test\": {"}
+{"seconds": 132.6944662919268, "text": "        \"exact_match\": 0.0,"}
+{"seconds": 132.69447349989787, "text": "        \"preference_accuracy\": 0.78125,"}
+{"seconds": 132.69448062498122, "text": "        \"response_nll\": 4.657083988189697,"}
+{"seconds": 132.69448775006458, "text": "        \"count\": 32"}
+{"seconds": 132.69449504185468, "text": "      }"}
+{"seconds": 132.69451754167676, "text": "    },"}
+{"seconds": 132.69452483393252, "text": "    \"sft\": {"}
+{"seconds": 132.69453174993396, "text": "      \"validation\": {"}
+{"seconds": 132.69453866686672, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 132.69454524992034, "text": "        \"preference_accuracy\": 0.875,"}
+{"seconds": 132.69455399969593, "text": "        \"response_nll\": 0.6807096004486084,"}
+{"seconds": 132.69456087471917, "text": "        \"count\": 32"}
+{"seconds": 132.694567583967, "text": "      },"}
+{"seconds": 132.69457424990833, "text": "      \"test\": {"}
+{"seconds": 132.69458091678098, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 132.69458779180422, "text": "        \"preference_accuracy\": 0.90625,"}
+{"seconds": 132.69459466682747, "text": "        \"response_nll\": 0.6608937978744507,"}
+{"seconds": 132.6946012498811, "text": "        \"count\": 32"}
+{"seconds": 132.69460783386603, "text": "      }"}
+{"seconds": 132.69461433403194, "text": "    },"}
+{"seconds": 132.694621542003, "text": "    \"dpo\": {"}
+{"seconds": 132.69462983403355, "text": "      \"validation\": {"}
+{"seconds": 132.6946378336288, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 132.6946457917802, "text": "        \"preference_accuracy\": 0.875,"}
+{"seconds": 132.69466308364645, "text": "        \"response_nll\": 0.8272140622138977,"}
+{"seconds": 132.69468929199502, "text": "        \"count\": 32"}
+{"seconds": 132.6947009586729, "text": "      },"}
+{"seconds": 132.69470962462947, "text": "      \"test\": {"}
+{"seconds": 132.6947178337723, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 132.69472566666082, "text": "        \"preference_accuracy\": 0.9375,"}
+{"seconds": 132.69473366672173, "text": "        \"response_nll\": 0.8574498891830444,"}
+{"seconds": 132.6947410418652, "text": "        \"count\": 32"}
+{"seconds": 132.69474841700867, "text": "      }"}
+{"seconds": 132.69475666666403, "text": "    },"}
+{"seconds": 132.6947641246952, "text": "    \"rlvr\": {"}
+{"seconds": 132.69477074965835, "text": "      \"validation\": {"}
+{"seconds": 132.69477766705677, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 132.69478454161435, "text": "        \"preference_accuracy\": 0.84375,"}
+{"seconds": 132.69479129184037, "text": "        \"response_nll\": 0.782418429851532,"}
+{"seconds": 132.6947981249541, "text": "        \"count\": 32"}
+{"seconds": 132.69480525003746, "text": "      },"}
+{"seconds": 132.69481208361685, "text": "      \"test\": {"}
+{"seconds": 132.69481862476096, "text": "        \"exact_match\": 0.5625,"}
+{"seconds": 132.69482537498698, "text": "        \"preference_accuracy\": 0.9375,"}
+{"seconds": 132.6948330416344, "text": "        \"response_nll\": 0.7923495769500732,"}
+{"seconds": 132.69484129175544, "text": "        \"count\": 32"}
+{"seconds": 132.69484987482429, "text": "      }"}
+{"seconds": 132.69486483372748, "text": "    }"}
+{"seconds": 132.6948933750391, "text": "  },"}
+{"seconds": 132.69490470876917, "text": "  \"environment\": {"}
+{"seconds": 132.69491312466562, "text": "    \"python\": \"3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]\","}
+{"seconds": 132.69492141669616, "text": "    \"platform\": \"macOS-26.6.1-arm64-arm-64bit\","}
+{"seconds": 132.69492925005034, "text": "    \"machine\": \"arm64\","}
+{"seconds": 132.69493674999103, "text": "    \"chip\": \"Apple M1 Pro\","}
+{"seconds": 132.69494437472895, "text": "    \"mps_available\": true,"}
+{"seconds": 132.6949513340369, "text": "    \"packages\": {"}
+{"seconds": 132.69495829194784, "text": "      \"torch\": \"2.8.0\","}
+{"seconds": 132.6949651669711, "text": "      \"transformers\": \"4.55.4\","}
+{"seconds": 132.69497229205444, "text": "      \"numpy\": \"2.2.6\""}
+{"seconds": 132.6949791247025, "text": "    },"}
+{"seconds": 132.69498637504876, "text": "    \"git_commit\": \"28c1816664491493242d453c2c7280ee56e6c20a\","}
+{"seconds": 132.69499337486923, "text": "    \"git_dirty\": true,"}
+{"seconds": 132.69499987503514, "text": "    \"utc\": \"2026-11-15T04:05:25.844267+00:00\","}
+{"seconds": 132.69502137461677, "text": "    \"source_sha256\": {"}
+{"seconds": 132.6950297090225, "text": "      \"open_instruct/portable/__init__.py\": \"1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08\","}
+{"seconds": 132.69504266697913, "text": "      \"open_instruct/portable/__main__.py\": \"47137e87cec8fe7a4d2ff5912ade8c6e1e517ef1b54bb59b6a245fdcc2e9525e\","}
+{"seconds": 132.695049458649, "text": "      \"open_instruct/portable/data.py\": \"8f26e79b19a924505fdd75aa9582f1f02b2798519447df50700da8c31b212b91\","}
+{"seconds": 132.69505558395758, "text": "      \"open_instruct/portable/model.py\": \"1ccd95548d7525a8c99f825ecc16850c9425fb0fcb9ea75757e16d705bd78808\","}
+{"seconds": 132.69506162498146, "text": "      \"open_instruct/portable/objectives.py\": \"63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5\","}
+{"seconds": 132.69551358371973, "text": "      \"open_instruct/portable/train.py\": \"6c8dc39fce43ea08d9d51aafa70b21200ad97b7ecdf807fde639f98fc8ea2f51\""}
+{"seconds": 132.69552208390087, "text": "    }"}
+{"seconds": 132.69552849978209, "text": "  },"}
+{"seconds": 132.69553474988788, "text": "  \"config\": {"}
+{"seconds": 132.6955410838127, "text": "    \"model\": \"HuggingFaceTB/SmolLM2-135M\","}
+{"seconds": 132.69554770877585, "text": "    \"revision\": \"93efa2f097d58c2a74874c7e644dbc9b0cee75a2\","}
+{"seconds": 132.69555412465706, "text": "    \"device\": \"auto\","}
+{"seconds": 132.69556024996564, "text": "    \"seed\": 1,"}
+{"seconds": 132.69556633383036, "text": "    \"sft_steps\": 20,"}
+{"seconds": 132.69557220861316, "text": "    \"rm_steps\": 8,"}
+{"seconds": 132.69557820865884, "text": "    \"dpo_steps\": 8,"}
+{"seconds": 132.69558416679502, "text": "    \"rlvr_steps\": 4,"}
+{"seconds": 132.69558987487108, "text": "    \"batch_size\": 2,"}
+{"seconds": 132.69559579202905, "text": "    \"micro_batch_size\": 1,"}
+{"seconds": 132.69560179160908, "text": "    \"max_length\": 256,"}
+{"seconds": 132.69561983365566, "text": "    \"max_new_tokens\": 8,"}
+{"seconds": 132.69563683401793, "text": "    \"learning_rate\": 1e-05,"}
+{"seconds": 132.6956438748166, "text": "    \"preference_lr\": 5e-06,"}
+{"seconds": 132.69564995868132, "text": "    \"rlvr_lr\": 1e-06,"}
+{"seconds": 132.695655958727, "text": "    \"dpo_beta\": 5.0,"}
+{"seconds": 132.69566325005144, "text": "    \"kl_beta\": 0.05,"}
+{"seconds": 132.69572112476453, "text": "    \"reward_scale\": 10.0,"}
+{"seconds": 132.69573808368295, "text": "    \"missing_eos_penalty\": -10.0,"}
+{"seconds": 132.6957469168119, "text": "    \"ppo_epochs\": 4,"}
+{"seconds": 132.69575533363968, "text": "    \"normalize_dpo\": true,"}
+{"seconds": 132.69576241681352, "text": "    \"skip_dpo\": false,"}
+{"seconds": 132.69576895888895, "text": "    \"value_from_rm\": true,"}
+{"seconds": 132.69577562483028, "text": "    \"cpu_threads\": 4"}
+{"seconds": 132.6957823750563, "text": "  },"}
+{"seconds": 132.69578883377835, "text": "  \"peak_process_rss_bytes\": 1359282176,"}
+{"seconds": 132.69579504197463, "text": "  \"scope\": \"Synthetic workflow validation; not a paper benchmark reproduction\","}
+{"seconds": 132.69580149976537, "text": "  \"status\": \"completed\""}
+{"seconds": 132.69580733403563, "text": "}"}

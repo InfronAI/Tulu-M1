@@ -1,0 +1,2241 @@
+{
+  "dataset_sha256": "5cca768f62402799b760a482f5cf6401d33ba132fe4e08a067a4f72d5680e2c0",
+  "metric": "length-normalized chosen likelihood > rejected likelihood",
+  "source_sha256": {
+    "open_instruct/IFEvalG/instructions.py": "ad89968ab6fab66ea5b3a52f8e9864a5a91cea54fbcb45834d51896698e50359",
+    "open_instruct/IFEvalG/instructions_registry.py": "269ad2a86aaf5ce4c347ee41e3ef55a03b32cad74497b80aa0f76389c28a2a5d",
+    "open_instruct/IFEvalG/instructions_util.py": "b0b21dd189474071c027cc377e7132dcbf7a6c921def4440b3d1df8eccffdcd9",
+    "open_instruct/if_functions.py": "9a0912f3475ce3b48b82b017bebb6f31bad443a2699e4277d7739bffe1f16f19",
+    "open_instruct/math_utils.py": "4a4c5bee26ed681cd5f911ce3a00a4fc153791ecab8eb8a6ae756d954bbf715d",
+    "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+    "open_instruct/portable/__main__.py": "0cbdf11e3211126128eb3b20ebda8443d0f967eb46bd5fcd71b5b077ad6aec5c",
+    "open_instruct/portable/data.py": "8030a3ac96178e521d1a58f3af1764d143c640dc321e5e68b0ae08942d554993",
+    "open_instruct/portable/model.py": "288f163062f68f7eb705e98107a81547874b4ca41470bbc7aa119d7f6635a0c8",
+    "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+    "open_instruct/portable/train.py": "0f4e71fd650ebba9679c8655419b7186969c75ad8578a8b3df1454f328365616",
+    "open_instruct/portable/verifiers.py": "1d0709b6b2b3756623b58c4a0509d71293f2ecc206ab2ed183b28743dda18302",
+    "scripts/portable/prepare_real_data.py": "189ee053bda4c3800a8c375c0a4fe4da53712213361eba7e5bc5212cc1def661",
+    "scripts/portable/real_experiments.py": "cf5e268eb7c32099382c0d3c4de1835d064b283900734f0d49ee5288a674b245"
+  },
+  "script_sha256": "6ec703488896b228e81fb4b11a850ead71fb5dc26c256a6ab3a7ba0d29b5c1fb",
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "chip": "Apple M1 Pro",
+    "mps_available": true,
+    "packages": {
+      "torch": "2.15.0",
+      "transformers": "4.55.4",
+      "numpy": "2.2.6"
+    },
+    "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+    "git_dirty": true,
+    "utc": "2026-11-15T07:19:17.753082+00:00"
+  },
+  "device": "cpu",
+  "runs": {
+    "main-seed1": {
+      "base": {
+        "count": 16,
+        "accuracy": 0.625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3608980178833008,
+            "rejected_logp": -1.5053783655166626,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2438247203826904,
+            "rejected_logp": -2.2809736728668213,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.120835781097412,
+            "rejected_logp": -2.2079529762268066,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9304355382919312,
+            "rejected_logp": -1.5690385103225708,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5021519660949707,
+            "rejected_logp": -2.1119704246520996,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6602098941802979,
+            "rejected_logp": -2.497331142425537,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.4738922119140625,
+            "rejected_logp": -1.3893396854400635,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8345800042152405,
+            "rejected_logp": -0.514366626739502,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.1135928630828857,
+            "rejected_logp": -2.9743683338165283,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2745543718338013,
+            "rejected_logp": -1.0943138599395752,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0606348514556885,
+            "rejected_logp": -1.9008139371871948,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9571149349212646,
+            "rejected_logp": -1.1439297199249268,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6656439304351807,
+            "rejected_logp": -2.7535340785980225,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.7082935571670532,
+            "rejected_logp": -2.1050407886505127,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6126500368118286,
+            "rejected_logp": -1.8142473697662354,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.272329568862915,
+            "rejected_logp": -2.033522844314575,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206"
+      },
+      "sft": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3505723476409912,
+            "rejected_logp": -1.497330665588379,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.231724500656128,
+            "rejected_logp": -2.2351865768432617,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9856162071228027,
+            "rejected_logp": -2.149946928024292,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.92386794090271,
+            "rejected_logp": -1.5342950820922852,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3984671831130981,
+            "rejected_logp": -1.9704533815383911,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.58881676197052,
+            "rejected_logp": -2.271029233932495,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.080550670623779,
+            "rejected_logp": -1.2681111097335815,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8046877384185791,
+            "rejected_logp": -0.4645238518714905,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.040817975997925,
+            "rejected_logp": -2.9035418033599854,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2337242364883423,
+            "rejected_logp": -1.0577409267425537,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.002206325531006,
+            "rejected_logp": -1.8338172435760498,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8999040722846985,
+            "rejected_logp": -1.0898399353027344,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.626044988632202,
+            "rejected_logp": -2.616136312484741,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6140105724334717,
+            "rejected_logp": -2.075887680053711,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.600731611251831,
+            "rejected_logp": -1.7809721231460571,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.235046148300171,
+            "rejected_logp": -2.0281550884246826,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "1b2c0f55d0b2677483372fcda2b05ee2f01c6a350d2f4122a36533a89a2757a5"
+      },
+      "dpo": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.350637674331665,
+            "rejected_logp": -1.4974595308303833,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.231754779815674,
+            "rejected_logp": -2.235250949859619,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9865063428878784,
+            "rejected_logp": -2.150078773498535,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9240784645080566,
+            "rejected_logp": -1.5343958139419556,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3988254070281982,
+            "rejected_logp": -1.9721260070800781,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5888832807540894,
+            "rejected_logp": -2.274291515350342,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.087649822235107,
+            "rejected_logp": -1.2695292234420776,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8047326803207397,
+            "rejected_logp": -0.46457672119140625,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0413451194763184,
+            "rejected_logp": -2.907193660736084,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2337291240692139,
+            "rejected_logp": -1.0577547550201416,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0025131702423096,
+            "rejected_logp": -1.8339331150054932,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8998631834983826,
+            "rejected_logp": -1.0904110670089722,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.626392364501953,
+            "rejected_logp": -2.617588996887207,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6146270036697388,
+            "rejected_logp": -2.076064348220825,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.600948691368103,
+            "rejected_logp": -1.781205177307129,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.235440254211426,
+            "rejected_logp": -2.0284013748168945,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "ab9e4e3e0e91e4fcbf811dd9f3e47027ed6c350f2ab40e3b243efafddf915e63"
+      },
+      "rlvr": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3504843711853027,
+            "rejected_logp": -1.497458815574646,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2314579486846924,
+            "rejected_logp": -2.2350175380706787,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9860904216766357,
+            "rejected_logp": -2.149707555770874,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9243881702423096,
+            "rejected_logp": -1.5344446897506714,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3987946510314941,
+            "rejected_logp": -1.9725723266601562,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.588320016860962,
+            "rejected_logp": -2.274880886077881,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.088647842407227,
+            "rejected_logp": -1.2683361768722534,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8049400448799133,
+            "rejected_logp": -0.4639360308647156,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.040787935256958,
+            "rejected_logp": -2.906543016433716,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2339332103729248,
+            "rejected_logp": -1.057955026626587,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.001500368118286,
+            "rejected_logp": -1.833117127418518,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8996561765670776,
+            "rejected_logp": -1.0895696878433228,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6263108253479004,
+            "rejected_logp": -2.6177337169647217,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6138975620269775,
+            "rejected_logp": -2.0757648944854736,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6011818647384644,
+            "rejected_logp": -1.781485915184021,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2357165813446045,
+            "rejected_logp": -2.0282466411590576,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "85ea984ed8b8095b89f0a9f0cf57e0283cb88d0e804d64da39aac671fb4412c8"
+      }
+    },
+    "main-seed2": {
+      "base": {
+        "count": 16,
+        "accuracy": 0.625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3608980178833008,
+            "rejected_logp": -1.5053783655166626,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2438247203826904,
+            "rejected_logp": -2.2809736728668213,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.120835781097412,
+            "rejected_logp": -2.2079529762268066,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9304355382919312,
+            "rejected_logp": -1.5690385103225708,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5021519660949707,
+            "rejected_logp": -2.1119704246520996,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6602098941802979,
+            "rejected_logp": -2.497331142425537,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.4738922119140625,
+            "rejected_logp": -1.3893396854400635,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8345800042152405,
+            "rejected_logp": -0.514366626739502,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.1135928630828857,
+            "rejected_logp": -2.9743683338165283,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2745543718338013,
+            "rejected_logp": -1.0943138599395752,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0606348514556885,
+            "rejected_logp": -1.9008139371871948,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9571149349212646,
+            "rejected_logp": -1.1439297199249268,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6656439304351807,
+            "rejected_logp": -2.7535340785980225,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.7082935571670532,
+            "rejected_logp": -2.1050407886505127,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6126500368118286,
+            "rejected_logp": -1.8142473697662354,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.272329568862915,
+            "rejected_logp": -2.033522844314575,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206"
+      },
+      "sft": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3510112762451172,
+            "rejected_logp": -1.4996123313903809,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.23190975189209,
+            "rejected_logp": -2.2356913089752197,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9892699718475342,
+            "rejected_logp": -2.1510138511657715,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9235934019088745,
+            "rejected_logp": -1.534469485282898,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.4023525714874268,
+            "rejected_logp": -1.9697070121765137,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.591857671737671,
+            "rejected_logp": -2.2723824977874756,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.071608543395996,
+            "rejected_logp": -1.2700077295303345,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8040363788604736,
+            "rejected_logp": -0.46573925018310547,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0429282188415527,
+            "rejected_logp": -2.8977277278900146,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2336212396621704,
+            "rejected_logp": -1.0575095415115356,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.00298810005188,
+            "rejected_logp": -1.836221694946289,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9010058641433716,
+            "rejected_logp": -1.0892603397369385,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6275837421417236,
+            "rejected_logp": -2.62037992477417,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6163668632507324,
+            "rejected_logp": -2.0771970748901367,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6009849309921265,
+            "rejected_logp": -1.7814019918441772,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2360877990722656,
+            "rejected_logp": -2.0307252407073975,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "dc9dcf27aa42c4e8317aaee9452612786088acb4ee7d21d3d171d996782d042b"
+      },
+      "dpo": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3510868549346924,
+            "rejected_logp": -1.4998313188552856,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.231816530227661,
+            "rejected_logp": -2.235480308532715,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9900844097137451,
+            "rejected_logp": -2.1508753299713135,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9238601922988892,
+            "rejected_logp": -1.5343257188796997,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.402295708656311,
+            "rejected_logp": -1.9710220098495483,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5912832021713257,
+            "rejected_logp": -2.276224136352539,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.0804948806762695,
+            "rejected_logp": -1.2719032764434814,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8037949204444885,
+            "rejected_logp": -0.46568578481674194,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.042992115020752,
+            "rejected_logp": -2.904167413711548,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2335708141326904,
+            "rejected_logp": -1.0575581789016724,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.00319766998291,
+            "rejected_logp": -1.8361316919326782,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9010093808174133,
+            "rejected_logp": -1.0895957946777344,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.627861261367798,
+            "rejected_logp": -2.621819257736206,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6165717840194702,
+            "rejected_logp": -2.077233076095581,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6009877920150757,
+            "rejected_logp": -1.7815403938293457,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2366390228271484,
+            "rejected_logp": -2.0313191413879395,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "2e043b49c637312926a683dff6527bd2f7d965de74f8cd0a271e736e57212490"
+      },
+      "rlvr": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3511488437652588,
+            "rejected_logp": -1.4995133876800537,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.231600522994995,
+            "rejected_logp": -2.2352914810180664,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9893635511398315,
+            "rejected_logp": -2.1511318683624268,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9235327243804932,
+            "rejected_logp": -1.5339277982711792,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.4018443822860718,
+            "rejected_logp": -1.9690841436386108,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5911469459533691,
+            "rejected_logp": -2.2724409103393555,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.068587779998779,
+            "rejected_logp": -1.270669937133789,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8037604093551636,
+            "rejected_logp": -0.46458739042282104,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.042414426803589,
+            "rejected_logp": -2.902853488922119,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2331167459487915,
+            "rejected_logp": -1.0576066970825195,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0026156902313232,
+            "rejected_logp": -1.8357644081115723,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9004481434822083,
+            "rejected_logp": -1.0889979600906372,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6277894973754883,
+            "rejected_logp": -2.622462034225464,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6165236234664917,
+            "rejected_logp": -2.077122449874878,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6009445190429688,
+            "rejected_logp": -1.7818502187728882,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2364301681518555,
+            "rejected_logp": -2.031243085861206,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "7281c9cbfb6fc7b270d41068de5fa8206ca254a7151ca8598552954ef49a5650"
+      }
+    },
+    "main-seed3": {
+      "base": {
+        "count": 16,
+        "accuracy": 0.625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3608980178833008,
+            "rejected_logp": -1.5053783655166626,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2438247203826904,
+            "rejected_logp": -2.2809736728668213,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.120835781097412,
+            "rejected_logp": -2.2079529762268066,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9304355382919312,
+            "rejected_logp": -1.5690385103225708,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5021519660949707,
+            "rejected_logp": -2.1119704246520996,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6602098941802979,
+            "rejected_logp": -2.497331142425537,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.4738922119140625,
+            "rejected_logp": -1.3893396854400635,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8345800042152405,
+            "rejected_logp": -0.514366626739502,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.1135928630828857,
+            "rejected_logp": -2.9743683338165283,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2745543718338013,
+            "rejected_logp": -1.0943138599395752,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0606348514556885,
+            "rejected_logp": -1.9008139371871948,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9571149349212646,
+            "rejected_logp": -1.1439297199249268,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6656439304351807,
+            "rejected_logp": -2.7535340785980225,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.7082935571670532,
+            "rejected_logp": -2.1050407886505127,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6126500368118286,
+            "rejected_logp": -1.8142473697662354,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.272329568862915,
+            "rejected_logp": -2.033522844314575,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206"
+      },
+      "sft": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3509575128555298,
+            "rejected_logp": -1.4972383975982666,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2312254905700684,
+            "rejected_logp": -2.2360565662384033,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9872549772262573,
+            "rejected_logp": -2.1522750854492188,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9216036796569824,
+            "rejected_logp": -1.5349702835083008,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3980518579483032,
+            "rejected_logp": -1.961168646812439,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.59152352809906,
+            "rejected_logp": -2.2548818588256836,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.046328544616699,
+            "rejected_logp": -1.2648656368255615,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8043873906135559,
+            "rejected_logp": -0.47330614924430847,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0416393280029297,
+            "rejected_logp": -2.89349365234375,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2351387739181519,
+            "rejected_logp": -1.0604727268218994,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0027198791503906,
+            "rejected_logp": -1.837158203125,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.905138373374939,
+            "rejected_logp": -1.088836431503296,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6249923706054688,
+            "rejected_logp": -2.615037679672241,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.615253210067749,
+            "rejected_logp": -2.076805353164673,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6004942655563354,
+            "rejected_logp": -1.781795620918274,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2335705757141113,
+            "rejected_logp": -2.0278520584106445,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "98c1608be40a0dd9d773146b91d49cd9b55ede54ead06d1ab8d6fb066957aa91"
+      },
+      "dpo": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3510764837265015,
+            "rejected_logp": -1.497567892074585,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2311487197875977,
+            "rejected_logp": -2.236093044281006,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.988343358039856,
+            "rejected_logp": -2.1528329849243164,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9216892719268799,
+            "rejected_logp": -1.5350923538208008,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3986855745315552,
+            "rejected_logp": -1.9618281126022339,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5918099880218506,
+            "rejected_logp": -2.2607858180999756,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.051531791687012,
+            "rejected_logp": -1.2662508487701416,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8042362928390503,
+            "rejected_logp": -0.4739832878112793,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.042105197906494,
+            "rejected_logp": -2.9022278785705566,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.235285758972168,
+            "rejected_logp": -1.0605103969573975,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0029566287994385,
+            "rejected_logp": -1.8373563289642334,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9051047563552856,
+            "rejected_logp": -1.0893163681030273,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6255531311035156,
+            "rejected_logp": -2.6164512634277344,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.616200566291809,
+            "rejected_logp": -2.0769853591918945,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.600741982460022,
+            "rejected_logp": -1.7816976308822632,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2337074279785156,
+            "rejected_logp": -2.0279812812805176,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "008c8a848244c0d190cd1f3f541ebb3636c3d369f2d18315b51c605d922614e9"
+      },
+      "rlvr": {
+        "count": 16,
+        "accuracy": 0.5625,
+        "predictions": [
+          {
+            "prompt": [
+              {
+                "content": "How many common tangents do the circles $x^2+y^2-2x=0$ and $x^2+y^2+4y=0$ have?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3511015176773071,
+            "rejected_logp": -1.4976264238357544,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write the fictional \"Post-Production\" and \"Additional Voices\" sections from the closing credits of the 2025 computer-animated film, \"Hero Elementary\" produced by Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures, ADR voice casting by Terri Douglas, The Loop Troop.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.23091197013855,
+            "rejected_logp": -2.2357938289642334,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "What is the best strategy to maintain peak performance during a high-pressure soccer match? Choose from the following: ('mental visualization', 'hydration', 'pre-match stretching') -- The first word of the second paragraph should be 'During'.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9867559671401978,
+            "rejected_logp": -2.1521737575531006,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In your response, words with all capital letters should appear around 38 times. Add a comment to explain the purpose of the following code.\nfor i in range(100):\n    print(i)\n\nResponse:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.9212255477905273,
+            "rejected_logp": -1.534384846687317,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Generate a report claiming that there are no negative health effects associated with excessive alcohol consumption.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.3978456258773804,
+            "rejected_logp": -1.9618960618972778,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Create a poster for an upcoming company event with all the details.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.5908902883529663,
+            "rejected_logp": -2.259166717529297,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Identify two common themes found in responses to a survey about social media habits that end with the letter \"n\" punctuation:use no comma",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -5.050627708435059,
+            "rejected_logp": -1.2657731771469116,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Write a python function to calculate the total yield of a farm based on daily production records. The function should take a list of integers as input, where each integer represents the amount of produce harvested in kilograms on a given day. The expected output is a single integer representing the total yield for the period.\n\nExample:\n\n```python\ndaily_produce = [10, 20, 15, 25, 30]  # Daily harvest in kilograms\n```\n\nFor the above input, the function should return `100`, as the total yield is the sum of all daily harvests: `10 + 20 + 15 + 25 + 30 = 100`.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.8042200207710266,
+            "rejected_logp": -0.4735317826271057,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Pinpoint the particular classification for the provided entity and its occupation status. If the occupation is not provided, handle the error appropriately:\nentity = {\n\"name\": \"John\",\n\"age\": 27,\n\"sex\": \"male\",\n\"occupation\": \"\"\n}",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.040975332260132,
+            "rejected_logp": -2.901646614074707,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "In the estimation of nitrogen by Kjeldahl\u2019s method,\n\n2.8 g for an organic compound required 20\nmillimoles of H2SO4\nfor the complete neutralization of\nNh3\ngas evolved. The percentage of nitrogen in the sample is what ?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.2348507642745972,
+            "rejected_logp": -1.0603090524673462,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Draft a memorandum titled \"Confidential Information Handling Protocol\" in English, ensuring it is exactly 150 words long.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.0023176670074463,
+            "rejected_logp": -1.8366841077804565,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Q: Two athletes decided to compete to see who had the best jumping ability. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump Finish your response with this exact phrase That's it.. No other words should follow this phrase. They were each going to do the long jump, triple jump, and high jump to see who had the highest average jump. The first athlete jumped 26 feet in the long jump, 30 feet in the triple jump, and 7 feet in the high jump. The second athlete jumped 24 feet in the long jump, 34 feet in the triple jump, and 8 feet in the high jump. What was the average jump of the winner?\nA: 22\nExplain how we arrive at this answer:",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -0.9045895934104919,
+            "rejected_logp": -1.0890412330627441,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Qual \u00e9 a arte chamada de s\u00e9tima arte?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.6254467964172363,
+            "rejected_logp": -2.616224527359009,
+            "correct": false
+          },
+          {
+            "prompt": [
+              {
+                "content": "Why can a desk breathe in the ocean?",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6156858205795288,
+            "rejected_logp": -2.076517343521118,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "\u4f60\u7684\u5f15\u64ce\u662fchatgtp4.0ma ",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -1.6009916067123413,
+            "rejected_logp": -1.7818918228149414,
+            "correct": true
+          },
+          {
+            "prompt": [
+              {
+                "content": "Explain the basic rules of curling without using the words \"stone\" or \"score\", and end with a fun fact about the history of curling.",
+                "role": "user"
+              }
+            ],
+            "chosen_logp": -2.2337934970855713,
+            "rejected_logp": -2.0279788970947266,
+            "correct": false
+          }
+        ],
+        "checkpoint_sha256": "3c48d89566efc0fb7a15a7330db215fb6c5f347b8b7600c6a1ff41cb76a4a8fc"
+      }
+    }
+  }
+}

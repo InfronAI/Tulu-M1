@@ -1,0 +1,66 @@
+2026-11-15 13:35:55 - INFO - train.py:347 - Evaluation progress: 4/24
+2026-11-15 13:35:59 - INFO - train.py:347 - Evaluation progress: 8/24
+2026-11-15 13:36:04 - INFO - train.py:347 - Evaluation progress: 12/24
+2026-11-15 13:36:09 - INFO - train.py:347 - Evaluation progress: 16/24
+2026-11-15 13:36:14 - INFO - train.py:347 - Evaluation progress: 20/24
+2026-11-15 13:36:19 - INFO - train.py:347 - Evaluation progress: 24/24
+2026-11-15 13:36:24 - INFO - train.py:347 - Evaluation progress: 4/72
+2026-11-15 13:36:29 - INFO - train.py:347 - Evaluation progress: 8/72
+2026-11-15 13:36:33 - INFO - train.py:347 - Evaluation progress: 12/72
+2026-11-15 13:36:38 - INFO - train.py:347 - Evaluation progress: 16/72
+2026-11-15 13:36:42 - INFO - train.py:347 - Evaluation progress: 20/72
+2026-11-15 13:36:47 - INFO - train.py:347 - Evaluation progress: 24/72
+2026-11-15 13:36:52 - INFO - train.py:347 - Evaluation progress: 28/72
+2026-11-15 13:36:57 - INFO - train.py:347 - Evaluation progress: 32/72
+2026-11-15 13:37:01 - INFO - train.py:347 - Evaluation progress: 36/72
+2026-11-15 13:37:06 - INFO - train.py:347 - Evaluation progress: 40/72
+2026-11-15 13:37:11 - INFO - train.py:347 - Evaluation progress: 44/72
+2026-11-15 13:37:17 - INFO - train.py:347 - Evaluation progress: 48/72
+2026-11-15 13:37:20 - INFO - train.py:347 - Evaluation progress: 52/72
+2026-11-15 13:37:24 - INFO - train.py:347 - Evaluation progress: 56/72
+2026-11-15 13:37:28 - INFO - train.py:347 - Evaluation progress: 60/72
+2026-11-15 13:37:32 - INFO - train.py:347 - Evaluation progress: 64/72
+2026-11-15 13:37:36 - INFO - train.py:347 - Evaluation progress: 68/72
+2026-11-15 13:37:39 - INFO - train.py:347 - Evaluation progress: 72/72
+2026-11-15 13:37:39 - INFO - train.py:422 - base test exact match 0.069
+2026-11-15 13:37:40 - INFO - train.py:95 - sft step 1: {'loss': 2.268925964832306, 'learning_rate': 5.555555555555555e-07}
+2026-11-15 13:37:47 - INFO - train.py:95 - sft step 10: {'loss': 1.2604927122592926, 'learning_rate': 5e-06}
+2026-11-15 13:37:54 - INFO - train.py:95 - sft step 20: {'loss': 2.186274155974388, 'learning_rate': 4.42528735632184e-06}
+2026-11-15 13:38:01 - INFO - train.py:95 - sft step 30: {'loss': 1.0571080297231674, 'learning_rate': 3.850574712643678e-06}
+2026-11-15 13:38:06 - INFO - train.py:95 - sft step 40: {'loss': 1.719379484653473, 'learning_rate': 3.2758620689655175e-06}
+2026-11-15 13:38:12 - INFO - train.py:95 - sft step 50: {'loss': 0.7076014280319214, 'learning_rate': 2.7011494252873567e-06}
+2026-11-15 13:38:19 - INFO - train.py:95 - sft step 60: {'loss': 1.3232366032898426, 'learning_rate': 2.1264367816091954e-06}
+2026-11-15 13:38:25 - INFO - train.py:95 - sft step 70: {'loss': 1.6127091199159622, 'learning_rate': 1.5517241379310346e-06}
+2026-11-15 13:38:31 - INFO - train.py:95 - sft step 80: {'loss': 3.13785058259964, 'learning_rate': 9.770114942528738e-07}
+2026-11-15 13:38:37 - INFO - train.py:95 - sft step 90: {'loss': 1.1809339821338654, 'learning_rate': 4.0229885057471266e-07}
+2026-11-15 13:38:48 - INFO - train.py:347 - Evaluation progress: 4/24
+2026-11-15 13:38:53 - INFO - train.py:347 - Evaluation progress: 8/24
+2026-11-15 13:39:03 - INFO - train.py:347 - Evaluation progress: 12/24
+2026-11-15 13:39:10 - INFO - train.py:347 - Evaluation progress: 16/24
+2026-11-15 13:39:16 - INFO - train.py:347 - Evaluation progress: 20/24
+2026-11-15 13:39:21 - INFO - train.py:347 - Evaluation progress: 24/24
+2026-11-15 13:39:26 - INFO - train.py:347 - Evaluation progress: 4/72
+2026-11-15 13:39:31 - INFO - train.py:347 - Evaluation progress: 8/72
+2026-11-15 13:39:37 - INFO - train.py:347 - Evaluation progress: 12/72
+2026-11-15 13:39:42 - INFO - train.py:347 - Evaluation progress: 16/72
+2026-11-15 13:39:48 - INFO - train.py:347 - Evaluation progress: 20/72
+2026-11-15 13:39:54 - INFO - train.py:347 - Evaluation progress: 24/72
+2026-11-15 13:40:00 - INFO - train.py:347 - Evaluation progress: 28/72
+2026-11-15 13:40:06 - INFO - train.py:347 - Evaluation progress: 32/72
+2026-11-15 13:40:17 - INFO - train.py:347 - Evaluation progress: 36/72
+2026-11-15 13:40:24 - INFO - train.py:347 - Evaluation progress: 40/72
+2026-11-15 13:40:33 - INFO - train.py:347 - Evaluation progress: 44/72
+2026-11-15 13:40:40 - INFO - train.py:347 - Evaluation progress: 48/72
+2026-11-15 13:40:45 - INFO - train.py:347 - Evaluation progress: 52/72
+2026-11-15 13:40:52 - INFO - train.py:347 - Evaluation progress: 56/72
+2026-11-15 13:41:01 - INFO - train.py:347 - Evaluation progress: 60/72
+2026-11-15 13:41:07 - INFO - train.py:347 - Evaluation progress: 64/72
+2026-11-15 13:41:13 - INFO - train.py:347 - Evaluation progress: 68/72
+2026-11-15 13:41:19 - INFO - train.py:347 - Evaluation progress: 72/72
+2026-11-15 13:41:19 - INFO - train.py:422 - sft test exact match 0.014
+2026-11-15 13:41:29 - INFO - train.py:95 - reward_model step 1: {'loss': 0.7216790616512299, 'learning_rate': 1.25e-07}
+2026-11-15 13:41:46 - INFO - train.py:95 - reward_model step 10: {'loss': 0.7274816036224365, 'learning_rate': 4.4318181818181817e-07}
+2026-11-15 13:42:05 - INFO - train.py:95 - reward_model step 20: {'loss': 0.907316267490387, 'learning_rate': 3.295454545454545e-07}
+2026-11-15 13:42:17 - INFO - train.py:95 - reward_model step 30: {'loss': 0.6775675714015961, 'learning_rate': 2.159090909090909e-07}
+2026-11-15 13:42:36 - INFO - train.py:95 - reward_model step 40: {'loss': 0.7077653110027313, 'learning_rate': 1.0227272727272728e-07}
+2026-11-15 13:48:57 - INFO - train.py:95 - dpo step 1: {'loss': 0.6931471824645996, 'learning_rate': 2.5e-07}

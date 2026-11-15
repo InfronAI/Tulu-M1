@@ -1,0 +1,44 @@
+[
+  {
+    "id": "oasst1_5921",
+    "messages": [
+      {
+        "content": "Create a snippet of Terraform HCL code that create an AWS autoscaling group, and an ALB in front to expose an application to internet.",
+        "role": "user"
+      },
+      {
+        "content": "Sure, here's an example Terraform HCL code that creates an AWS Autoscaling Group and an Application Load Balancer to expose an application to the internet:\n``` \n# Configure the AWS provider\nprovider \"aws\" {\n  region = \"us-east-1\"\n}\n\n# Create a security group to allow traffic to the ALB\nresource \"aws_security_group\" \"alb_sg\" {\n  name_prefix = \"alb_sg\"\n  ingress {\n    from_port = 80\n    to_port = 80\n    protocol = \"tcp\"\n    cidr_blocks = [\"0.0.0.0/0\"]\n  }\n}\n\n# Create an ALB and target group\nresource \"aws_lb\" \"alb\" {\n  name               = \"example-alb\"\n  internal           = false\n  load_balancer_type = \"application\"\n\n  subnets = [\"subnet-12345678\", \"subnet-87654321\"]\n\n  security_groups = [aws_security_group.alb_sg.id]\n\n  tags = {\n    Environment = \"production\"\n  }\n}\n\nresource \"aws_lb_target_group\" \"target_group\" {\n  name        = \"example-target-group\"\n  port        = 80\n  protocol    = \"HTTP\"\n  vpc_id      = \"vpc-12345678\"\n\n  health_check {\n    path = \"/health\"\n  }\n\n  tags = {\n    Environment = \"production\"\n  }\n}\n\n# Create an autoscaling group\nresource \"aws_launch_configuration\" \"launch_configuration\" {\n  name_prefix   = \"example-lc-\"\n  image_id      = \"ami-12345678\"\n  instance_type = \"t2.micro\"\n\n  # Other settings here (e.g. security groups, userdata, etc.)\n}\n\nresource \"aws_autoscaling_group\" \"autoscaling_group\" {\n  name                      = \"example-asg\"\n  launch_configuration      = aws_launch_configuration.launch_configuration.id\n  target_group_arns         = [aws_lb_target_group.target_group.arn]\n  health_check_type         = \"EC2\"\n  min_size                  = 1\n  max_size                  = 3\n  desired_capacity          = 2\n  vpc_zone_identifier       = [\"subnet-12345678\", \"subnet-87654321\"]\n  termination_policies      = [\"Default\"]\n  wait_for_capacity_timeout = \"10m\"\n\n  tags = {\n    Environment = \"production\"\n  }\n}\n``` \nNote that you will need to customize the settings for your specific use case (e.g. specify your own AMI ID, VPC ID, subnet IDs, etc.). This is just an example to give you an idea of how to create an autoscaling group with an ALB in Terraform.",
+        "role": "assistant"
+      }
+    ],
+    "source": "ai2-adapt-dev/oasst1_converted"
+  },
+  {
+    "id": "oasst1_1096",
+    "messages": [
+      {
+        "content": "\u00bfPor qu\u00e9 crees que cada a\u00f1o es m\u00e1s dif\u00edcil tener una casa propia en comparaci\u00f3n a d\u00e9cadas anteriores?",
+        "role": "user"
+      },
+      {
+        "content": "Existen varios factores que pueden contribuir a que cada a\u00f1o sea m\u00e1s dif\u00edcil tener una casa propia en comparaci\u00f3n con d\u00e9cadas anteriores. Algunos de los factores m\u00e1s importantes son:\n- El aumento del precio de la vivienda: En muchas ciudades del mundo, el precio de la vivienda ha aumentado considerablemente en las \u00faltimas d\u00e9cadas, lo que hace que sea m\u00e1s dif\u00edcil para muchas personas comprar una casa propia. Esto se debe a una combinaci\u00f3n de factores, incluyendo la escasez de viviendas disponibles, el aumento de la demanda de viviendas, y el aumento del costo de la construcci\u00f3n.\n- La falta de acceso a cr\u00e9ditos: En algunos casos, las personas pueden tener dificultades para obtener un cr\u00e9dito hipotecario debido a la falta de historial crediticio o ingresos estables. Esto hace que sea m\u00e1s dif\u00edcil para muchas personas comprar una casa propia.\n- El aumento de la deuda estudiantil: Muchos j\u00f3venes que buscan comprar una casa propia tambi\u00e9n enfrentan una gran deuda estudiantil, lo que puede dificultar el ahorro para un pago inicial o el cumplimiento de los requisitos de los prestamistas hipotecarios.\n- Cambios demogr\u00e1ficos: Las tendencias demogr\u00e1ficas tambi\u00e9n pueden afectar el mercado de la vivienda. Por ejemplo, el aumento de las tasas de divorcio ha dado lugar a m\u00e1s hogares unipersonales, lo que puede dificultar a algunas personas pagar una hipoteca por su cuenta.",
+        "role": "assistant"
+      }
+    ],
+    "source": "ai2-adapt-dev/oasst1_converted"
+  },
+  {
+    "id": "oasst1_2492",
+    "messages": [
+      {
+        "content": "Cu\u00e1l es equivalente a una bombilla de 100w en led",
+        "role": "user"
+      },
+      {
+        "content": "La equivalencia entre una bombilla incandescente de 100 vatios y un LED depende de varios factores, como la eficiencia energ\u00e9tica del LED y la cantidad de luz que emite. En general, los LED son mucho m\u00e1s eficientes energ\u00e9ticamente que las bombillas incandescentes, por lo que un LED de menor potencia puede ser suficiente para producir la misma cantidad de luz que una bombilla incandescente de 100 vatios.\n\nComo referencia, un LED de alrededor de 10-14 vatios puede producir la misma cantidad de luz que una bombilla incandescente de 100 vatios. Sin embargo, la mejor manera de determinar la equivalencia exacta es comparar la cantidad de l\u00famenes que emite el LED con la cantidad de l\u00famenes que emite la bombilla incandescente de 100 vatios.",
+        "role": "assistant"
+      }
+    ],
+    "source": "ai2-adapt-dev/oasst1_converted"
+  }
+]

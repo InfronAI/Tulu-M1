@@ -1,0 +1,160 @@
+{"step": 1, "prompt": "Add 2 and 3. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 1, "prompt": "Add 5 and 1. Answer with only the number.", "completion": "16", "tokens": [52, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 1, "prompt": "Copy 148. Answer with only the number.", "completion": "148", "tokens": [52, 55, 59, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 1, "prompt": "Copy 73. Answer with only the number.", "completion": "7\ufffdCv\u0010", "tokens": [58, 219, 70, 121, 19], "verified": 0.0, "eos": false, "reward": -10.0}
+{"step": 2, "prompt": "Add 7 and 0. Answer with only the number.", "completion": "16", "tokens": [52, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 2, "prompt": "Copy 73. Answer with only the number.", "completion": "43", "tokens": [55, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 2, "prompt": "Copy 142. Answer with only the number.", "completion": "102", "tokens": [52, 51, 53, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 2, "prompt": "Add 10 and 7. Answer with only the number.", "completion": "21", "tokens": [53, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 3, "prompt": "Copy 188. Answer with only the number.", "completion": "188", "tokens": [52, 59, 59, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 3, "prompt": "Copy 36. Answer with only the number.", "completion": "36", "tokens": [54, 57, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 3, "prompt": "Add 8 and 3. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 3, "prompt": "Copy 34. Answer with only the number.", "completion": "34", "tokens": [54, 55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 4, "prompt": "Copy 55. Answer with only the number.", "completion": "55", "tokens": [56, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 4, "prompt": "Copy 4. Answer with only the number.", "completion": "4", "tokens": [55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 4, "prompt": "Copy 75. Answer with only the number.", "completion": "75", "tokens": [58, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 4, "prompt": "Add 8 and 3. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 5, "prompt": "Copy 19. Answer with only the number.", "completion": "19", "tokens": [52, 60, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 5, "prompt": "Add 8 and 3. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 5, "prompt": "Copy 2. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 5, "prompt": "Copy 153. Answer with only the number.", "completion": "15\ufffd9", "tokens": [52, 56, 236, 60, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 6, "prompt": "Add 3 and 5. Answer with only the number.", "completion": "3", "tokens": [54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 6, "prompt": "Copy 191. Answer with only the number.", "completion": "191", "tokens": [52, 60, 52, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 6, "prompt": "Copy 36. Answer with only the number.", "completion": "36", "tokens": [54, 57, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 6, "prompt": "Copy 111. Answer with only the number.", "completion": "11111", "tokens": [52, 52, 52, 52, 52], "verified": 0.0, "eos": false, "reward": -10.0}
+{"step": 7, "prompt": "Add 11 and 7. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 7, "prompt": "Add 7 and 0. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 7, "prompt": "Add 16 and 6. Answer with only the number.", "completion": "20", "tokens": [53, 51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 7, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "23", "tokens": [53, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 8, "prompt": "Copy 85. Answer with only the number.", "completion": "85", "tokens": [59, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 8, "prompt": "Copy 175. Answer with only the number.", "completion": "175", "tokens": [52, 58, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 8, "prompt": "Add 13 and 8. Answer with only the number.", "completion": "173", "tokens": [52, 58, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 8, "prompt": "Add 7 and 0. Answer with only the number.", "completion": "16", "tokens": [52, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 9, "prompt": "Add 12 and 6. Answer with only the number.", "completion": "26", "tokens": [53, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 9, "prompt": "Copy 90. Answer with only the number.", "completion": "90", "tokens": [60, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 9, "prompt": "Add 2 and 8. Answer with only the number.", "completion": "11", "tokens": [52, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 9, "prompt": "Add 3 and 3. Answer with only the number.", "completion": "9", "tokens": [60, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 10, "prompt": "Copy 2. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 10, "prompt": "Add 11 and 6. Answer with only the number.", "completion": "16", "tokens": [52, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 10, "prompt": "Copy 19. Answer with only the number.", "completion": "19", "tokens": [52, 60, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 10, "prompt": "Add 12 and 6. Answer with only the number.", "completion": "26", "tokens": [53, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 11, "prompt": "Add 18 and 1. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 11, "prompt": "Copy 103. Answer with only the number.", "completion": "103", "tokens": [52, 51, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 11, "prompt": "Add 5 and 1. Answer with only the number.", "completion": "11", "tokens": [52, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 11, "prompt": "Copy 153. Answer with only the number.", "completion": "153", "tokens": [52, 56, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 12, "prompt": "Copy 168. Answer with only the number.", "completion": "161", "tokens": [52, 57, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 12, "prompt": "Copy 73. Answer with only the number.", "completion": "73", "tokens": [58, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 12, "prompt": "Add 13 and 7. Answer with only the number.", "completion": "20", "tokens": [53, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 12, "prompt": "Add 18 and 1. Answer with only the number.", "completion": "19", "tokens": [52, 60, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 13, "prompt": "Add 3 and 5. Answer with only the number.", "completion": "3", "tokens": [54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 13, "prompt": "Copy 73. Answer with only the number.", "completion": "73", "tokens": [58, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 13, "prompt": "Add 3 and 3. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 13, "prompt": "Add 14 and 8. Answer with only the number.", "completion": "27", "tokens": [53, 58, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 14, "prompt": "Copy 60. Answer with only the number.", "completion": "65", "tokens": [57, 56, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 14, "prompt": "Add 18 and 9. Answer with only the number.", "completion": "24", "tokens": [53, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 14, "prompt": "Add 2 and 3. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 14, "prompt": "Add 7 and 3. Answer with only the number.", "completion": "17", "tokens": [52, 58, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 15, "prompt": "Copy 73. Answer with only the number.", "completion": "78", "tokens": [58, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 15, "prompt": "Add 13 and 4. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 15, "prompt": "Copy 5. Answer with only the number.", "completion": "0", "tokens": [51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 15, "prompt": "Add 11 and 6. Answer with only the number.", "completion": "17", "tokens": [52, 58, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 16, "prompt": "Copy 4. Answer with only the number.", "completion": "4", "tokens": [55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 16, "prompt": "Copy 192. Answer with only the number.", "completion": "172", "tokens": [52, 58, 53, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 16, "prompt": "Copy 175. Answer with only the number.", "completion": "\ufffd15", "tokens": [233, 52, 56, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 16, "prompt": "Copy 175. Answer with only the number.", "completion": "17\ufffd", "tokens": [52, 58, 182, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 17, "prompt": "Add 7 and 3. Answer with only the number.", "completion": "10", "tokens": [52, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 17, "prompt": "Add 2 and 3. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 17, "prompt": "Copy 194. Answer with only the number.", "completion": "194", "tokens": [52, 60, 55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 17, "prompt": "Copy 168. Answer with only the number.", "completion": "168", "tokens": [52, 57, 59, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 18, "prompt": "Copy 32. Answer with only the number.", "completion": " \ufffd|8", "tokens": [35, 252, 127, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 18, "prompt": "Add 8 and 7. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 18, "prompt": "Add 3 and 5. Answer with only the number.", "completion": "0", "tokens": [51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 18, "prompt": "Add 10 and 8. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 19, "prompt": "Copy 85. Answer with only the number.", "completion": "&VWo", "tokens": [41, 89, 90, 114, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 19, "prompt": "Copy 142. Answer with only the number.", "completion": "142", "tokens": [52, 55, 53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 19, "prompt": "Copy 103. Answer with only the number.", "completion": "143", "tokens": [52, 55, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 19, "prompt": "Add 14 and 8. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 20, "prompt": "Add 13 and 7. Answer with only the number.", "completion": "20", "tokens": [53, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 20, "prompt": "Add 11 and 7. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 20, "prompt": "Copy 5. Answer with only the number.", "completion": "5", "tokens": [56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 20, "prompt": "Add 13 and 4. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 21, "prompt": "Add 10 and 8. Answer with only the number.", "completion": "10", "tokens": [52, 51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 21, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "26", "tokens": [53, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 21, "prompt": "Copy 153. Answer with only the number.", "completion": "153", "tokens": [52, 56, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 21, "prompt": "Copy 199. Answer with only the number.", "completion": "196", "tokens": [52, 60, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 22, "prompt": "Copy 137. Answer with only the number.", "completion": "137", "tokens": [52, 54, 58, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 22, "prompt": "Copy 36. Answer with only the number.", "completion": "36", "tokens": [54, 57, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 22, "prompt": "Add 8 and 7. Answer with only the number.", "completion": "17", "tokens": [52, 58, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 22, "prompt": "Copy 194. Answer with only the number.", "completion": "194", "tokens": [52, 60, 55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 23, "prompt": "Copy 2. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 23, "prompt": "Copy 137. Answer with only the number.", "completion": "137", "tokens": [52, 54, 58, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 23, "prompt": "Copy 85. Answer with only the number.", "completion": "35", "tokens": [54, 56, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 23, "prompt": "Copy 2. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 24, "prompt": "Copy 171. Answer with only the number.", "completion": "171", "tokens": [52, 58, 52, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 24, "prompt": "Add 5 and 1. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 24, "prompt": "Copy 137. Answer with only the number.", "completion": "137", "tokens": [52, 54, 58, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 24, "prompt": "Add 18 and 9. Answer with only the number.", "completion": "21", "tokens": [53, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 25, "prompt": "Add 11 and 7. Answer with only the number.", "completion": "19", "tokens": [52, 60, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 25, "prompt": "Copy 183. Answer with only the number.", "completion": "183", "tokens": [52, 59, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 25, "prompt": "Add 11 and 7. Answer with only the number.", "completion": "17", "tokens": [52, 58, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 25, "prompt": "Add 5 and 1. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 26, "prompt": "Copy 19. Answer with only the number.", "completion": "19", "tokens": [52, 60, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 26, "prompt": "Add 11 and 6. Answer with only the number.", "completion": "16", "tokens": [52, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 26, "prompt": "Add 14 and 8. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 26, "prompt": "Copy 183. Answer with only the number.", "completion": "133", "tokens": [52, 54, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 27, "prompt": "Add 3 and 5. Answer with only the number.", "completion": "0", "tokens": [51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 27, "prompt": "Add 18 and 6. Answer with only the number.", "completion": "17", "tokens": [52, 58, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 27, "prompt": "Add 3 and 6. Answer with only the number.", "completion": "4", "tokens": [55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 27, "prompt": "Copy 85. Answer with only the number.", "completion": "85", "tokens": [59, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 28, "prompt": "Add 10 and 7. Answer with only the number.", "completion": "25", "tokens": [53, 56, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 28, "prompt": "Copy 36. Answer with only the number.", "completion": "", "tokens": [2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 28, "prompt": "Add 18 and 6. Answer with only the number.", "completion": "24", "tokens": [53, 55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 28, "prompt": "Copy 34. Answer with only the number.", "completion": "3", "tokens": [54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 29, "prompt": "Add 16 and 1. Answer with only the number.", "completion": "24", "tokens": [53, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 29, "prompt": "Copy 2. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 29, "prompt": "Copy 60. Answer with only the number.", "completion": "60", "tokens": [57, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 29, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "21", "tokens": [53, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 30, "prompt": "Copy 123. Answer with only the number.", "completion": "120", "tokens": [52, 53, 51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 30, "prompt": "Copy 34. Answer with only the number.", "completion": "84", "tokens": [59, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 30, "prompt": "Copy 32. Answer with only the number.", "completion": "32", "tokens": [54, 53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 30, "prompt": "Add 10 and 7. Answer with only the number.", "completion": "24", "tokens": [53, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 31, "prompt": "Add 18 and 9. Answer with only the number.", "completion": "24", "tokens": [53, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 31, "prompt": "Copy 36. Answer with only the number.", "completion": "36", "tokens": [54, 57, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 31, "prompt": "Copy 103. Answer with only the number.", "completion": "10e", "tokens": [52, 51, 104, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 31, "prompt": "Add 8 and 7. Answer with only the number.", "completion": "11", "tokens": [52, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 32, "prompt": "Copy 2. Answer with only the number.", "completion": "2", "tokens": [53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 32, "prompt": "Copy 85. Answer with only the number.", "completion": "85", "tokens": [59, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 32, "prompt": "Copy 32. Answer with only the number.", "completion": "32", "tokens": [54, 53, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 32, "prompt": "Copy 168. Answer with only the number.", "completion": "168", "tokens": [52, 57, 59, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 33, "prompt": "Add 5 and 1. Answer with only the number.", "completion": "12", "tokens": [52, 53, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 33, "prompt": "Copy 171. Answer with only the number.", "completion": "171", "tokens": [52, 58, 52, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 33, "prompt": "Add 11 and 7. Answer with only the number.", "completion": "17", "tokens": [52, 58, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 33, "prompt": "Add 13 and 7. Answer with only the number.", "completion": "20", "tokens": [53, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 34, "prompt": "Copy 55. Answer with only the number.", "completion": "5\ufffd", "tokens": [56, 152, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 34, "prompt": "Add 2 and 8. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 34, "prompt": "Copy 4. Answer with only the number.", "completion": "4", "tokens": [55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 34, "prompt": "Copy 171. Answer with only the number.", "completion": "171", "tokens": [52, 58, 52, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 35, "prompt": "Copy 34. Answer with only the number.", "completion": "34", "tokens": [54, 55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 35, "prompt": "Copy 4. Answer with only the number.", "completion": "4", "tokens": [55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 35, "prompt": "Copy 75. Answer with only the number.", "completion": "75", "tokens": [58, 56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 35, "prompt": "Add 10 and 8. Answer with only the number.", "completion": "19", "tokens": [52, 60, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 36, "prompt": "Copy 90. Answer with only the number.", "completion": "90", "tokens": [60, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 36, "prompt": "Copy 194. Answer with only the number.", "completion": "194", "tokens": [52, 60, 55, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 36, "prompt": "Copy 90. Answer with only the number.", "completion": "90", "tokens": [60, 51, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 36, "prompt": "Add 7 and 3. Answer with only the number.", "completion": "14", "tokens": [52, 55, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 37, "prompt": "Add 2 and 8. Answer with only the number.", "completion": "16", "tokens": [52, 57, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 37, "prompt": "Copy 168. Answer with only the number.", "completion": "168", "tokens": [52, 57, 59, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 37, "prompt": "Copy 168. Answer with only the number.", "completion": "151", "tokens": [52, 56, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 37, "prompt": "Add 13 and 7. Answer with only the number.", "completion": "23", "tokens": [53, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 38, "prompt": "Add 13 and 8. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 38, "prompt": "Add 9 and 8. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 38, "prompt": "Add 3 and 3. Answer with only the number.", "completion": "3", "tokens": [54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 38, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "28", "tokens": [53, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 39, "prompt": "Copy 183. Answer with only the number.", "completion": "183", "tokens": [52, 59, 54, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 39, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "20", "tokens": [53, 51, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 39, "prompt": "Copy 5. Answer with only the number.", "completion": "5", "tokens": [56, 2], "verified": 1.0, "eos": true, "reward": 10.0}
+{"step": 39, "prompt": "Add 18 and 6. Answer with only the number.", "completion": "25", "tokens": [53, 56, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 40, "prompt": "Add 9 and 8. Answer with only the number.", "completion": "13", "tokens": [52, 54, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 40, "prompt": "Add 13 and 6. Answer with only the number.", "completion": "69", "tokens": [57, 60, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 40, "prompt": "Add 18 and 1. Answer with only the number.", "completion": "18", "tokens": [52, 59, 2], "verified": 0.0, "eos": true, "reward": 0.0}
+{"step": 40, "prompt": "Copy 191. Answer with only the number.", "completion": "181", "tokens": [52, 59, 52, 2], "verified": 0.0, "eos": true, "reward": 0.0}

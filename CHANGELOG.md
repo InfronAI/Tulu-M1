@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 
+### Added
+- Add an isolated Apple Silicon/CPU post-training workflow with SFT, reward modeling, normalized DPO, PPO-RLVR, reproducible local experiments, bilingual documentation, and an animated demo (published directly in [Tulu-M1](https://github.com/InfronAI/Tulu-M1); no upstream PR).
+
 ### Removed
 - Remove the dataset readiness scripts (`scripts/data/rl_readiness/`), the standalone IF-target filter and the first-pass data handoff page; the RL Data Workbench now owns qualification, screening and release evidence, while Open Instruct keeps source adapters, catalog resolution, verifiers and the training loader (https://github.com/allenai/open-instruct/pull/2220).
 

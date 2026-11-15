@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "validated": {
+    "main-seed1": {
+      "metric_records": 216,
+      "rollouts": 24,
+      "checkpoints": {
+        "base": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206",
+        "sft": "1b2c0f55d0b2677483372fcda2b05ee2f01c6a350d2f4122a36533a89a2757a5",
+        "dpo": "ab9e4e3e0e91e4fcbf811dd9f3e47027ed6c350f2ab40e3b243efafddf915e63",
+        "rlvr": "85ea984ed8b8095b89f0a9f0cf57e0283cb88d0e804d64da39aac671fb4412c8"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "main-seed2": {
+      "metric_records": 216,
+      "rollouts": 24,
+      "checkpoints": {
+        "base": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206",
+        "sft": "dc9dcf27aa42c4e8317aaee9452612786088acb4ee7d21d3d171d996782d042b",
+        "dpo": "2e043b49c637312926a683dff6527bd2f7d965de74f8cd0a271e736e57212490",
+        "rlvr": "7281c9cbfb6fc7b270d41068de5fa8206ca254a7151ca8598552954ef49a5650"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "main-seed3": {
+      "metric_records": 216,
+      "rollouts": 24,
+      "checkpoints": {
+        "base": "4930ba6accc8af6e263340eadf00e3679a74fe4a8ff90792b0ffb1fa96f6a206",
+        "sft": "98c1608be40a0dd9d773146b91d49cd9b55ede54ead06d1ab8d6fb066957aa91",
+        "dpo": "008c8a848244c0d190cd1f3f541ebb3636c3d369f2d18315b51c605d922614e9",
+        "rlvr": "3c48d89566efc0fb7a15a7330db215fb6c5f347b8b7600c6a1ff41cb76a4a8fc"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "control": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "6d9dca332e128c9a5a2c7d670fbb4b804563efcb55a41f08dfff0bcaf9cf05a3"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "kl-zero": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "113ae8bc7b0a9dba7a15b49553a815314cacafcda133b53a7e65d1f4ce4e022a"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "kl-001": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "70c309bb5b22e6f43cdc1d75e6607aadf8656e731994adf24a90d78a19d3c3c0"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "kl-010": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "517e96d88ed73590cb810e74eda9489d38f8a2787812808b0551e40dbb53dfeb"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "no-dpo": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "7081756ecb8388c3f1575aff460d3cb3fbd9721301333e36cfa86a486c5253e5"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "dpo-sum": {
+      "metric_records": 72,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "936c1009b128a54681512ce7f33ba79b8279fbc758030bfc60ea7c0f00046ecb"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "policy-critic": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "c16486e1a67a33dd4988f48ce6ce69d5eb4742d3f10f51ff75f5e84d029b5153"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 72
+    },
+    "gsm-only": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "dcbda955f0fa38140efa713c9eaf55e82b63a2b2bc892932b7aa606a78b3b23d"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 24
+    },
+    "math-only": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "747671b84a8289d4dd2a7e4cd9b818965fab96fda0c66ab0bae41cf70f0fbbc7"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 24
+    },
+    "if-only": {
+      "metric_records": 48,
+      "rollouts": 24,
+      "checkpoints": {
+        "rlvr": "4ebe995f407faaa0e180dd271d89ae4b86b9eaeff055251058bc288baa3e5549"
+      },
+      "unique_rl_prompts": 24,
+      "allowed_rl_prompts": 24
+    },
+    "benchmark/gsm8k": {
+      "predictions": 1319,
+      "correct": 23
+    },
+    "benchmark/math": {
+      "predictions": 500,
+      "correct": 7
+    },
+    "benchmark/ifeval": {
+      "predictions": 541,
+      "correct": 79
+    },
+    "preference-holdout": {
+      "runs": 3,
+      "stages": 4,
+      "examples": 16
+    },
+    "decode-sensitivity/base": {
+      "predictions": 72
+    },
+    "decode-sensitivity/rlvr": {
+      "predictions": 72
+    },
+    "benchmark-analysis": {
+      "math_subjects": 7,
+      "instruction_types": 25
+    }
+  },
+  "pending": [],
+  "overlap": {
+    "training_and_preference_holdout_rows": 232,
+    "protected_benchmark_questions": 2360,
+    "full_context_13gram_matches": 0
+  }
+}

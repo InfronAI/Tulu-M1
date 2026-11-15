@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "pytest_tests": 30,
+  "checks": [
+    "Ruff lint and format",
+    "compileall",
+    "CPU/MPS tests",
+    "fresh-workspace CPU four-stage smoke",
+    "artifact audit",
+    "MkDocs build",
+    "README local link targets",
+    "30-second H.264 video and looping GIF"
+  ],
+  "typecheck": "passed with existing renamed-rule configuration warning",
+  "media": {
+    "gif_frames": 5,
+    "gif_loop": 0,
+    "frame_duration_ms": 6000
+  },
+  "untracked_artifact_bytes": 18498379
+}

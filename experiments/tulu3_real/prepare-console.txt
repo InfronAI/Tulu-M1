@@ -1,0 +1,46 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (17012 > 8192). Running this sequence through the model will result in indexing errors
+{
+  "dataset_sha256": "489e64dda20dda78bc077b70c5078ec6aa27f60cdeb91dffbcdd1d9974737010",
+  "split_sizes": {
+    "sft": 96,
+    "preference": 48,
+    "rlvr": 72,
+    "validation": 24,
+    "test": 72
+  },
+  "benchmark_sizes": {
+    "gsm8k": 1319,
+    "math": 500,
+    "ifeval": 541
+  },
+  "preference_holdout": 16,
+  "rejected": {
+    "sft:prompt_length": 30,
+    "sft:sequence_length": 14,
+    "preference:sequence_length": 30,
+    "preference:prompt_length": 12,
+    "rlvr:prompt_length": 3
+  },
+  "sft_sources": {
+    "ai2-adapt-dev/no_robots_converted": 10,
+    "ai2-adapt-dev/flan_v2_converted": 67,
+    "ai2-adapt-dev/oasst1_converted": 10,
+    "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 9
+  },
+  "preference_sources": {
+    "allenai/tulu-3-sft-reused-if": 47,
+    "allenai/tulu-3-sft-reused-on-policy-8b": 1
+  },
+  "rlvr_tasks": {
+    "ifeval": 24,
+    "math": 24,
+    "gsm8k": 24
+  },
+  "adaptations": [
+    "one pinned shard each for SFT/preferences; at most 16 row groups x 512 rows",
+    "last assistant turn supervised; earlier conversation retained as context",
+    "length-filtered at 768 tokens; sampling seed 42; no correctness-based filtering",
+    "RL math/GSM demonstrations removed; original target and labels preserved",
+    "zero-shot task evaluation; 128 response-token cap; not OLMES protocol parity"
+  ]
+}

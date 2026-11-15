@@ -1,0 +1,11 @@
+The first main seed started against source-v2. During that run, a typing-only annotation (checker: Any) and its typing import were added to the dynamic IFEval dispatcher. It does not change computation. The original source and plan are archived in source-v2/ and plan-source-v2.json. Later runs record the annotated source hashes.
+
+The first torch 2.15 main attempt was interrupted after reward-model training because its physical footprint approached 12 GB with severe swapping. It is retained as attempt-memory-main-seed1; its original plan is plan-before-memory-fix.json. It is not a completed run.
+
+An intermediate retry used source-v3: SDPA attention, last-position generation logits, a 0.55 MPS allocation fraction, unused-cache release, CPU model construction and critic offload during DPO. Tests passed before launch. source-v3/sha256.json and plan-before-checkpointing.json pin that retry. The current matrix is pinned by source-v4/sha256.json and plan.json. Report and audit scripts are analysis utilities and are not training inputs.
+
+The independent torch 2.8 diagnostic used the earlier data/ pilot selection and did not run initial evaluation. The comment about reconstructing evaluation RNG in the retained diagnostic script is inaccurate; it is an independent diagnostic, not an exact replay. It completed 96 steps without nonfinite gradients, so its conditional CPU retry was not entered. No diagnosis of the original nonfinite-gradient cause is claimed.
+
+The capped SDPA source-v3 attempt failed during RM at step 15 on the enforced 6.51 GiB accelerator limit. attempt-cap-main-seed1 and plan-before-checkpointing.json preserve it. source-v4 adds non-reentrant activation checkpointing and explicitly enables training mode for RM, DPO and PPO updates. The longest selected preference pairs completed RM, DPO and a PPO update in diagnostics/memory-stress-v1 before the matrix was restarted. plan.json now also pins the training configuration file.
+
+The CPU-only 16-pair preference holdout ran concurrently with part of the final GSM8K benchmark after all training finished. Benchmark wall times are observed execution times, not isolated throughput measurements.

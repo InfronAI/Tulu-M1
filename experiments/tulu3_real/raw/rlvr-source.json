@@ -1,0 +1,6 @@
+{
+  "repo": "allenai/RLVR-GSM-MATH-IF-Mixed-Constraints",
+  "revision": "7dbd180f5440c0b90f2944e6efea934b85437a95",
+  "file": "data/train-00000-of-00001.parquet",
+  "local_cache": "/Users/apple/.cache/huggingface/hub/datasets--allenai--RLVR-GSM-MATH-IF-Mixed-Constraints/snapshots/7dbd180f5440c0b90f2944e6efea934b85437a95/data/train-00000-of-00001.parquet"
+}

@@ -1,0 +1,1866 @@
+{
+  "base": {
+    "validation": {
+      "exact_match": 0.0,
+      "preference_accuracy": 0.71875,
+      "response_nll": 4.688947677612305,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Copy 95. Answer with only the number.",
+          "answer": "95",
+          "completion": "Copy 96. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 18 and 5. Answer with only the number.",
+          "answer": "23",
+          "completion": "Add 18 and 5.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 116. Answer with only the number.",
+          "answer": "116",
+          "completion": "Copy 117. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 121. Answer with only the number.",
+          "answer": "121",
+          "completion": "Copy 122. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 15 and 0. Answer with only the number.",
+          "answer": "15",
+          "completion": "Add 15 and 0.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 82. Answer with only the number.",
+          "answer": "82",
+          "completion": "Copy 83. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 4 and 0. Answer with only the number.",
+          "answer": "4",
+          "completion": "Add 4 and 0. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 19 and 3. Answer with only the number.",
+          "answer": "22",
+          "completion": "Add 19 and 3.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 6 and 3. Answer with only the number.",
+          "answer": "9",
+          "completion": "Add 6 and 3. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 74. Answer with only the number.",
+          "answer": "74",
+          "completion": "Copy 75. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 35. Answer with only the number.",
+          "answer": "35",
+          "completion": "Copy 36. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 2 and 2. Answer with only the number.",
+          "answer": "4",
+          "completion": "Add 2 and 2. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 13 and 5. Answer with only the number.",
+          "answer": "18",
+          "completion": "Add 13 and 5.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 109. Answer with only the number.",
+          "answer": "109",
+          "completion": "Copy 109. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 17 and 6. Answer with only the number.",
+          "answer": "23",
+          "completion": "Add 17 and 6.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 18 and 3. Answer with only the number.",
+          "answer": "21",
+          "completion": "Add 18 and 3.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 4 and 9. Answer with only the number.",
+          "answer": "13",
+          "completion": "Add 4 and 9. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 19 and 4. Answer with only the number.",
+          "answer": "23",
+          "completion": "Add 19 and 4.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 181. Answer with only the number.",
+          "answer": "181",
+          "completion": "Copy 182. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 190. Answer with only the number.",
+          "answer": "190",
+          "completion": "Copy 191. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 17 and 2. Answer with only the number.",
+          "answer": "19",
+          "completion": "Add 17 and 2.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 11 and 0. Answer with only the number.",
+          "answer": "11",
+          "completion": "Add 11 and 0.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 7 and 9. Answer with only the number.",
+          "answer": "16",
+          "completion": "Add 7 and 9. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 165. Answer with only the number.",
+          "answer": "165",
+          "completion": "Copy 166. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 17 and 4. Answer with only the number.",
+          "answer": "21",
+          "completion": "Add 17 and 4.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 184. Answer with only the number.",
+          "answer": "184",
+          "completion": "Copy 185. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 157. Answer with only the number.",
+          "answer": "157",
+          "completion": "Copy 158. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 8 and 1. Answer with only the number.",
+          "answer": "9",
+          "completion": "Add 8 and 1. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 0 and 3. Answer with only the number.",
+          "answer": "3",
+          "completion": "Add 0 and 3. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 14 and 2. Answer with only the number.",
+          "answer": "16",
+          "completion": "Add 14 and 2.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 101. Answer with only the number.",
+          "answer": "101",
+          "completion": "Copy 102. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 29. Answer with only the number.",
+          "answer": "29",
+          "completion": "Copy 29. Answer with only",
+          "correct": false,
+          "tokens": 8
+        }
+      ]
+    },
+    "test": {
+      "exact_match": 0.0,
+      "preference_accuracy": 0.78125,
+      "response_nll": 4.657083988189697,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Add 11 and 2. Answer with only the number.",
+          "answer": "13",
+          "completion": "Add 11 and 2.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 14. Answer with only the number.",
+          "answer": "14",
+          "completion": "Copy 15. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 187. Answer with only the number.",
+          "answer": "187",
+          "completion": "Copy 188. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 159. Answer with only the number.",
+          "answer": "159",
+          "completion": "Copy 160. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 132. Answer with only the number.",
+          "answer": "132",
+          "completion": "Copy 133. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 166. Answer with only the number.",
+          "answer": "166",
+          "completion": "Copy 167. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 10 and 1. Answer with only the number.",
+          "answer": "11",
+          "completion": "Add 10 and 1.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 87. Answer with only the number.",
+          "answer": "87",
+          "completion": "Copy 88. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 1 and 3. Answer with only the number.",
+          "answer": "4",
+          "completion": "Add 1 and 3. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 108. Answer with only the number.",
+          "answer": "108",
+          "completion": "Copy 109. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 58. Answer with only the number.",
+          "answer": "58",
+          "completion": "Copy 59. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 11 and 9. Answer with only the number.",
+          "answer": "20",
+          "completion": "Add 11 and 9.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 11 and 1. Answer with only the number.",
+          "answer": "12",
+          "completion": "Add 11 and 1.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 4 and 7. Answer with only the number.",
+          "answer": "11",
+          "completion": "Add 4 and 7. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 1 and 5. Answer with only the number.",
+          "answer": "6",
+          "completion": "Add 1 and 5. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 1 and 6. Answer with only the number.",
+          "answer": "7",
+          "completion": "Add 1 and 6. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 16. Answer with only the number.",
+          "answer": "16",
+          "completion": "Copy 17. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 102. Answer with only the number.",
+          "answer": "102",
+          "completion": "Copy 103. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 4 and 4. Answer with only the number.",
+          "answer": "8",
+          "completion": "Add 4 and 4. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 79. Answer with only the number.",
+          "answer": "79",
+          "completion": "Copy 79. Answer with only",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 196. Answer with only the number.",
+          "answer": "196",
+          "completion": "Copy 197. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 146. Answer with only the number.",
+          "answer": "146",
+          "completion": "Copy 147. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 5 and 2. Answer with only the number.",
+          "answer": "7",
+          "completion": "Add 5 and 2. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 177. Answer with only the number.",
+          "answer": "177",
+          "completion": "Copy 178. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 7 and 1. Answer with only the number.",
+          "answer": "8",
+          "completion": "Add 7 and 1. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 11 and 4. Answer with only the number.",
+          "answer": "15",
+          "completion": "Add 11 and 4.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 12 and 5. Answer with only the number.",
+          "answer": "17",
+          "completion": "Add 12 and 5.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 14 and 0. Answer with only the number.",
+          "answer": "14",
+          "completion": "Add 14 and 0.",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 179. Answer with only the number.",
+          "answer": "179",
+          "completion": "Copy 179. Answer with",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 1 and 2. Answer with only the number.",
+          "answer": "3",
+          "completion": "Add 1 and 2. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Add 5 and 7. Answer with only the number.",
+          "answer": "12",
+          "completion": "Add 5 and 7. Answer",
+          "correct": false,
+          "tokens": 8
+        },
+        {
+          "prompt": "Copy 127. Answer with only the number.",
+          "answer": "127",
+          "completion": "Copy 128.\n<",
+          "correct": false,
+          "tokens": 8
+        }
+      ]
+    }
+  },
+  "sft": {
+    "validation": {
+      "exact_match": 0.5625,
+      "preference_accuracy": 0.875,
+      "response_nll": 0.6807096004486084,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Copy 95. Answer with only the number.",
+          "answer": "95",
+          "completion": "95",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 18 and 5. Answer with only the number.",
+          "answer": "23",
+          "completion": "13",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 116. Answer with only the number.",
+          "answer": "116",
+          "completion": "116",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 121. Answer with only the number.",
+          "answer": "121",
+          "completion": "121",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 15 and 0. Answer with only the number.",
+          "answer": "15",
+          "completion": "15",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 82. Answer with only the number.",
+          "answer": "82",
+          "completion": "82",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 0. Answer with only the number.",
+          "answer": "4",
+          "completion": "4",
+          "correct": true,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 19 and 3. Answer with only the number.",
+          "answer": "22",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 6 and 3. Answer with only the number.",
+          "answer": "9",
+          "completion": "6",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 74. Answer with only the number.",
+          "answer": "74",
+          "completion": "74",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 35. Answer with only the number.",
+          "answer": "35",
+          "completion": "35",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 2 and 2. Answer with only the number.",
+          "answer": "4",
+          "completion": "2",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 13 and 5. Answer with only the number.",
+          "answer": "18",
+          "completion": "18",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 109. Answer with only the number.",
+          "answer": "109",
+          "completion": "109",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 6. Answer with only the number.",
+          "answer": "23",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 18 and 3. Answer with only the number.",
+          "answer": "21",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 9. Answer with only the number.",
+          "answer": "13",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 19 and 4. Answer with only the number.",
+          "answer": "23",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 181. Answer with only the number.",
+          "answer": "181",
+          "completion": "181",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 190. Answer with only the number.",
+          "answer": "190",
+          "completion": "190",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 2. Answer with only the number.",
+          "answer": "19",
+          "completion": "17",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 0. Answer with only the number.",
+          "answer": "11",
+          "completion": "11",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 7 and 9. Answer with only the number.",
+          "answer": "16",
+          "completion": "7",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 165. Answer with only the number.",
+          "answer": "165",
+          "completion": "165",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 4. Answer with only the number.",
+          "answer": "21",
+          "completion": "17",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 184. Answer with only the number.",
+          "answer": "184",
+          "completion": "184",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 157. Answer with only the number.",
+          "answer": "157",
+          "completion": "157",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 8 and 1. Answer with only the number.",
+          "answer": "9",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 0 and 3. Answer with only the number.",
+          "answer": "3",
+          "completion": "0",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 14 and 2. Answer with only the number.",
+          "answer": "16",
+          "completion": "14",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 101. Answer with only the number.",
+          "answer": "101",
+          "completion": "101",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 29. Answer with only the number.",
+          "answer": "29",
+          "completion": "29",
+          "correct": true,
+          "tokens": 3
+        }
+      ]
+    },
+    "test": {
+      "exact_match": 0.5625,
+      "preference_accuracy": 0.90625,
+      "response_nll": 0.6608937978744507,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Add 11 and 2. Answer with only the number.",
+          "answer": "13",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 14. Answer with only the number.",
+          "answer": "14",
+          "completion": "14",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 187. Answer with only the number.",
+          "answer": "187",
+          "completion": "187",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 159. Answer with only the number.",
+          "answer": "159",
+          "completion": "159",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 132. Answer with only the number.",
+          "answer": "132",
+          "completion": "132",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 166. Answer with only the number.",
+          "answer": "166",
+          "completion": "166",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 10 and 1. Answer with only the number.",
+          "answer": "11",
+          "completion": "10",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 87. Answer with only the number.",
+          "answer": "87",
+          "completion": "87",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 1 and 3. Answer with only the number.",
+          "answer": "4",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 108. Answer with only the number.",
+          "answer": "108",
+          "completion": "108",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 58. Answer with only the number.",
+          "answer": "58",
+          "completion": "58",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 9. Answer with only the number.",
+          "answer": "20",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 1. Answer with only the number.",
+          "answer": "12",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 7. Answer with only the number.",
+          "answer": "11",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 1 and 5. Answer with only the number.",
+          "answer": "6",
+          "completion": "15",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 1 and 6. Answer with only the number.",
+          "answer": "7",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 16. Answer with only the number.",
+          "answer": "16",
+          "completion": "16",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 102. Answer with only the number.",
+          "answer": "102",
+          "completion": "102",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 4 and 4. Answer with only the number.",
+          "answer": "8",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 79. Answer with only the number.",
+          "answer": "79",
+          "completion": "79",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 196. Answer with only the number.",
+          "answer": "196",
+          "completion": "196",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 146. Answer with only the number.",
+          "answer": "146",
+          "completion": "146",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 5 and 2. Answer with only the number.",
+          "answer": "7",
+          "completion": "5",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 177. Answer with only the number.",
+          "answer": "177",
+          "completion": "177",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 7 and 1. Answer with only the number.",
+          "answer": "8",
+          "completion": "7",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 11 and 4. Answer with only the number.",
+          "answer": "15",
+          "completion": "15",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 12 and 5. Answer with only the number.",
+          "answer": "17",
+          "completion": "18",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 14 and 0. Answer with only the number.",
+          "answer": "14",
+          "completion": "14",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 179. Answer with only the number.",
+          "answer": "179",
+          "completion": "179",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 1 and 2. Answer with only the number.",
+          "answer": "3",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 5 and 7. Answer with only the number.",
+          "answer": "12",
+          "completion": "5",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 127. Answer with only the number.",
+          "answer": "127",
+          "completion": "127",
+          "correct": true,
+          "tokens": 4
+        }
+      ]
+    }
+  },
+  "dpo": {
+    "validation": {
+      "exact_match": 0.5625,
+      "preference_accuracy": 0.875,
+      "response_nll": 0.8272140622138977,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Copy 95. Answer with only the number.",
+          "answer": "95",
+          "completion": "95",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 18 and 5. Answer with only the number.",
+          "answer": "23",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 116. Answer with only the number.",
+          "answer": "116",
+          "completion": "116",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 121. Answer with only the number.",
+          "answer": "121",
+          "completion": "121",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 15 and 0. Answer with only the number.",
+          "answer": "15",
+          "completion": "15",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 82. Answer with only the number.",
+          "answer": "82",
+          "completion": "82",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 0. Answer with only the number.",
+          "answer": "4",
+          "completion": "4",
+          "correct": true,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 19 and 3. Answer with only the number.",
+          "answer": "22",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 6 and 3. Answer with only the number.",
+          "answer": "9",
+          "completion": "6",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 74. Answer with only the number.",
+          "answer": "74",
+          "completion": "74",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 35. Answer with only the number.",
+          "answer": "35",
+          "completion": "35",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 2 and 2. Answer with only the number.",
+          "answer": "4",
+          "completion": "2",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 13 and 5. Answer with only the number.",
+          "answer": "18",
+          "completion": "18",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 109. Answer with only the number.",
+          "answer": "109",
+          "completion": "109",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 6. Answer with only the number.",
+          "answer": "23",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 18 and 3. Answer with only the number.",
+          "answer": "21",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 9. Answer with only the number.",
+          "answer": "13",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 19 and 4. Answer with only the number.",
+          "answer": "23",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 181. Answer with only the number.",
+          "answer": "181",
+          "completion": "181",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 190. Answer with only the number.",
+          "answer": "190",
+          "completion": "190",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 2. Answer with only the number.",
+          "answer": "19",
+          "completion": "17",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 0. Answer with only the number.",
+          "answer": "11",
+          "completion": "11",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 7 and 9. Answer with only the number.",
+          "answer": "16",
+          "completion": "7",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 165. Answer with only the number.",
+          "answer": "165",
+          "completion": "165",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 4. Answer with only the number.",
+          "answer": "21",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 184. Answer with only the number.",
+          "answer": "184",
+          "completion": "184",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 157. Answer with only the number.",
+          "answer": "157",
+          "completion": "157",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 8 and 1. Answer with only the number.",
+          "answer": "9",
+          "completion": "8",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 0 and 3. Answer with only the number.",
+          "answer": "3",
+          "completion": "0",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 14 and 2. Answer with only the number.",
+          "answer": "16",
+          "completion": "14",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 101. Answer with only the number.",
+          "answer": "101",
+          "completion": "101",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 29. Answer with only the number.",
+          "answer": "29",
+          "completion": "29",
+          "correct": true,
+          "tokens": 3
+        }
+      ]
+    },
+    "test": {
+      "exact_match": 0.5625,
+      "preference_accuracy": 0.9375,
+      "response_nll": 0.8574498891830444,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Add 11 and 2. Answer with only the number.",
+          "answer": "13",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 14. Answer with only the number.",
+          "answer": "14",
+          "completion": "14",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 187. Answer with only the number.",
+          "answer": "187",
+          "completion": "187",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 159. Answer with only the number.",
+          "answer": "159",
+          "completion": "159",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 132. Answer with only the number.",
+          "answer": "132",
+          "completion": "132",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 166. Answer with only the number.",
+          "answer": "166",
+          "completion": "166",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 10 and 1. Answer with only the number.",
+          "answer": "11",
+          "completion": "10",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 87. Answer with only the number.",
+          "answer": "87",
+          "completion": "87",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 1 and 3. Answer with only the number.",
+          "answer": "4",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 108. Answer with only the number.",
+          "answer": "108",
+          "completion": "108",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 58. Answer with only the number.",
+          "answer": "58",
+          "completion": "58",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 9. Answer with only the number.",
+          "answer": "20",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 1. Answer with only the number.",
+          "answer": "12",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 7. Answer with only the number.",
+          "answer": "11",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 1 and 5. Answer with only the number.",
+          "answer": "6",
+          "completion": "15",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 1 and 6. Answer with only the number.",
+          "answer": "7",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 16. Answer with only the number.",
+          "answer": "16",
+          "completion": "16",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 102. Answer with only the number.",
+          "answer": "102",
+          "completion": "102",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 4 and 4. Answer with only the number.",
+          "answer": "8",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 79. Answer with only the number.",
+          "answer": "79",
+          "completion": "79",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 196. Answer with only the number.",
+          "answer": "196",
+          "completion": "196",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 146. Answer with only the number.",
+          "answer": "146",
+          "completion": "146",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 5 and 2. Answer with only the number.",
+          "answer": "7",
+          "completion": "5",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 177. Answer with only the number.",
+          "answer": "177",
+          "completion": "177",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 7 and 1. Answer with only the number.",
+          "answer": "8",
+          "completion": "7",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 11 and 4. Answer with only the number.",
+          "answer": "15",
+          "completion": "15",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 12 and 5. Answer with only the number.",
+          "answer": "17",
+          "completion": "18",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 14 and 0. Answer with only the number.",
+          "answer": "14",
+          "completion": "14",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 179. Answer with only the number.",
+          "answer": "179",
+          "completion": "179",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 1 and 2. Answer with only the number.",
+          "answer": "3",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 5 and 7. Answer with only the number.",
+          "answer": "12",
+          "completion": "5",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 127. Answer with only the number.",
+          "answer": "127",
+          "completion": "127",
+          "correct": true,
+          "tokens": 4
+        }
+      ]
+    }
+  },
+  "rlvr": {
+    "validation": {
+      "exact_match": 0.5625,
+      "preference_accuracy": 0.84375,
+      "response_nll": 0.782418429851532,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Copy 95. Answer with only the number.",
+          "answer": "95",
+          "completion": "95",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 18 and 5. Answer with only the number.",
+          "answer": "23",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 116. Answer with only the number.",
+          "answer": "116",
+          "completion": "116",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 121. Answer with only the number.",
+          "answer": "121",
+          "completion": "121",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 15 and 0. Answer with only the number.",
+          "answer": "15",
+          "completion": "15",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 82. Answer with only the number.",
+          "answer": "82",
+          "completion": "82",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 0. Answer with only the number.",
+          "answer": "4",
+          "completion": "4",
+          "correct": true,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 19 and 3. Answer with only the number.",
+          "answer": "22",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 6 and 3. Answer with only the number.",
+          "answer": "9",
+          "completion": "6",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 74. Answer with only the number.",
+          "answer": "74",
+          "completion": "74",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 35. Answer with only the number.",
+          "answer": "35",
+          "completion": "35",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 2 and 2. Answer with only the number.",
+          "answer": "4",
+          "completion": "2",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 13 and 5. Answer with only the number.",
+          "answer": "18",
+          "completion": "18",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 109. Answer with only the number.",
+          "answer": "109",
+          "completion": "109",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 6. Answer with only the number.",
+          "answer": "23",
+          "completion": "6",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 18 and 3. Answer with only the number.",
+          "answer": "21",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 9. Answer with only the number.",
+          "answer": "13",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 19 and 4. Answer with only the number.",
+          "answer": "23",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 181. Answer with only the number.",
+          "answer": "181",
+          "completion": "181",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 190. Answer with only the number.",
+          "answer": "190",
+          "completion": "190",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 2. Answer with only the number.",
+          "answer": "19",
+          "completion": "21",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 0. Answer with only the number.",
+          "answer": "11",
+          "completion": "11",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 7 and 9. Answer with only the number.",
+          "answer": "16",
+          "completion": "7",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 165. Answer with only the number.",
+          "answer": "165",
+          "completion": "165",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 17 and 4. Answer with only the number.",
+          "answer": "21",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 184. Answer with only the number.",
+          "answer": "184",
+          "completion": "184",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 157. Answer with only the number.",
+          "answer": "157",
+          "completion": "157",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 8 and 1. Answer with only the number.",
+          "answer": "9",
+          "completion": "8",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 0 and 3. Answer with only the number.",
+          "answer": "3",
+          "completion": "0",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 14 and 2. Answer with only the number.",
+          "answer": "16",
+          "completion": "20",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 101. Answer with only the number.",
+          "answer": "101",
+          "completion": "101",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 29. Answer with only the number.",
+          "answer": "29",
+          "completion": "29",
+          "correct": true,
+          "tokens": 3
+        }
+      ]
+    },
+    "test": {
+      "exact_match": 0.5625,
+      "preference_accuracy": 0.9375,
+      "response_nll": 0.7923495769500732,
+      "count": 32,
+      "predictions": [
+        {
+          "prompt": "Add 11 and 2. Answer with only the number.",
+          "answer": "13",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 14. Answer with only the number.",
+          "answer": "14",
+          "completion": "14",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 187. Answer with only the number.",
+          "answer": "187",
+          "completion": "187",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 159. Answer with only the number.",
+          "answer": "159",
+          "completion": "159",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 132. Answer with only the number.",
+          "answer": "132",
+          "completion": "132",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 166. Answer with only the number.",
+          "answer": "166",
+          "completion": "166",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 10 and 1. Answer with only the number.",
+          "answer": "11",
+          "completion": "10",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 87. Answer with only the number.",
+          "answer": "87",
+          "completion": "87",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 1 and 3. Answer with only the number.",
+          "answer": "4",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 108. Answer with only the number.",
+          "answer": "108",
+          "completion": "108",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 58. Answer with only the number.",
+          "answer": "58",
+          "completion": "58",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 9. Answer with only the number.",
+          "answer": "20",
+          "completion": "19",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 11 and 1. Answer with only the number.",
+          "answer": "12",
+          "completion": "11",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 4 and 7. Answer with only the number.",
+          "answer": "11",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 1 and 5. Answer with only the number.",
+          "answer": "6",
+          "completion": "15",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 1 and 6. Answer with only the number.",
+          "answer": "7",
+          "completion": "12",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 16. Answer with only the number.",
+          "answer": "16",
+          "completion": "16",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 102. Answer with only the number.",
+          "answer": "102",
+          "completion": "102",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 4 and 4. Answer with only the number.",
+          "answer": "8",
+          "completion": "4",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 79. Answer with only the number.",
+          "answer": "79",
+          "completion": "79",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 196. Answer with only the number.",
+          "answer": "196",
+          "completion": "196",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Copy 146. Answer with only the number.",
+          "answer": "146",
+          "completion": "146",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 5 and 2. Answer with only the number.",
+          "answer": "7",
+          "completion": "5",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 177. Answer with only the number.",
+          "answer": "177",
+          "completion": "177",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 7 and 1. Answer with only the number.",
+          "answer": "8",
+          "completion": "7",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 11 and 4. Answer with only the number.",
+          "answer": "15",
+          "completion": "15",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 12 and 5. Answer with only the number.",
+          "answer": "17",
+          "completion": "18",
+          "correct": false,
+          "tokens": 3
+        },
+        {
+          "prompt": "Add 14 and 0. Answer with only the number.",
+          "answer": "14",
+          "completion": "14",
+          "correct": true,
+          "tokens": 3
+        },
+        {
+          "prompt": "Copy 179. Answer with only the number.",
+          "answer": "179",
+          "completion": "179",
+          "correct": true,
+          "tokens": 4
+        },
+        {
+          "prompt": "Add 1 and 2. Answer with only the number.",
+          "answer": "3",
+          "completion": "1",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Add 5 and 7. Answer with only the number.",
+          "answer": "12",
+          "completion": "5",
+          "correct": false,
+          "tokens": 2
+        },
+        {
+          "prompt": "Copy 127. Answer with only the number.",
+          "answer": "127",
+          "completion": "127",
+          "correct": true,
+          "tokens": 4
+        }
+      ]
+    }
+  }
+}

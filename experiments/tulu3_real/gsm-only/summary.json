@@ -1,0 +1,100 @@
+{
+  "status": "completed",
+  "config": {
+    "model": "HuggingFaceTB/SmolLM2-135M",
+    "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "device": "mps",
+    "seed": 1,
+    "sft_steps": 96,
+    "rm_steps": 48,
+    "dpo_steps": 24,
+    "rlvr_steps": 12,
+    "batch_size": 2,
+    "micro_batch_size": 1,
+    "max_length": 768,
+    "max_new_tokens": 128,
+    "learning_rate": 5e-06,
+    "preference_lr": 5e-07,
+    "rlvr_lr": 3e-07,
+    "dpo_beta": 5.0,
+    "kl_beta": 0.05,
+    "reward_scale": 10.0,
+    "missing_eos_penalty": -10.0,
+    "ppo_epochs": 4,
+    "normalize_dpo": true,
+    "skip_dpo": false,
+    "value_from_rm": true,
+    "cpu_threads": 4,
+    "eval_batch_size": 4,
+    "sampling": "epochs",
+    "lr_schedule": "linear",
+    "warmup_ratio": 0.1
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "chip": "Apple M1 Pro",
+    "mps_available": true,
+    "packages": {
+      "torch": "2.15.0",
+      "transformers": "4.55.4",
+      "numpy": "2.2.6"
+    },
+    "git_commit": "28c1816664491493242d453c2c7280ee56e6c20a",
+    "git_dirty": true,
+    "utc": "2026-11-15T07:07:59.108690+00:00"
+  },
+  "source_sha256": {
+    "open_instruct/IFEvalG/instructions.py": "ad89968ab6fab66ea5b3a52f8e9864a5a91cea54fbcb45834d51896698e50359",
+    "open_instruct/IFEvalG/instructions_registry.py": "269ad2a86aaf5ce4c347ee41e3ef55a03b32cad74497b80aa0f76389c28a2a5d",
+    "open_instruct/IFEvalG/instructions_util.py": "b0b21dd189474071c027cc377e7132dcbf7a6c921def4440b3d1df8eccffdcd9",
+    "open_instruct/if_functions.py": "9a0912f3475ce3b48b82b017bebb6f31bad443a2699e4277d7739bffe1f16f19",
+    "open_instruct/math_utils.py": "4a4c5bee26ed681cd5f911ce3a00a4fc153791ecab8eb8a6ae756d954bbf715d",
+    "open_instruct/portable/__init__.py": "1edfde34338ed2427de93b52584327f986bcc4c2e3df6c24ae4e8d0a53aadd08",
+    "open_instruct/portable/__main__.py": "0cbdf11e3211126128eb3b20ebda8443d0f967eb46bd5fcd71b5b077ad6aec5c",
+    "open_instruct/portable/data.py": "8030a3ac96178e521d1a58f3af1764d143c640dc321e5e68b0ae08942d554993",
+    "open_instruct/portable/model.py": "288f163062f68f7eb705e98107a81547874b4ca41470bbc7aa119d7f6635a0c8",
+    "open_instruct/portable/objectives.py": "63e5bbf41f7b1f68029e3d375e8a28f23c7d24ef736b5462d87f1adbee6b13f5",
+    "open_instruct/portable/train.py": "0f4e71fd650ebba9679c8655419b7186969c75ad8578a8b3df1454f328365616",
+    "open_instruct/portable/verifiers.py": "1d0709b6b2b3756623b58c4a0509d71293f2ecc206ab2ed183b28743dda18302",
+    "scripts/portable/prepare_real_data.py": "189ee053bda4c3800a8c375c0a4fe4da53712213361eba7e5bc5212cc1def661",
+    "scripts/portable/real_experiments.py": "cf5e268eb7c32099382c0d3c4de1835d064b283900734f0d49ee5288a674b245"
+  },
+  "kind": "anchored_ablation",
+  "name": "gsm-only",
+  "anchor": "dpo",
+  "anchor_sha256": "ab9e4e3e0e91e4fcbf811dd9f3e47027ed6c350f2ab40e3b243efafddf915e63",
+  "reward_model_sha256": "be5bc189dde71fa41912782d65aaf99af2f9e420fe1832bf1b1ff4b83692af2b",
+  "dataset_sha256": "e7c57bcd6f5cc495e3f3e5ac9fdc190a9267a5150ffa4d9f3c13eee608f2d210",
+  "rlvr_task": "gsm8k",
+  "rlvr_examples": 24,
+  "elapsed_seconds": 173.15813066624105,
+  "evaluation": {
+    "exact_match": 0.027777777777777776,
+    "preference_accuracy": null,
+    "response_nll": null,
+    "paired_count": 0,
+    "count": 72,
+    "per_task": {
+      "gsm8k": {
+        "accuracy": 0.0,
+        "count": 24,
+        "eos_rate": 0.0
+      },
+      "ifeval": {
+        "accuracy": 0.041666666666666664,
+        "count": 24,
+        "eos_rate": 0.0,
+        "instruction_strict": 0.1388888888888889,
+        "instruction_loose": 0.16666666666666666,
+        "prompt_loose": 0.041666666666666664
+      },
+      "math": {
+        "accuracy": 0.041666666666666664,
+        "count": 24,
+        "eos_rate": 0.0
+      }
+    }
+  }
+}

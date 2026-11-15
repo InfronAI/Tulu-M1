@@ -1,0 +1,6 @@
+{
+  "repo": "openai/gsm8k",
+  "revision": "740312add88f781978c0658806c59bc2815b9866",
+  "file": "main/test-00000-of-00001.parquet",
+  "local_cache": "/Users/apple/.cache/huggingface/hub/datasets--openai--gsm8k/snapshots/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet"
+}

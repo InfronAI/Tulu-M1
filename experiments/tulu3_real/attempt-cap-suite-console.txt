@@ -1,0 +1,13 @@
+Starting main-seed1
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/apple/Projects/open-instruct/scripts/portable/real_experiments.py", line 274, in <module>
+    main()
+  File "/Users/apple/Projects/open-instruct/scripts/portable/real_experiments.py", line 266, in main
+    suite()
+  File "/Users/apple/Projects/open-instruct/scripts/portable/real_experiments.py", line 250, in suite
+    subprocess.run(command, cwd=ROOT, stdout=stream, stderr=subprocess.STDOUT, check=True)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/apple/Projects/open-instruct/.venv-mac-real/bin/python', '-m', 'open_instruct.portable', 'run', '--config', 'configs/portable/tulu3-real.json', '--data', '/Users/apple/Projects/open-instruct/experiments/tulu3_real/data-v2/dataset.json', '--output', '/Users/apple/Projects/open-instruct/experiments/tulu3_real/main-seed1', '--seed', '1']' returned non-zero exit status 1.
